@@ -7,7 +7,7 @@
 !
 ! ABPVN List filter
 ! Copyright: ABPVN
-! Homepage: https://abpvn.com/
+! Homepage: https://raw.githubusercontent.com/nhathoang24/abpvnvip/main/abpvnvip.txt?token=GHSAT0AAAAAABR6HMRNWX5S3KYWFAUXW5D4YR3BQZA
 ! License: GPLv3 (https://github.com/abpvn/abpvn/blob/master/LICENSE)
 ! Please report any unblocked ads or problems by email or in our fanpage
 ! Mọi thắc mắc xin gửi về email hoặc fanpage
