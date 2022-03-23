@@ -1967,15 +1967,6 @@ yellowpages.vn##.ad_by_yellowpages
 yellowpages.vn##.banner_add
 yeuphimmoiw.com##.cash-fish
 yeuphimmoiw.com##.cash-fish-pc
-youtube.com###YtSparklesVisibilityIdentifier
-youtube.com###masthead-ad
-youtube.com###video-masthead
-youtube.com##.ytd-promoted-sparkles-web-renderer
-youtube.com##.ytp-gradient-bottom
-youtube.com##ytd-display-ad-renderer
-youtube.com##ytd-search-pyv-renderer
-youtube.com##ytm-companion-slot
-youtube.com#?#ytd-rich-item-renderer:-abp-has(ytd-display-ad-renderer)
 ytmp3.cc###pa_download
 yts.mx##.kdokavdka
 yts.mx##.madikf
