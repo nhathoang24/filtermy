@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: B6Yp2exQVedP+2dshUeYXA
-! Version: 202203231719
+! Checksum: MseJD587Hpck59HEuSVM/w
+! Version: 202203251649
 ! Title: ABPVN List (VIP)
-! Last modified: 23 Mar 2022 17:19 UTC+7
+! Last modified: 25 Mar 2022 16:49 UTC+7
 ! Expires: 1 hour (update frequency)
 !
 ! ABPVN List filter
 ! Copyright: ABPVN
-! Homepage: 
+! Homepage: https://abpvn.com/
 ! License: GPLv3 (https://github.com/abpvn/abpvn/blob/master/LICENSE)
 ! Please report any unblocked ads or problems by email or in our fanpage
 ! Mọi thắc mắc xin gửi về email hoặc fanpage
@@ -439,7 +439,6 @@ utm_source=propellerads$popup
 ||nhadatvang.vn/images/$third-party
 ||nhanthuong88.com^$popup,third-party
 ||nhatrangclub.vn/files/
-||nhatrangface.vn/ADV
 ||nhipsonghomnay.vn^*.gif
 ||ninjastream.to/js/lib.js$script
 ||notepad.vn/media/images/like68.jpg
@@ -461,7 +460,7 @@ utm_source=propellerads$popup
 ||photo-cms-anninhthudo.zadn.vn/Uploaded/2021/xtsmr/
 ||phunutoday.vn/images/banners/
 ||pic.hui598.cn$domain=xiuren.org,image
-||pic1025.com^*.gif$domain=tivi4k.com
+||pic1025.com^*.gif$domain=tivi4k.com|kingphim.co
 ||pl.ventunotech.com/plugins/cntplayer/ventunoSmartPlayer.js$domain=truyenfull.net
 ||player.tubia.com^$subdocument
 ||plus.edu.vn/js/jquery/openwindow.js
@@ -538,7 +537,6 @@ utm_source=propellerads$popup
 ||tangthuvien.vn/forum/images/$domain=~tangthuvien.vn
 ||tangthuvien.vn/forum/supervip$image
 ||tangthuvien.vn^*.swf
-||tech24.vn/banner/
 ||tenmax-static.cacafly.net/ssp/adsbytenmax.js$script
 ||tenovi.net/demo/cdn-ad/
 ||tepbac.com/upload/advertiment/
@@ -732,7 +730,6 @@ utm_source=propellerads$popup
 ||api.nas.nct.vn^
 ||apinas.nct.vn^
 ||applovin.com^
-||arcost54ujkaphylosuvaursi.com^
 ||arrassley.info^$third-party
 ||as.gamevui.com^
 ||asacdn.com^
@@ -747,7 +744,6 @@ utm_source=propellerads$popup
 ||batdongsan.com.vn^$object
 ||baywednesday.com^
 ||bebi.com^$third-party
-||ber2g8e3keley.com^
 ||berlipurplin.com^
 ||bestadbid.com^$third-party
 ||betrad.com^$third-party
@@ -895,7 +891,6 @@ utm_source=propellerads$popup
 ||gsspat.jp^$third-party
 ||gssprt.jp^$third-party
 ||gumgum.com^
-||gylhglpxeemj.com^
 ||h1.crvtrk.com^
 ||hetaruwg.com^$popup
 ||hewmjifrn4gway.com^
@@ -923,7 +918,6 @@ utm_source=propellerads$popup
 ||jbo064.com^$popup
 ||jlvqhftliz.com^
 ||jomtingi.net^
-||js.chin-adnetwork.com^
 ||js.knowlead.io^$third-party
 ||jsc.adskeeper.co.uk^$domain=~megaup.net
 ||jsc.adskeeper.com^
@@ -997,7 +991,6 @@ utm_source=propellerads$popup
 ||one88.fun^$popup,third-party
 ||onmarshtompor.com^$popup
 ||oomsoapt.net^
-||opencoccoc.com^
 ||org-secured.com^$popup
 ||osshydreigonan.com^
 ||ouftukoo.net^
@@ -1075,7 +1068,6 @@ utm_source=propellerads$popup
 ||sbbanner.com^
 ||sdkbox.com^
 ||search.4shared.com^$popup
-||seitsinlike.com^
 ||serving-sys.com^
 ||settlef.com^
 ||setupad-com.videoplayerhub.com^
@@ -1084,7 +1076,6 @@ utm_source=propellerads$popup
 ||sociatingewer.info^
 ||societingna.info^
 ||sociomantic.com^$third-party
-||sofinpushpile.com^
 ||sporedfryhum.com^
 ||spotscenered.info^$third-party
 ||spoutable.com^$third-party
@@ -1318,7 +1309,7 @@ animevietsub.tv###pc-catfixx
 animevietsub.tv##.mobile-catfixx
 animevietsub.tv##div.Dvr-300
 animevietsub.tv##div[style^="position: fixed; top: 60px"]
-animevietsub.tv,play.plhqtvhay.xyz,coiphim.org,streamsb.net,mphimmoivn.net,banthang.co,biluu.org,ezphimmoi.net##.jw-logo
+animevietsub.tv,play.plhqtvhay.xyz,coiphim.org,streamsb.net,mphimmoivn.net,banthang.io,biluu.org,ezphimmoi.net##.jw-logo
 anonyviet.com##.ads_google_ads
 anonyviet.com##.td-container.td-header-row.td-header-header
 anonyviet.com##.wpb_column.jeg_column.vc_column_container.vc_col-sm-12.jeg_main_content
@@ -1336,17 +1327,17 @@ baliphim.com###lam_khong_cong_het_1_ngay_link
 baliphim.com##.dont_show_pop_ups
 baliphim.com##div[id^="pc_top_xuyen_trang"]
 baliphim.com##div[style^="float:left;width:248px;"]
-banthang.co##.aHrefAff
-banthang.co##.adsInPlayer
-banthang.co##.ballon-mobile
-banthang.co##.bet-list
-banthang.co##.buttonFabet
-banthang.co##.float-left
-banthang.co##.footer
-banthang.co##.hot-menu
-banthang.co##.m_disreponsive
-banthang.co##.player-right
-banthang.co##.under-h1 > .inner_header
+banthang.io##.aHrefAff
+banthang.io##.adsInPlayer
+banthang.io##.ballon-mobile
+banthang.io##.bet-list
+banthang.io##.buttonFabet
+banthang.io##.float-left
+banthang.io##.footer
+banthang.io##.hot-menu
+banthang.io##.m_disreponsive
+banthang.io##.player-right
+banthang.io##.under-h1 > .inner_header
 baohaugiang.com.vn##.sticky
 baohaugiang.com.vn##.top-header
 baomoi.com###BaoMoi_HalfPage
@@ -1537,6 +1528,7 @@ kienthuc.net.vn##.sponsor-zone
 kienthuc.net.vn##.sponsor-zone + div
 kienthucykhoa.edu.vn###widget-12
 kienviet.net##.banner-sidebar
+kingphim.co##.float-ck-center-lt
 kinhtedothi.vn###advSharetopmenu1
 kinhtedothi.vn###advSharetopmenu2
 lacaigi.com##.anhbn-qc
@@ -1557,21 +1549,12 @@ live.chonkeo.com##.c-ads
 livebongda1.tv###dnn_float_left
 livebongda1.tv###dnn_float_right
 livebongda1.tv##.d-lg-block
-lucaphim.com###enable_hidden_state_to_show_ads_bottom
 lucaphim.com###enable_hidden_state_to_show_ads_top
 lucaphim.com###enable_hidden_state_to_show_ads_top_v2
-lucaphim.com##.ads_popup_mobi_salaphim
-lucaphim.com##.ads_popup_mobi_salaphim_v2
-lucaphim.com##.ads_popup_pc_salaphim
 lucaphim.com##.clickadunopop
+lucaphim.com##.pc_top_xuyen_trang_2
 lucaphim.com,thethaovanhoa.vn##div[class^="ads_"]
-luotphim.fun,luotphim.cc,luotphim.vip,luotphimzz.com,webphim.cc###fakeplayer
-luotphim.fun,luotphim.cc,luotphim.vip,luotphimzz.com,webphim.cc###preroll-link
-luotphim.fun,luotphim.cc,luotphim.vip,luotphimzz.com,webphim.cc##.adsphim
-luotphim.fun,luotphim.cc,luotphim.vip,luotphimzz.com,webphim.cc##.adsphim-popup-center
-luotphim.fun,luotphim.cc,luotphim.vip,luotphimzz.com,webphim.cc##.btn-load-ads
-luotphim.fun,luotphim.cc,luotphim.vip,luotphimzz.com,webphim.cc##div[id^="adsphim-"]
-m.batdongsan.com.vn##.aditem
+luotphim.cc,luotphim.vip,luotphimzz.com,webphim.cc##div[id^="adsphim-"]
 maclife.vn##.adrotate_widgets
 maclife.vn##.entry > a[target="_blank"]
 maclife.vn##[href*="hnmac.vn"]
@@ -1580,10 +1563,6 @@ maclife.vn##[href*="macbookgiasi.vn"]
 maclife.vn##[href*="macone.vn"]
 maclife.vn##[href*="vender.vn"]
 mail.google.com##.aKB
-mangak.info##.ad_300_600
-mangak.info##.ballon-center
-mangak.info##.preload-mobi
-mangak.info##.preload-pc
 markets.businessinsider.com##.dianomi-ad-placeholder
 markets.businessinsider.com##.htl-ad-placeholder
 markets.businessinsider.com##.spacer-50.mobile-spacer-25
@@ -1785,7 +1764,7 @@ tivi12h.net###ads_float
 tivi12h.net###hide_float
 tivi4k.com###adstop2
 tivi4k.com##.col-lg-4.hidden-xs.d-flex.flex-column.address-wrap
-tivi4k.com,banthang.co##.main-nav.float-right
+tivi4k.com,banthang.io##.main-nav.float-right
 topcode.vn###floating_banner_left
 topcode.vn###floating_banner_right
 topphimhdz.net,phimmoi18.com###ballon_content_left
@@ -1920,6 +1899,10 @@ vuviphimmoi.net###ai_widget-2
 wallgif.com###ad_modal
 wallgif.com###modal_bg
 webgia.com##.ads100
+webphim.cc###fakeplayer
+webphim.cc###preroll-link
+webphim.cc##.adsphim
+webphim.cc##.btn-load-ads
 webthethao.vn##.wrapper-adv
 webtintuc.com##.mb-20
 webtretho.com##.wtt-ads
@@ -1946,15 +1929,15 @@ xiuren.org###christmas
 xoilac.co##.offer-rating
 xoilac.co##.sk_balloon
 xoilac.co##.sub-menu
-xoilac2.com###match-child-1
-xoilac2.com###wap_bottombanner_content
-xoilac2.com##.banner-link
-xoilac2.com##.container.mt-1
-xoilac2.com##.d-lg-none.d-block.pb-2.text-center
-xoilac2.com##.row.d-none
-xoilac2.com##.widget-offers__list
-xoilac2.com,xoilac.co##.grid-match__team > .btn-odds
-xoilac2.com,xoilac.co##div[id^="dnn_"]
+xoilac2.net###match-child-1
+xoilac2.net###wap_bottombanner_content
+xoilac2.net##.banner-link
+xoilac2.net##.container.mt-1
+xoilac2.net##.d-lg-none.d-block.pb-2.text-center
+xoilac2.net##.row.d-none
+xoilac2.net##.widget-offers__list
+xoilac2.net,xoilac.co##.grid-match__team > .btn-odds
+xoilac2.net,xoilac.co##div[id^="dnn_"]
 xoivo.co##.ads-menu
 xoivo.co##.bnt_what_live
 xoso.me,xsmn.me##a[href^="/redirect/out?token="]
