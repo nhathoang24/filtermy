@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 0sETJmHo3Qzb96CReD8/XQ
-! Version: 202203291959
+! Checksum: J7no5SZ3TI8NdI/L4+r35A
+! Version: 202203301424
 ! Title: ABPVN List (VIP)
-! Last modified: 29 Mar 2022 19:59 UTC+7
+! Last modified: 30 Mar 2022 14:24 UTC+7
 ! Expires: 1 hour (update frequency)
 !
 ! ABPVN List filter
@@ -227,7 +227,7 @@ utm_source=propellerads$popup
 ||bongdaso.com/_BannerSlot.aspx$subdocument
 ||bongdaso12.net/_BannerSlot.aspx$subdocument
 ||bp.blogspot.com/*banner
-||bp.blogspot.com^$image,domain=timdaily.vn|tivi4k.com|ngamvn.net|phimhayplus.xyz|xemphimlau.com
+||bp.blogspot.com^$image,domain=timdaily.vn|tivi4k.com|ngamvn.net|phimhayplus.xyz
 ||bt.tructiepbongda.me^*.gif
 ||cdn-img.thethao247.vn/storage/files/*quang-cao$image
 ||cdn.adf.ly/images/banners/
@@ -361,7 +361,7 @@ utm_source=propellerads$popup
 ||images.asianbookie.com/vwin/
 ||images.thichxemphim.net/wp-content/uploads/2021/05/phim18online-1.png
 ||images2-focus-opensocial.googleusercontent.com^*.gif$domain=thuckhuya.net|tvhai.org
-||images4-focus-opensocial.googleusercontent.com^*.gif$domain=phephimzz.net
+||images4-focus-opensocial.googleusercontent.com^*.gif$domain=phechill.net
 ||img-portal-prod.s3.amazonaws.com/uploads/image/attachment/3380/HomeRandom2.gif
 ||img.anime47.com^*.gif
 ||img.blogtruyen.vn^*.gif
@@ -428,9 +428,8 @@ utm_source=propellerads$popup
 ||megacode.vn/media/banners/
 ||minhngoc.net^*.gif
 ||mocfun.net/uploads/banners/
-||motchill.net/api?countViews$subdocument
-||motphimtv.com/api?countViews$subdocument
 ||muaban-batdongsan.com.vn/hn_uploads/banner
+||muabanraovat.com/images/quangcao/$image
 ||music.youtube.com^$csp=worker-src 'none'
 ||networld.com.vn^*.gif
 ||newsmd1fr.keeng.net/netnews/*Banner
@@ -486,10 +485,8 @@ utm_source=propellerads$popup
 ||razorphimzz.com^*.mp4$~third-party
 ||realty.vn/FileManager/Banner/$image
 ||rx-name.ua^$domain=samlab.ws
-||s.nettruyengo.com/data/sites/1/banner/$image
-||s.nettruyenpro.com/data/sites/1/banner/$image
 ||s.nettruyenvip.com/data/sites/1/banner/$image
-||s.nhattruyenvip.com^*.gif
+||s.nhattruyengo.com^*.gif
 ||s.tainhaccho.vn/images/afl
 ||s0.2mdn.net/instream$domain=~anime47.com
 ||s2.truyen18.org/flash/
@@ -1268,7 +1265,7 @@ utm_source=propellerads$popup
 123link.pw,123link.co,vnurl.net,vinaurl.net,licklink.net,123link.pro,vinaurl.in###link-view > center
 123nhadat.vn###scroll-banners
 123nhadat.vn##.banner_C
-123nhadatviet.com,123nhadatviet.net,dabong.vip,tuoitre.vn,tuoitrenews.vn,bongda365.site,phephimzz.net##.banner-top
+123nhadatviet.com,123nhadatviet.net,dabong.vip,tuoitre.vn,tuoitrenews.vn,bongda365.site,phechill.net##.banner-top
 1377x.to##.l3426749b3b895e9356348e295596e5f2634c98d8.la1038a02a9e0ee51f6e4be8730ec3edea40279a2.l638deeaa560f3c4c9ffc7608cb0ebfec2a050796
 24h.com.vn###background_bg_link
 24h.com.vn###maiContent > div > div.colLt > aside
@@ -1579,16 +1576,11 @@ mitom1.tv##.btn-odds
 mitom1.tv##.d-none.d-lg-block
 mitom1.tv##li[class^="style-"]
 mmo4me.com##div[class^="ads-"]
-motchill.net###mp-pl-mb
-motchill.net,phephimzz.net,motphimtv.com,xemphimlau.com##.mp-adz
-motphimtv.com###mp-preload-popup-overlay
+motchill.net,phechill.net##.mp-adz
 muabanraovat.com##[class^="box_adv_ele"]
 muare.vn##.admicro_top
-muaxegiatot.vn##._ning_parallax_container
+muaxegiatot.vn###tdi_129
 mythethao.net##.banner_top
-nangluongvietnam.vn##.banner-top-left-right
-nettruyenpro.com,nettruyengo.com,nhattruyenvip.com,nettruyenmoi.com##.container div:not(.top) > div.mrb5.mrt5.text-center > a
-nettruyenpro.com,nettruyengo.com,nhattruyenvip.com,nettruyenmoi.com##.container.text-center.mrb5
 ngamvnn.com###bar_float_r
 ngaytho.me###accordion
 nghean24h.vn##.none_mobile
@@ -1610,13 +1602,11 @@ nhatrangclub.vn###show_qc
 nhatrangclub.vn##.bannerchuyenmuc
 nhatrangclub.vn##.show-qc-home
 nhatrangclub.vn##.show_qc
-nhipsongdoanhnghiep.cuocsongantoan.vn##.simplebanner
+nhattruyengo.com,nettruyenmoi.com##.container div:not(.top) > div.mrb5.mrt5.text-center > a
+nhattruyengo.com,nettruyenmoi.com##.container.text-center.mrb5
 nitroflare.com##[id^="superbox-"]
 nld.com.vn##.top-advertisment
 nongnghiep.vn##.exp_qc_share
-o.voz.vn##.sponsor
-o.voz.vn##.wapper_pcr
-o.voz.vn##TD[width="160"]
 olug.vn###popup_center
 omphimz.com###logo-ad
 omphimz.com##.cat-fish
@@ -1625,8 +1615,8 @@ omphimz.com##.tvc-popup-url
 ophim.net##.ads-sticky
 outlook.live.com##._3_hHr3kfEhbNYRFM5YJxH9
 phapluatplus.vn##div[style="text-align:center;margin-top:0px;margin-bottom:0px;"]
-phephimzz.net##.pre-lb
-phephimzz.net,vuianime.tv,biluu.co,hhninja.xyz,weblinhtinh.net,vungtv.org###catfish
+phechill.net##.pre-lb
+phechill.net,vuianime.tv,biluu.co,hhninja.xyz,weblinhtinh.net,vungtv.org###catfish
 phim1080z.com,fim1080.com###popup-under
 phim1080z.com,fim1080.com##.banner-preload-link
 phim1080z.com,fim1080.com##.popup-link
