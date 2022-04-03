@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: D4idBjaAyTczEqv8djyfVA
-! Version: 202204021806
+! Checksum: dZX3sRE/xw9sTorH3vc8bQ
+! Version: 202204022345
 ! Title: ABPVN List (VIP)
-! Last modified: 02 Apr 2022 18:06 UTC+7
+! Last modified: 02 Apr 2022 23:45 UTC+7
 ! Expires: 1 hour (update frequency)
 !
 ! ABPVN List filter
@@ -1577,9 +1577,9 @@ mitom1.tv##.btn-odds
 mitom1.tv##.d-none.d-lg-block
 mitom1.tv##li[class^="style-"]
 mmo4me.com##div[class^="ads-"]
-motchill.net###mp-adbk
-motchill.net###mp-adx-b32
-motchill.net,phechill.net##.mp-adz
+motchill.net,motphimtv.tv###mp-adbk
+motchill.net,motphimtv.tv###mp-adx-b32
+motchill.net,motphimtv.tv,phechill.net##.mp-adz
 muabanraovat.com##[class^="box_adv_ele"]
 muare.vn##.admicro_top
 muaxegiatot.vn###tdi_129
