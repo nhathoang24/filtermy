@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 6a9yj9rpi6h/34fMnRc9sg
-! Version: 202204060634
+! Checksum: 9mgAyl9/EinKORlpybjldQ
+! Version: 202204061659
 ! Title: ABPVN List (VIP)
-! Last modified: 06 Apr 2022 06:34 UTC+7
+! Last modified: 06 Apr 2022 16:59 UTC+7
 ! Expires: 1 hour (update frequency)
 !
 ! ABPVN List filter
@@ -48,6 +48,7 @@ $webrtc,domain=forum.xda-developers.com|dailyuploads.net|uploadocean.com|appvn.c
 /300x250.
 /468-x-60-
 /600x60_
+/Arfcc.min.js$script
 /YanAds/*
 /\.(com|to)\/(\w{2}\/){3}\w{32}\.js/$script,third-party
 /\:\/\/[a-z0-9]{5,}\.com\/[A-Za-z0-9]{3,}(\/|.css|.js)$/$script,stylesheet,third-party,xmlhttprequest
@@ -58,7 +59,6 @@ $webrtc,domain=forum.xda-developers.com|dailyuploads.net|uploadocean.com|appvn.c
 /ad_break
 /adk2.
 /admServer/*
-/admcorecc.js$script
 /adnetwork
 /ados.js
 /adoverlay/*
@@ -90,6 +90,8 @@ $webrtc,domain=forum.xda-developers.com|dailyuploads.net|uploadocean.com|appvn.c
 /blueserving.
 /cdn.bongdadem.net/$image
 /content/vast$xmlhttprequest
+/core/adm_tracking.js$script
+/core/admcore$script
 /dc.mpapis.xyz/*.gif$image
 /delivery/channels/*
 /display/items.php
@@ -482,7 +484,6 @@ utm_source=propellerads$popup
 ||razorphimzz.com^*.mp4$~third-party
 ||realty.vn/FileManager/Banner/$image
 ||rx-name.ua^$domain=samlab.ws
-||s.nettruyenvip.com/data/sites/1/banner/$image
 ||s.nhattruyengo.com^*.gif
 ||s.tainhaccho.vn/images/afl
 ||s0.2mdn.net/instream$domain=~anime47.com
@@ -503,6 +504,7 @@ utm_source=propellerads$popup
 ||soikeo365.net^*.gif
 ||solebux.com/n2.gif
 ||sosanhnha.com/assets/banner/
+||st.nettruyenmoi.com^*.gif$image
 ||st.nhattruyengo.com^*.gif$image
 ||stablehost.com/images/banner
 ||startalk.vn/images/Ru-ban-them-vui-mb.jpg
@@ -1603,6 +1605,8 @@ nhatrangclub.vn###show_qc
 nhatrangclub.vn##.bannerchuyenmuc
 nhatrangclub.vn##.show-qc-home
 nhatrangclub.vn##.show_qc
+nhattruyengo.com,nettruyenmoi.com##.container div:not(.top) > div.mrb5.mrt5.text-center > a
+nhattruyengo.com,nettruyenmoi.com##.mrb5.text-center.container
 nitroflare.com##[id^="superbox-"]
 nld.com.vn##.top-advertisment
 nongnghiep.vn##.exp_qc_share
