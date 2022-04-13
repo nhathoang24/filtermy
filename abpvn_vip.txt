@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Twz9G0thf6qOb2zmXUvUCw
-! Version: 202204121726
+! Checksum: qbE3eDjUaXxzfN5WFUlxIw
+! Version: 202204130828
 ! Title: ABPVN List (VIP)
-! Last modified: 12 Apr 2022 17:26 UTC+7
+! Last modified: 13 Apr 2022 08:28 UTC+7
 ! Expires: 1 hour (update frequency)
 !
 ! ABPVN List filter
@@ -454,6 +454,7 @@ utm_source=propellerads$popup
 ||phimhay3s.com/video/$media
 ||phimhay3s.com^*.gif
 ||phimmoichill.net/media/*.gif
+||phimnhua.com^*.gif
 ||phimplay.com^*.gif
 ||phimsml.com^*.gif
 ||phimtn.com/wp-content/uploads/2021/03/c777ffc5faedaed3c08afc1f1e9da8dd.20.jpg
@@ -1307,7 +1308,7 @@ animevietsub.tv###pc-catfixx
 animevietsub.tv##.mobile-catfixx
 animevietsub.tv##div.Dvr-300
 animevietsub.tv##div[style^="position: fixed; top: 60px"]
-animevietsub.tv,play.plhqtvhay.xyz,coiphim.org,streamsb.net,mphimmoivn.net,banthang.io,biluu.org,ezphimmoi.net,bphimmoi.net##.jw-logo
+animevietsub.tv,play.plhqtvhay.xyz,coiphim.org,streamsb.net,mphimmoivn.net,banthang.io,biluu.org,bphimmoi.net##.jw-logo
 anonyviet.com##.ads_google_ads
 anonyviet.com##.td-container.td-header-row.td-header-header
 anonyviet.com##.wpb_column.jeg_column.vc_column_container.vc_col-sm-12.jeg_main_content
@@ -1441,11 +1442,10 @@ dtruyen.com###login-ads
 dubaotiente.com##.ad-pin-right-bottom
 dubaotiente.com,nongnghiep.vn,bongda.com.vn##.adv
 ebookbkmt.com##.top-right
+ephoto360.com##.ad-container
 ephoto360.com##.line-ads
-ephoto360.com,ezphimmoi.net##.ad-container
 eva.vn##.banr-Rt
 eva.vn##.banrpstn
-ezphimmoi.net,vungtv.org###popup-giua-man-hinh
 facebook.com#?#[data-pagelet="RightRail"] .l9j0dhe7:-abp-has(b:-abp-contains(Được tài trợ))
 facebook.com#?#[data-pagelet^="FeedUnit_"]:-abp-has(b:-abp-contains(Được tài trợ))
 feb.onedaysales.xyz,lemon.animeion.xyz##.logo-partner
@@ -1634,6 +1634,7 @@ phimhayplus.xyz###container-ads
 phimmoi18.com###closePC
 phimmoi18.com###fixed_bottom
 phimmoichill.net###goadv
+phimnhua.com##.topless
 phimno1.xyz###ads-preload
 phimno1.xyz##.block.ad
 phimtopz.com##div[id^="ins-"]
@@ -1879,6 +1880,7 @@ vuianime.tv##body > center
 vuighe.net##.film-info-right-content
 vuighe.net##.pause-banner
 vuighe.net##.player-pause-banner
+vungtv.org###popup-giua-man-hinh
 vuviphimmoi.net###ai_widget-2
 wallgif.com###ad_modal
 wallgif.com###modal_bg
