@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: +O8ArIl5UGJ1UUspw6wv9A
-! Version: 202204131449
+! Checksum: +X1rQWmjDXyZGLPhxMS5MA
+! Version: 202204141556
 ! Title: ABPVN List (VIP)
-! Last modified: 13 Apr 2022 14:49 UTC+7
+! Last modified: 14 Apr 2022 15:56 UTC+7
 ! Expires: 1 hour (update frequency)
 !
 ! ABPVN List filter
@@ -1423,6 +1423,8 @@ dabong5.com,dabong.vip##.under-h1
 daklak24h.com.vn##.features-r
 dangtinbatdongsan.vn,realty.vn##.warp-banner-vip
 dantri.com.vn###bannerMasthead
+dantri.com.vn###desktop-home-top-page
+dantri.com.vn###mobile-home-top-page
 danviet.vn##.sidebar > div[style]
 design.tutsplus.com##.avert--sticky
 dexuat.com###custom_html-7
@@ -1446,7 +1448,7 @@ ephoto360.com##.ad-container
 ephoto360.com##.line-ads
 eva.vn##.banr-Rt
 eva.vn##.banrpstn
-facebook.com#?#[data-pagelet="RightRail"] .l9j0dhe7:-abp-has(b:-abp-contains(Được tài trợ))
+facebook.com#?#[data-pagelet="RightRail"] span:-abp-has(span:-abp-contains(Được tài trợ))
 facebook.com#?#[data-pagelet^="FeedUnit_"]:-abp-has(b:-abp-contains(Được tài trợ))
 feb.onedaysales.xyz,lemon.animeion.xyz##.logo-partner
 filecr.com##.filec-widget
@@ -1689,7 +1691,6 @@ realty.vn##.banner-in
 realty.vn##.warp-banner-ads
 reddit.com##.promotedlink
 rung.vn##.ads-970x280
-saohaivuong.com##.ads-shv-11.ads-shv-default.ads-shv
 saostar.vn###mobi-top
 saostar.vn###pc-top
 saostar.vn##.d-flex.justify-content-between > div > div.d-flex.justify-content-around.mt-4
@@ -1702,19 +1703,14 @@ shink.me##[id^="M11"]
 sieubongda.club##.bets-now-ct
 sieubongda.club##.pc_header
 sieubongda.club##a[data-wpel-link="external"]
-skyphim.me##div[align="center"]
-skyphim.me##div[class^="stick_img"]
 softonic.vn##.sam-slot
 soha.vn##[id^="admzone"]
 spineditor.com##.banner-right
 sport5.vn,afamily.vn##.afw-topbanner
-ssphim.net##.uniad-zonetype-preload-container
-ssphim.net##.uniad-zonetype-preload-overlay
 sstruyen.com##.detail-content > center
 stackvid.com##.w3-section.w3-content
 startalk.vn##.ads-general-banner
 streamsb.net##body > div[style^="position:fixed"]
-subnhanh.net##.banner-sticky-footer-ad
 techrum.vn#?#.block:-abp-has(.block-container > .block-body > a[href])
 techrum.vn#?#.block:-abp-has(.block-container > .block-body > ins)
 tenovi.net###ad-masthead
