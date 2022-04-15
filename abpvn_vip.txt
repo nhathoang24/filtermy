@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: +X1rQWmjDXyZGLPhxMS5MA
-! Version: 202204141556
+! Checksum: UVOzMHftL+BXcDN6Ky8FLA
+! Version: 202204151416
 ! Title: ABPVN List (VIP)
-! Last modified: 14 Apr 2022 15:56 UTC+7
+! Last modified: 15 Apr 2022 14:16 UTC+7
 ! Expires: 1 hour (update frequency)
 !
 ! ABPVN List filter
@@ -516,6 +516,7 @@ utm_source=propellerads$popup
 ||static.8cache.com/spon/$image
 ||static.bepolite.eu^
 ||static.bongda24h.vn/medias/*.gif
+||static.cdnno.com/storage/lazada/$image,domain=metruyenchu.com
 ||static.homedy.com/*banner-
 ||static.mepuzz.com/sdk/v2/MePuzzServiceWorker.min.js
 ||static.nhaccuatui.com/imgqc/
@@ -1424,6 +1425,7 @@ daklak24h.com.vn##.features-r
 dangtinbatdongsan.vn,realty.vn##.warp-banner-vip
 dantri.com.vn###bannerMasthead
 dantri.com.vn###desktop-home-top-page
+dantri.com.vn###dtads_inpage_wrapper
 dantri.com.vn###mobile-home-top-page
 danviet.vn##.sidebar > div[style]
 design.tutsplus.com##.avert--sticky
@@ -1579,6 +1581,8 @@ mephimmy.com###sponsor-preload
 mephimtrungz.com,mephimmy.com,mephimhanz.com,mephimnhat.com##div[id^="sponsor-"]
 metruyenchu.com##.nh-read__alert
 metruyenchu.com##.px-3.nh-read__body > .text-center.pb-3
+metruyenchu.com##.text-center.pb-3.nh-read__pagination
+metruyenchu.com##div.text-center.pt-3:nth-of-type(1)
 minhngoc.net.vn###adv1
 mitom1.tv###menu-sub-menu
 mitom1.tv##.box-action-odds
@@ -1952,8 +1956,9 @@ zingnews.vn##.the-article-thumbnail
 zingnews.vn##[id^="advR"]
 zingnews.vn,toquoc.vn,baoxaydung.com.vn,tienphong.vn,antt.nguoiduatin.vn,kinhtenongthon.vn,taichinhdoanhnghiep.net.vn,123nhadat.vn,qthang.net,lsvn.vn##.banner
 zingnews.vn,vnexpress.net,ngoisao.net,ione.net###banner_top
-zingvntv.com,zingvntv.net###preload-mobile
+zingvntv.net,zingvntv.com###preload-mobile
 zingvntv.net,zingvntv.com##.sda-catfish
+zingvntv.net,zingvntv.com##.uniad-head
 zippyshare.com##.center_ad
 ~facebook.com##.AdBox
 ~gameguardian.net,~hvdic.thivien.net,~startuanit.net,~download.mokeedev.com,~platinmods.com,~anonyviet.com,~vinaurl.net,~vinaurl.in,~traderviet.com,~camera.aeonax.com,~2rdroid.com,~123link.f4vnn.com​,~phanmemgoc.com,~khuchotot.com,~win10.vn,~truyenaudiocv.net,~qthang.net,~ichi.pro##.adsbygoogle
