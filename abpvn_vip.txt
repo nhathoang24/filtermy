@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: UVOzMHftL+BXcDN6Ky8FLA
-! Version: 202204151416
+! Checksum: DKIUTaXfbZM48vjfJUFPSQ
+! Version: 202204170936
 ! Title: ABPVN List (VIP)
-! Last modified: 15 Apr 2022 14:16 UTC+7
+! Last modified: 17 Apr 2022 09:36 UTC+7
 ! Expires: 1 hour (update frequency)
 !
 ! ABPVN List filter
@@ -343,7 +343,7 @@ utm_source=propellerads$popup
 ||i.imgur.com/Q0a2mv2.png
 ||i.imgur.com/lgfyvo2.jpg
 ||i.imgur.com^$image,domain=nhacdj.vn|phimdinhcao.com|trochoiviet.com|animet.net|diendanit.net|banbuondalat.com|khoedep.vn|phimviethan.com|vebotv.link|zingvntv.net|zingvntv.com
-||i.imgur.com^*.gif$image,domain=tructiepbongda.com|xemphimon.com|tvhai.org|mythethao.com|xemphimgii.net|megalink.vip|tivi4k.com|biluu.org|binhluanvidamme.online|topgamehot.net|fimnhez.net|animevietsub.tv|90phutttttttt.xyz|bongdahomnay.site|yeuphimmoiw.com|tvhaiz.net|zingvntv.com|tvhayx.com|dongphimmoiz.com|vtipster.net|xemtivingon.tv|subnhanh.net|mphimmoivn.net|phimtopz.com|rakhoi2.tv|rakhoi1.tv|cakhia20.tv|cakhia20.live|cakhia11.live|bongdahomnay.org|bongdahomnay.tech|xembongda360.com|phimhdvns.net|biphim.co|bichill.tv|biphims.tv|skyphim.me|hdvip.net|iphimchill.tv|hhtq.vip|vungtv.org|ophim.net|dongphymtv.com|huphimtv.com|xemtvhd.info|phim18zz.com|bphimmoi.net|forum.gocmod.com|rakhoi3.tv|rakhoi5.tv
+||i.imgur.com^*.gif$image,domain=tructiepbongda.com|xemphimon.com|tvhai.org|mythethao.com|xemphimgii.net|megalink.vip|tivi4k.com|biluu.org|binhluanvidamme.online|topgamehot.net|fimnhez.net|animevietsub.tv|90phutttttttt.xyz|bongdahomnay.site|yeuphimmoiw.com|tvhaiz.net|zingvntv.com|tvhayx.com|dongphimmoiz.com|vtipster.net|xemtivingon.tv|subnhanh.net|mphimmoivn.net|phimtopz.com|rakhoi2.tv|rakhoi1.tv|cakhia20.tv|cakhia20.live|cakhia11.live|bongdahomnay.org|bongdahomnay.tech|xembongda360.com|phimhdvns.net|biphim.co|bichill.tv|biphims.tv|skyphim.me|hdvip.net|iphimchill.tv|hhtq.vip|vungtv.org|ophim.net|dongphymtv.com|huphimtv.com|xemtvhd.info|phim18zz.com|bphimmoi.net|forum.gocmod.com|rakhoi3.tv|rakhoi5.tv|vietphim.vn
 ||i.k8info.com/images/promo/$third-party
 ||i.mmcdn.cn/simba/img/
 ||i.servimg.com/u/f22/15/86/65/76/banner$domain=4rkinggame.com
@@ -607,6 +607,7 @@ utm_source=propellerads$popup
 ||vegacdn.vn^*.gif
 ||vesotantai.com/upload/photo/$image
 ||vidoza.net/js/pus/license.
+||vietphim.vn/wp-content/uploads/2022/04/710x100.png$image
 ||vietyo.com/yomedia/
 ||viglink.com/api/batch^$third-party
 ||viglink.com/images/pixel.gif
@@ -1695,6 +1696,7 @@ realty.vn##.banner-in
 realty.vn##.warp-banner-ads
 reddit.com##.promotedlink
 rung.vn##.ads-970x280
+saohaivuong.com##.ads-shv
 saostar.vn###mobi-top
 saostar.vn###pc-top
 saostar.vn##.d-flex.justify-content-between > div > div.d-flex.justify-content-around.mt-4
@@ -1844,6 +1846,10 @@ vietjack.com,phunumoi.net.vn,lucaphim.com##div[id^="ads_"]
 vietmoz.net##.elementor-widget-image
 vietnamgsm.vn###headerProxy
 vietnamnet.vn##.fmsidWidgetNewsBox
+vietphim.vn##.float-ck-center-lt
+vietphim.vn##.widget_media_image.widget_block.widget
+vietphim.vn##img.wp-image-1283
+vietphim.vn##img.wp-image-1285
 vietq.vn##section.mar20:nth-of-type(2)
 vietq.vn##section.mar20:nth-of-type(4)
 vietyo.com###bar_top_r
