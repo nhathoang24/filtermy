@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: yEk8p+kQ1hbqmAiwi3ws8w
-! Version: 202204191732
+! Checksum: fhcLI9GER1jQaLUN4mcBiw
+! Version: 202204201401
 ! Title: ABPVN List (VIP)
-! Last modified: 19 Apr 2022 17:32 UTC+7
+! Last modified: 20 Apr 2022 14:01 UTC+7
 ! Expires: 1 hour (update frequency)
 !
 ! ABPVN List filter
@@ -454,6 +454,8 @@ utm_source=propellerads$popup
 ||phimhay3s.com/video/$media
 ||phimhay3s.com^*.gif
 ||phimmoichill.net/media/*.gif
+||phimmoikf.com/files/banner/$image
+||phimmoikf.com^*.gif
 ||phimnhua.com^*.gif
 ||phimplay.com^*.gif
 ||phimsml.com^*.gif
@@ -1636,7 +1638,7 @@ phim202.com###itro_opaco
 phimanimehd.net##.fixed_bottom
 phimdinhcao.com##.adv-300-right
 phimdinhcao.com,tenovi.net##.adpia_banner
-phimhay3s.com##.fix_bottom
+phimhay3s.com,phimmoikf.com##.fix_bottom
 phimhayplus.xyz###container-ads
 phimmoi18.com###closePC
 phimmoi18.com###fixed_bottom
@@ -1791,7 +1793,6 @@ truyenqq​.​com​,​truyenqq​.​net​##​.​mobile​-​banner
 truyensieuhay.com##.footer-info
 truyentranh.net###balloon-ads
 truyentranh8.net,truyentranh86.com##.tt8quangcao
-truyentranh86.com##.embed-responsive
 truyentranhaudio.com,truyentranhaudio.online##div.mrb10
 truyentranhtuan.com##.doc-truyen-ads-d1
 truyentranhtuan.com##.doc-truyen-ads-d2
