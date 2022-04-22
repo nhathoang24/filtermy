@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: fhcLI9GER1jQaLUN4mcBiw
-! Version: 202204201401
+! Checksum: 6Aj6vREVmgPcm9+zDQ8d9g
+! Version: 202204220833
 ! Title: ABPVN List (VIP)
-! Last modified: 20 Apr 2022 14:01 UTC+7
+! Last modified: 22 Apr 2022 08:33 UTC+7
 ! Expires: 1 hour (update frequency)
 !
 ! ABPVN List filter
@@ -92,6 +92,7 @@ $webrtc,domain=forum.xda-developers.com|dailyuploads.net|uploadocean.com|appvn.c
 /content/vast$xmlhttprequest
 /core/adm_tracking.js$script
 /core/admcore$script
+/core/common.min.js$script,domain=gamek.vn|genk.vn
 /dc.mpapis.xyz/*.gif$image
 /delivery/channels/*
 /display/items.php
@@ -116,7 +117,7 @@ $webrtc,domain=forum.xda-developers.com|dailyuploads.net|uploadocean.com|appvn.c
 /pagead/*
 /pagead2.
 /plugins/dh-anti-adblocker/*$script
-/pop.$script
+/pop.$script,domain=~streamsb.net
 /pop.ads.php
 /popad.php
 /popclck.
@@ -362,7 +363,7 @@ utm_source=propellerads$popup
 ||image.diaoconline.vn/banner-dool/$domain=diaoconline.vn
 ||image.thuvienvatly.com/home/images/banners/
 ||images.asianbookie.com/vwin/
-||images2-focus-opensocial.googleusercontent.com^*.gif$domain=thuckhuya.net|tvhai.org
+||images2-focus-opensocial.googleusercontent.com^*.gif$domain=thuckhuya.net|tvhai.org|phimdinhcao.com
 ||images4-focus-opensocial.googleusercontent.com^*.gif$domain=phechill.net
 ||img-portal-prod.s3.amazonaws.com/uploads/image/attachment/3380/HomeRandom2.gif
 ||img.anime47.com^*.gif
@@ -507,6 +508,7 @@ utm_source=propellerads$popup
 ||shink.me/js/pd.js
 ||shink.me/s/$popup
 ||skyphim.me/css^*.gif$domain=skyphim.me
+||slashrun.org^*.gif
 ||soikeo365.net^*.gif
 ||solebux.com/n2.gif
 ||sosanhnha.com/assets/banner/
@@ -1636,6 +1638,7 @@ phechill.net,vuianime.tv,vungtv.org,bphimmoi.net###catfish
 phim18zz.com,mphimmoiitv.com##.pcCatfish
 phim202.com###itro_opaco
 phimanimehd.net##.fixed_bottom
+phimdinhcao.com##.BanerTop100
 phimdinhcao.com##.adv-300-right
 phimdinhcao.com,tenovi.net##.adpia_banner
 phimhay3s.com,phimmoikf.com##.fix_bottom
@@ -2025,7 +2028,8 @@ zippyshare.com##.center_ad
 @@||onmsft.com$generichide
 @@||xiuren.org$generichide
 !------ ABPVN Adult block -------
-$popup,third-party,domain=veporno.net|avgle.com|daxab.com
+$popup,third-party,domain=veporno.net|avgle.com|daxab.com|javmost.xyz
+$third-party,script,domain=sexdiaryz.xyz
 $webrtc,domain=daxab.com
 /\w{10}\.com\/\w{2}\/\w{2}\/\w{2}\/\w{32}\.js/$script
 /\w{32}\/invoke.js/$domain=~shortearn.eu
@@ -2060,7 +2064,7 @@ $webrtc,domain=daxab.com
 ||hentaivn.tv/qx/$subdocument
 ||hentaiz.vip/images/spon/$image
 ||hubt.pornhub.com/js/ht.js
-||i.imgur.com^$image,domain=phym18.com
+||i.imgur.com^$image,domain=phym18.com|phim18hd.com
 ||ilusors.com^
 ||javhiv.xyz^*.gif$image
 ||javhub.me/Cms_Data/Sites/admin/Files/ads.js
@@ -2139,6 +2143,8 @@ lxhentai.com###left-balloon
 lxhentai.com###right-balloon
 lxhentai.com##.btn-get-point-click-banner-ads
 lxhentai.com##.sticky-footer
+phim18hd.com##.cash-fish
+phim18hd.com##.top-mobile-banner
 phimhanquoc18.com##.access-trade
 phimhanquoc18.com##.data-vjs-player
 phimhanquoc18.com##.phiden
@@ -2160,6 +2166,7 @@ rphangs.com##.p-footer
 rphangs.com##.samCarousel.samAlignCenter.samCodeUnit
 sexanime.net##.banner_center
 sexanime.net##.custom-model-main
+sexdiaryz.xyz##a[href^="//mage98rquewz.com/"]
 sexhayvc.com##.b-ds-footer
 sexnhe.xyz###bnads3_save
 sieukhung.net,tuoi69.com##.adsCenterHome
