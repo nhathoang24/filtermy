@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 6Aj6vREVmgPcm9+zDQ8d9g
-! Version: 202204220833
+! Checksum: FXhEMcOiuSBxqVqNFw405g
+! Version: 202204230628
 ! Title: ABPVN List (VIP)
-! Last modified: 22 Apr 2022 08:33 UTC+7
+! Last modified: 23 Apr 2022 06:28 UTC+7
 ! Expires: 1 hour (update frequency)
 !
 ! ABPVN List filter
@@ -82,6 +82,7 @@ $webrtc,domain=forum.xda-developers.com|dailyuploads.net|uploadocean.com|appvn.c
 /amp-auto-ads-
 /apu.php?zoneid=
 /assets/themes/js/ads$script,domain=phim18zz.com
+/assets/themes/js/wonderfarm$script,domain=huphimtv.com|phim18zz.com
 /assets/themes/js/wonderfarm$script,domain=huphimzz.com|phim18zz.com
 /banner.php
 /banner/*.gif,domain=~tvphapluat.vn
@@ -1506,6 +1507,11 @@ homedy.com##.left-slider
 hosocongty.vn##.advertTop
 hosocongty.vn##.module_plugins
 hosocongty.vn#?#.hsdn > li:-abp-has(.adsbygoogle)
+hotroontap.com##.td-header-rec-wrap
+hotroontap.com##.td_block_template_1.tdi_3_833.td-a-rec-id-content_top.td-a-rec
+hotroontap.com##aside.widget_custom_html.widget.td_block_template_1.widget_text:nth-of-type(2)
+hotroontap.com##aside.widget_custom_html.widget.td_block_template_1.widget_text:nth-of-type(5)
+hotroontap.com##aside.widget_text.widget.td_block_template_1:nth-of-type(1)
 hotruyen.com##.text-center.adsense
 hrspring.vn##.notice-content
 huphimtv.com###sideAdsLeft
@@ -1551,6 +1557,7 @@ lichvannien365.com##div[style="width: 100%; min-height: 240px; text-align: cente
 lichvannien365.com##div[style="width: 100%; min-height: 90px; text-align: center;"]
 lichvannien365.com##div[style="width: 100%;text-align: center;min-height: 280px;"]
 limetorrents.info##a[href^="/fast.php"]
+link1s.com###AADIV35
 link1s.com###baolink1s
 link1s.com,linkcc.pro##.banner-inner
 linkedin.com##.ad-banner-container.ember-view
@@ -1997,7 +2004,7 @@ zippyshare.com##.center_ad
 @@||media.nghean24h.vn/thumb$image
 @@||media1.admicro.vn/cms/$script,domain=tuoitre.vn
 @@||newscon.net/static/js/prebid-ads.js
-@@||pagead2.googlesyndication.com$script,xmlhttprequest,image,domain=upfile.vn|thuthuatmeovat.net|khogamepc.com|win10.vn|kites.vn|phuongtrinhhoahoc.com|vinaurl.com|thichvn.com|icongnghe.com|vutrung.gnomio.com|letrongdai.vn|romgoc.net|traderviet.com|sum.vn|truyenaudiocv.net|phanmemgoc.com|123link.f4vnn.com|khuchotot.com|laptrinhx.com|1shortlink.com|shortenlink.vip|suckhoe247.top|caohung.net|sachiepvien.net|iot.chinhphucvn.com|thelanb.com|nguyentinhblog.com|cungthi.online|sharescript.net|lehait.net|nhacsong.pro|kientruc360.info|tienichmaytinh.net|giavang.net|qthang.net|vnjpclub.com|753x.blogspot.com|ngohoanganhtuan.com|ngohoanganhtuan.net|toeicexamstore.xyz|vungoctuan.vn|ichi.pro|tromcap.com|dichthuatphuongdong.com|dafontvn.com|tinhocdongthap.com|gvnvh18.com
+@@||pagead2.googlesyndication.com$script,xmlhttprequest,image,domain=upfile.vn|thuthuatmeovat.net|khogamepc.com|win10.vn|kites.vn|phuongtrinhhoahoc.com|vinaurl.com|thichvn.com|icongnghe.com|vutrung.gnomio.com|letrongdai.vn|romgoc.net|traderviet.com|sum.vn|truyenaudiocv.net|phanmemgoc.com|123link.f4vnn.com|khuchotot.com|laptrinhx.com|1shortlink.com|shortenlink.vip|suckhoe247.top|caohung.net|sachiepvien.net|iot.chinhphucvn.com|thelanb.com|nguyentinhblog.com|cungthi.online|sharescript.net|lehait.net|nhacsong.pro|kientruc360.info|tienichmaytinh.net|giavang.net|qthang.net|vnjpclub.com|753x.blogspot.com|ngohoanganhtuan.com|ngohoanganhtuan.net|toeicexamstore.xyz|vungoctuan.vn|ichi.pro|tromcap.com|dichthuatphuongdong.com|dafontvn.com|tinhocdongthap.com|gvnvh18.com|link1s.com
 @@||player.phimno1.com$subdocument
 @@||pubads.g.doubleclick.net$xmlhttprequest,domain=vtvgiaitri.vn
 @@||quangcao.tuoitre.vn/customer/banner/2020/V/Vietlot/mb*$subdocument
