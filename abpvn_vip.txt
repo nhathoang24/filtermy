@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: G7QEnZSDnfnraHuytq3I2Q
-! Version: 202205011900
+! Checksum: mley53MiFcOveG1QLUkc0w
+! Version: 202205021747
 ! Title: ABPVN List (VIP)
-! Last modified: 01 May 2022 19:00 UTC+7
+! Last modified: 02 May 2022 17:47 UTC+7
 ! Expires: 1 hour (update frequency)
 !
 ! ABPVN List filter
@@ -1342,6 +1342,8 @@ banthang.io##.m_disreponsive
 banthang.io##.player-right
 banthang.io##.under-h1 > .inner_header
 baodansinh.vn##.box-ads-bar
+baogiaothong.vn###div_inpage_banner
+baogiaothong.vn###div_inpage_banner_open
 baohaugiang.com.vn##.sticky
 baohaugiang.com.vn##.top-header
 baomoi.com###BaoMoi_HalfPage
