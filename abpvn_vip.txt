@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: GM2i75MER7LjDbBEl4JsFw
-! Version: 202205030834
+! Checksum: t7O9Ma0fvS9CSVfzeVBLQQ
+! Version: 202205041707
 ! Title: ABPVN List (VIP)
-! Last modified: 03 May 2022 08:34 UTC+7
+! Last modified: 04 May 2022 17:07 UTC+7
 ! Expires: 1 hour (update frequency)
 !
 ! ABPVN List filter
@@ -16,7 +16,7 @@
 ! Forum: https://voz.vn/t/abpvn-chan-quang-cao-cho-nguoi-viet.25778/
 ! Report new issue on github: https://github.com/abpvn/abpvn/issues/new
 ! ---------- Generic Blocking Rules ----------
-$popup,third-party,domain=oload.tv|oload.stream|openload.co|oload.site|appvn.com|mediafire.com|mactorrent.co|uploadocean.com|vinaurl.net|clipconverter.cc|userscloud.com|proxyrarbg.org|linksht.com|ouo.io|phim1080z.com|fim1080.com|blogtruyen.vn|animehay.club|streamtape.site
+$popup,third-party,domain=appvn.com|mediafire.com|mactorrent.co|uploadocean.com|vinaurl.net|clipconverter.cc|userscloud.com|proxyrarbg.org|linksht.com|ouo.io|phim1080z.com|fim1080.com|blogtruyen.vn|animehay.club|streamtape.site
 $webrtc,domain=forum.xda-developers.com|dailyuploads.net|uploadocean.com|appvn.com|sharemods.com
 &adformat=
 &aduid
@@ -346,7 +346,7 @@ utm_source=propellerads$popup
 ||i.imgur.com/Q0a2mv2.png
 ||i.imgur.com/lgfyvo2.jpg
 ||i.imgur.com^$image,domain=nhacdj.vn|phimdinhcao.net|trochoiviet.com|animet.net|diendanit.net|banbuondalat.com|khoedep.vn|phimviethan.com|vebotv.link|zingvntv.net|zingvntv.com|animeweb.xyz|tramphim.online
-||i.imgur.com^*.gif$image,domain=tructiepbongda.com|xemphimon.com|tvhai.org|mythethao.com|xemphimgii.net|megalink.vip|tivi4k.com|biluu.org|binhluanvidamme.online|topgamehot.net|fimnhez.net|animevietsub.tv|90phutttttttt.xyz|bongdahomnay.site|yeuphimmoiw.com|tvhayx.com|dongphimmoiz.com|vtipster.net|xemtivingon.tv|subnhanh.net|mphimmoivn.net|phimtopz.com|rakhoi2.tv|rakhoi1.tv|cakhia12.live|cakhia11.tv|bongdahomnay.org|bongdahomnay.tech|xembongda360.com|phimhdvns.net|biphim.co|bichill.tv|biphims.tv|skyphim.me|hdvip.net|iphimchill.tv|hhtq.vip|vungtv.org|ophim.net|dongphymtv.com|huphimtv.com|xemtvhd.info|phim18zz.com|bphimmoi.net|forum.gocmod.com|rakhoi3.tv|rakhoi5.tv|vietphim.vn|cakhia15.live|phimmoii123.com
+||i.imgur.com^*.gif$image,domain=tructiepbongda.com|xemphimon.com|tvhai.org|mythethao.com|xemphimgii.net|megalink.vip|tivi4k.com|biluu.org|binhluanvidamme.online|topgamehot.net|fimnhez.net|animevietsub.tv|90phutttttttt.xyz|bongdahomnay.site|yeuphimmoik.com|tvhayx.com|vtipster.net|xemtivingon.tv|subnhanh.net|mphimmoivn.net|phimtopz.com|rakhoi2.tv|rakhoi1.tv|cakhia12.live|cakhia11.tv|bongdahomnay.org|bongdahomnay.tech|xembongda360.com|phimhdvns.net|biphim.co|bichill.tv|biphims.tv|skyphim.me|hdvip.net|iphimchill.tv|hhtq.vip|vungtv.org|ophim.net|dongphymtv.com|huphimtv.com|xemtvhd.info|phim18zz.com|bphimmoi.net|forum.gocmod.com|rakhoi3.tv|rakhoi5.tv|vietphim.vn|cakhia15.live|phimmoii123.com
 ||i.k8info.com/images/promo/$third-party
 ||i.mmcdn.cn/simba/img/
 ||i.servimg.com/u/f22/15/86/65/76/banner$domain=4rkinggame.com
@@ -640,7 +640,6 @@ utm_source=propellerads$popup
 ||xembd.live^*.gif
 ||xemphimgii.net/player/dk.jpg
 ||xemphimsoz.net/img/
-||xemphimtvb.com^*.gif$image
 ||xemphimvtv.net/upload/img/download-xem.png
 ||xemphimvtv.net/upload/img/taive.png
 ||xevathethao.vn/wp-content/uploads/banner
@@ -1439,7 +1438,6 @@ docbao.vn###div-ub-docbao
 docviewer.yandex.com##div[style="width: 100%;"]
 docviewer.yandex.com##ya-recommendation-widget
 doisongphapluat.com##div.box-aside
-dongphimmoiz.com###cash-fish-pc
 dongphymtv.com###footer_fixed_ads
 download.cnet.com##.download-fd-leaderboard-ad-top
 download.mokeedev.com##.ad-wrapper.info.card
@@ -1919,34 +1917,28 @@ xemphimgii.net,phimhdvns.net###sobet-ads-right
 xemphimgii.net,phimhdvns.net##.lightbox-player-pc
 xemphimgii.net,phimhdvns.net##div[id^="preload-"]
 xemphimgii.net,phimhdvns.net,laptrinhx.com,ghientv.net,huphimtv.com,animevietsub.tv,xoso.me,xsmn.me,coiphim.org,saostar.vn##.ads
-xemphimtvb.com##.right-content .textwidget
 xemtivingon.tv,keonhacai3.com,tvhayhay.com##div[id^="Balloon_"]
 xemtvhd.info###myTopnav>a[target="_blank"]
 xemtvhd.info##.quangcaos
 xiuren.org###christmas
-xoilac.co##.offer-rating
-xoilac.co##.sk_balloon
-xoilac.co##.sub-menu
+xoilac.me##.list-dat-cuoc
 xoilac2.net###match-child-1
 xoilac2.net###wap_bottombanner_content
-xoilac2.net##.banner-link
 xoilac2.net##.container.mt-1
-xoilac2.net##.d-lg-none.d-block.pb-2.text-center
 xoilac2.net##.row.d-none
 xoilac2.net##.widget-offers__list
-xoilac2.net,xoilac.co##.grid-match__team > .btn-odds
-xoilac2.net,xoilac.co##div[id^="dnn_"]
+xoilac2.net##div[id^="dnn_"]
 xoivo.co##.ads-menu
 xoivo.co##.bnt_what_live
 xoso.me,xsmn.me##a[href^="/redirect/out?token="]
 xosodaiphat.com##.adv-side-bar
 xosodaiphat.com##.banner-adv-wrapper
-xskt.com.vn###bnr0
 xskt.com.vn,vieclam.tv###bnc0
 yellowpages.vn##.ad_by_yellowpages
 yellowpages.vn##.banner_add
-yeuphimmoiw.com##.cash-fish
-yeuphimmoiw.com##.cash-fish-pc
+yeuphimmoik.com##.balloon-block
+yeuphimmoik.com##.cash-fish
+yeuphimmoik.com##.cash-fish-pc
 youtube.com###YtSparklesVisibilityIdentifier
 youtube.com###masthead-ad
 youtube.com###video-masthead
@@ -1971,9 +1963,9 @@ zingvntv.net,zingvntv.com##.uniad-head
 zippyshare.com##.center_ad
 ~facebook.com##.AdBox
 ~gameguardian.net,~hvdic.thivien.net,~startuanit.net,~download.mokeedev.com,~platinmods.com,~anonyviet.com,~vinaurl.net,~vinaurl.in,~traderviet.com,~camera.aeonax.com,~2rdroid.com,~123link.f4vnn.com​,~phanmemgoc.com,~khuchotot.com,~win10.vn,~truyenaudiocv.net,~qthang.net,~ichi.pro,~lehait.net##.adsbygoogle
+~howkteam.vn,~fptplay.vn,~khuchotot.com,~tvbmotthoidenho.com,~lehait.net##.adsbox
 ~megaup.net##div[id*="ScriptRoot"]
 ~msn.com##.qc
-~oload.stream,~openload.co,~oload.tv,~howkteam.vn,~fptplay.vn,~khuchotot.com,~tvbmotthoidenho.com,~lehait.net##.adsbox
 ~thanglongkydao.com###ad_global_below_navbar
 ~vnexpress.net,~anonyviet.com,~autoitvn.com,~mifirm.net,~phim440.cf,~dropapk.to,~linkvertise.com,~khosinhvien.com,~win10.vn,~romgoc.net,~itudong.com###ads
 !---------------ABPVN White List--------------------
@@ -2093,7 +2085,6 @@ $webrtc,domain=daxab.com
 ||rphang.online/images/mediasun_top_mobile_tikidurex3.jpg$image
 ||rphang.online/images/mediasun_top_pc_kqxs_june.png
 ||rphang.online^*.gif
-||runmewivel.com^
 ||sexanime.net^*.gif
 ||sexhayvc.com/popjs/$script
 ||sextop.info/asset/default/player/plugins/vast-8.4.13.js
