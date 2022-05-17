@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: O8j6nLRF2hepwHYm2E5BYQ
-! Version: 202205170736
+! Checksum: dl8ulP5HOSDoC8ubVApvTg
+! Version: 202205171634
 ! Title: ABPVN List (VIP)
-! Last modified: 17 May 2022 07:36 UTC+7
+! Last modified: 17 May 2022 16:34 UTC+7
 ! Expires: 1 hour (update frequency)
 !
 ! ABPVN List filter
@@ -514,7 +514,6 @@ utm_source=propellerads$popup
 ||st.nhattruyengo.com^*.gif$image
 ||stablehost.com/images/banner
 ||startalk.vn/images/Ru-ban-them-vui-mb.jpg
-||static.24h.com.vn*-background-
 ||static.8cache.com/spon/$image
 ||static.bepolite.eu^
 ||static.bongda24h.vn/medias/*.gif
