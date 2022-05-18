@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: dl8ulP5HOSDoC8ubVApvTg
-! Version: 202205171634
+! Checksum: cZ1yWCrYIn9/z5hO/trgOA
+! Version: 202205181557
 ! Title: ABPVN List (VIP)
-! Last modified: 17 May 2022 16:34 UTC+7
+! Last modified: 18 May 2022 15:57 UTC+7
 ! Expires: 1 hour (update frequency)
 !
 ! ABPVN List filter
@@ -451,7 +451,6 @@ utm_source=propellerads$popup
 ||phimgif.net/player/dk.jpg
 ||phimhay3s.com/video/$media
 ||phimhay3s.com^*.gif
-||phimmoichill.net/media/*.gif
 ||phimmoichill.net^*.gif
 ||phimmoikf.com/files/banner/$image
 ||phimmoikf.com^*.gif
@@ -638,7 +637,6 @@ utm_source=propellerads$popup
 ||yeah1.com^*/banners/
 ||youtube.com$subdocument,domain=truyentranh86.com
 ||youtube.com/get_midroll_
-||zjs.zadn.vn/zplayer/ads.js
 ! ---------- Ad domain ----------
 ||24h-ad.24hstatic.com^
 ||360game.vn^$popup,third-party
@@ -1291,9 +1289,6 @@ animevietsub.tv##.mobile-catfixx
 animevietsub.tv##div.Dvr-300
 animevietsub.tv##div[style^="position: fixed; top: 60px"]
 animevietsub.tv,play.plhqtvhay.xyz,coiphim.cc,streamsb.net,mphimmoivn.net,banthang.xyz,bilutv.co,vzphimmoi.net##.jw-logo
-anonyviet.com##.ads_google_ads
-anonyviet.com##.td-container.td-header-row.td-header-header
-anonyviet.com##.wpb_column.jeg_column.vc_column_container.vc_col-sm-12.jeg_main_content
 aoe.vn##.adv-section
 apkmirror.com##.gooWidget
 appvuive.fun,thethao12h.me##a[rel="nofollow noopener noreferrer sponsored"]
@@ -1936,12 +1931,12 @@ zingvntv.net,zingvntv.com##.sda-catfish
 zingvntv.net,zingvntv.com##.uniad-head
 zippyshare.com##.center_ad
 ~facebook.com##.AdBox
-~gameguardian.net,~hvdic.thivien.net,~startuanit.net,~download.mokeedev.com,~platinmods.com,~anonyviet.com,~vinaurl.net,~vinaurl.in,~traderviet.com,~camera.aeonax.com,~2rdroid.com,~123link.f4vnn.com​,~phanmemgoc.com,~khuchotot.com,~win10.vn,~truyenaudiocv.net,~qthang.net,~ichi.pro,~lehait.net##.adsbygoogle
+~gameguardian.net,~hvdic.thivien.net,~startuanit.net,~download.mokeedev.com,~platinmods.com,~vinaurl.net,~vinaurl.in,~traderviet.com,~camera.aeonax.com,~2rdroid.com,~123link.f4vnn.com​,~phanmemgoc.com,~khuchotot.com,~win10.vn,~truyenaudiocv.net,~qthang.net,~ichi.pro,~lehait.net##.adsbygoogle
 ~howkteam.vn,~fptplay.vn,~khuchotot.com,~tvbmotthoidenho.com,~lehait.net##.adsbox
 ~megaup.net##div[id*="ScriptRoot"]
 ~msn.com##.qc
 ~thanglongkydao.com###ad_global_below_navbar
-~vnexpress.net,~anonyviet.com,~autoitvn.com,~mifirm.net,~phim440.cf,~drop.download,~linkvertise.com,~khosinhvien.com,~win10.vn,~romgoc.net,~itudong.com###ads
+~vnexpress.net,~autoitvn.com,~mifirm.net,~phim440.cf,~drop.download,~linkvertise.com,~khosinhvien.com,~win10.vn,~romgoc.net,~itudong.com###ads
 !---------------ABPVN White List--------------------
 @@/favicon.ico
 @@/wp-content/plugins/advanced-ads/admin/assets/js/advertisement.js$script,~third-party
