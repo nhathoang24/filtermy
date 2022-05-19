@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: cZ1yWCrYIn9/z5hO/trgOA
-! Version: 202205181557
+! Checksum: 7vvTIG3wDR92Wtr9n8WEVA
+! Version: 202205190820
 ! Title: ABPVN List (VIP)
-! Last modified: 18 May 2022 15:57 UTC+7
+! Last modified: 19 May 2022 08:20 UTC+7
 ! Expires: 1 hour (update frequency)
 !
 ! ABPVN List filter
@@ -407,8 +407,6 @@ utm_source=propellerads$popup
 ||luatvietnam.vn*/uploaded/*.gif
 ||lucaphim.com^*.gif$image
 ||luotphim.cc/wp-content/uploads/$media
-||luotphimzz.com/wp-content/uploads/$media
-||luotphimzz.com^*.gif
 ||maclife.vn/*Banner
 ||maclife.vn^*.gif
 ||manbetvn.com^$image,domain=cakhia-tv.com
@@ -621,6 +619,8 @@ utm_source=propellerads$popup
 ||wikidth.net/static/js/adx/$script
 ||wikinam.net/static/js/adx/$script
 ||windows.net^$domain=userscloud.com
+||wpcdn.xyz/wp-content/uploads/2021/09/PopupBanner_600x400.jpg
+||wpcdn.xyz^*.gif
 ||www.youtube.com^$csp=worker-src 'none'
 ||xahoingaynay.com.vn/upload/$image
 ||xembd.live^*.gif
@@ -1545,7 +1545,7 @@ livebongda1.tv##.d-lg-block
 lucaphim.com###pc_top_xuyen_trang_2
 lucaphim.com##.clickadunopop
 lucaphim.com,thethaovanhoa.vn##div[class^="ads_"]
-luotphim.cc,luotphim.vip,luotphimzz.com,webphim.cc##div[id^="adsphim-"]
+luotphim.cc,webphim.cc,luotphim1.com##div[id^="adsphim-"]
 maclife.vn##.adrotate_widgets
 maclife.vn##.entry > a[target="_blank"]
 maclife.vn##[href*="hnmac.vn"]
