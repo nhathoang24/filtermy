@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: UMNDNJEKxrbd65LuyWLRMg
-! Version: 202206031659
+! Checksum: C2K4b8R3HY4aLi7IIr+Bew
+! Version: 202206061849
 ! Title: ABPVN List (VIP)
-! Last modified: 03 Jun 2022 16:59 UTC+7
+! Last modified: 06 Jun 2022 18:49 UTC+7
 ! Expires: 1 hour (update frequency)
 !
 ! ABPVN List filter
@@ -85,7 +85,7 @@ $webrtc,domain=forum.xda-developers.com|dailyuploads.net|uploadocean.com|appvn.c
 /banner/*.gif,domain=~tvphapluat.vn
 /bidvertiser/tags/*$script
 /blueserving.
-/core$script,domain=gamek.vn|genk.vn
+/core$script,domain=gamek.vn|genk.vn|kenh14.vn
 /delivery/channels/*
 /display/items.php
 /fembed\.com(\/\w{2}){3}\/\w{32}\.js/$script,domain=fembed.com
@@ -172,6 +172,7 @@ ad_300_250
 ||ad-*.24hstatic.com/upload/
 ||ad-*.24hstatic.com:8008/upload/
 ||ads*.autodaily.vn
+||adsvideo.playpdc.xyz^$domain=phimdacap.com
 ||affiliate.k4.tinhte.vn^
 ||anh.24h.com.vn/upload/*.gif
 ||anime14.net/wp-content/themes/phim3s/js/light.js
@@ -179,6 +180,7 @@ ad_300_250
 ||animet.net^*.gif
 ||animevnn.com^*.gif
 ||api.affmates.com/js/publisher_tool.js
+||apicdn12.xyz^$websocket,domain=freeplayervideo.com
 ||appvuive.fun/wp-content/themes/vuasanco/assets/scripts/scripts.js
 ||appvuive.fun^*.gif
 ||az708531.vo.msecnd.net^$domain=userscloud.com
@@ -472,6 +474,7 @@ ad_300_250
 ||static.nhaccuatui.com/imgqc/
 ||static.omphimz.com/thumbnail/*.gif
 ||static.omphimz.com/thumbnail/*.mp4
+||static.phimdacap.com^*.gif$image
 ||static.yeah1media.vn/sdk/website-sdk.js$domain=dtruyen.com
 ||statics.voz.tech/data/94bf/16229c4da035c9.jpg$image
 ||statsy.net/a.php
@@ -520,6 +523,7 @@ ad_300_250
 ||top10review.vn^*.gif$image
 ||torrentgalaxy.org/common/exs/
 ||tpb.party/static/custom_ads.js
+||tracker.idocdn.com^$websocket,domain=freeplayervideo.com
 ||traderviet.com/data/Siropu/images/
 ||trangphims.live^*.gif$image
 ||tructiepbongda.tv^*.gif$image
@@ -1019,6 +1023,7 @@ ad_300_250
 ||static.philacct.com^
 ||statsevent.com^$third-party
 ||steadfastsystem.com^
+||stidcvpwdluhpp.com^
 ||stilfb.com^
 ||storeanyc.link^$third-party
 ||stormyachiever.com^
@@ -1065,6 +1070,7 @@ ad_300_250
 ||tribalfusion.com^$third-party
 ||tttd.vn^$popup,third-party
 ||turn.com^$third-party
+||tvmjbicofqy.com^
 ||udarem.com^
 ||ufpcdn.com^
 ||unreshiramor.com^$popup
@@ -1557,6 +1563,8 @@ phechill.net,vuianime.tv,vnphimmoi.net,dongphimm.com,hhninja.xyz,phimmoiaz.cc###
 phim18zz.com,mphimmoiitv.com##.pcCatfish
 phim202.com###itro_opaco
 phimanimehd.net##.fixed_bottom
+phimdacap.com##[id^="popup_"]
+phimdacap.com##div[id^="catfish_"]
 phimdinhcao.net###popup-giua-man-hinh
 phimdinhcao.net##.BanerTop100
 phimdinhcao.net##.adv-300-right
