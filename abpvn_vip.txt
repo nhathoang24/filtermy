@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: rerqvFLf00u/tMJhIUNn3g
-! Version: 202206191330
+! Checksum: iO9MNaxSEiR5QUGCkY2Lhw
+! Version: 202206231036
 ! Title: ABPVN List (VIP)
-! Last modified: 19 Jun 2022 13:30 UTC+7
+! Last modified: 23 Jun 2022 10:36 UTC+7
 ! Expires: 1 hour (update frequency)
 !
 ! ABPVN List filter
@@ -255,6 +255,7 @@ ad_300_250
 ||game4v.com^*.gif
 ||gamecopyworld.click/*.php$subdocument
 ||gamecopyworld.com/games/js/tc_pt15.js
+||gamedoithuong.org^*.gif$image
 ||gamehub.vn/img/files/*.gif
 ||gameiwin.net/wp-content/uploads/$image,domain=daominhha.com
 ||giaxaydung.vn/images/
@@ -276,7 +277,7 @@ ad_300_250
 ||htv.xemtivisohd.com/ad/$subdocument
 ||huphimtv.com/assets/themes/js/wonderfarm68.js
 ||i-imgur-com.cdn.ampproject.org/i/s/cdn.bongdadem.net/2020/11/lienhe.png
-||i-imgur-com.cdn.ampproject.org/i/s/i.imgur.com/$image,domain=tvhayhay.com|xemtivingon.tv|xemtiviviet.com
+||i-imgur-com.cdn.ampproject.org/i/s/i.imgur.com/$image,domain=tvhayhay.com|xemtivingon.tv|xemtiviviet.com|listnhacai.com
 ||i-vn.joboko.com/images/jqc/
 ||i.blogtruyen.com/file/$image
 ||i.ibb.co^*.gif$domain=mmo4me.com
@@ -285,7 +286,7 @@ ad_300_250
 ||i.imgur.com/Q0a2mv2.png
 ||i.imgur.com/lgfyvo2.jpg
 ||i.imgur.com^$image,domain=nhacdj.vn|phimdinhcao.net|trochoiviet.com|animet.net|diendanit.net|banbuondalat.com|khoedep.vn|phimviethan.com|vebotv.xyz|zingtvhd.com|animeweb.xyz|tramphim.online|90phut2.live
-||i.imgur.com^*.gif$image,domain=tructiepbongda.com|xemphimon.com|mythethao.com|phimgif.net|megalink.vip|tivi4k.com|bilutv.co|topgamehot.net|phimraphot.net|animevietsub.tv|yeuphimmoik.com|fullphimzz.com|vtipster.net|xemtivingon.tv|subnhanh.net|mphimmoi1.net|ahphimtop.com|rakhoi2.tv|rakhoi1.tv|cakhia18.tv|cakhia17.tv|bongdahomnay.org|bongdahomnay.tech|xembongda360.com|ophimhd.net|biphim.co|bichill.tv|biphims.net|skyphim.me|hdvip.net|hhtq.vip|ophimz.net|dongphymtv.com|huphimtv.com|xemtvhd.info|phim18zz.com|vnphimmoi.net|forum.gocmod.com|rakhoi3.tv|rakhoi5.tv|vietphim.vn|cakhiatv.xyz|phimmoiii123.com|kenhphim.info|phimmoiaz.cc|rakhoi.live|tvhai.co|phimbotv.com
+||i.imgur.com^*.gif$image,domain=tructiepbongda.com|xemphimon.com|mythethao.com|phimgif.net|megalink.vip|tivi4k.com|bilutv.co|topgamehot.net|phimraphot.net|animevietsub.tv|yeuphimmoik.com|fullphimzz.com|vtipster.net|xemtivingon.tv|subnhanh.net|mphimmoi1.net|ahphimtop.com|rakhoi2.tv|rakhoi1.tv|cakhia18.tv|cakhia17.tv|bongdahomnay.org|bongdahomnay.tech|xembongda360.com|ophimhd.net|biphim.co|bichill.tv|biphims.net|skyphim.me|hdvip.net|hhtq.vip|ophimz.net|dongphymtv.com|huphimtv.com|xemtvhd.info|phim18zz.com|vnphimmoi.net|forum.gocmod.com|rakhoi3.tv|rakhoi5.tv|vietphim.vn|cakhiatv.xyz|phimmoiii123.com|kenhphim.info|phimmoiaz.cc|rakhoi.live|tvhai.co|phimbotv.com|listnhacai.com
 ||i.k8info.com/images/promo/$third-party
 ||i.mmcdn.cn/simba/img/
 ||i.servimg.com/u/f22/15/86/65/76/banner$domain=4rkinggame.com
@@ -347,6 +348,7 @@ ad_300_250
 ||licklink.net/img/banner
 ||link.cado.pro^*.gif$image
 ||linkcc.pro/assets/methods/hereads.png$image
+||listnhacai.com^*.gif$image
 ||littlestar.edu.vn/styles/default/xenforo/baner.png
 ||live.staticflickr.com$domain=timdaily.vn,image
 ||luatminhkhue.vn/common/adshowleft
@@ -518,6 +520,7 @@ ad_300_250
 ||tl.net/mirror/footer2.js
 ||tocbien.com^*.gif$third-party
 ||top10review.vn^*.gif$image
+||topdoithuong.net^*.gif$image
 ||torrentgalaxy.org/common/exs/
 ||tpb.party/static/custom_ads.js
 ||traderviet.com/data/Siropu/images/
@@ -748,6 +751,7 @@ ad_300_250
 ||d1nnhbi4g0kj5.cloudfront.net^
 ||d1qggq1at2gusn.cloudfront.net^
 ||d2d8qsxiai9qwj.cloudfront.net^
+||d2ers4gi7coxau.cloudfront.net^
 ||d2glav2919q4cw.cloudfront.net^
 ||d2ho1n52p59mwv.cloudfront.net^
 ||d2kk0o3fr7ed01.cloudfront.net^
@@ -772,6 +776,7 @@ ad_300_250
 ||djv99sxoqpv11.cloudfront.net^
 ||dk45agakx3yfl.cloudfront.net^
 ||dkre4lyk6a9bt.cloudfront.net^
+||dltqxz76sim1s.cloudfront.net^
 ||dmmzkfd82wayn.cloudfront.net^
 ||dmp.im-apps.net^
 ||do67etikr7pwz.cloudfront.net^
@@ -779,6 +784,7 @@ ad_300_250
 ||dousingethiop.com^
 ||drda5yf9kgz5p.cloudfront.net^
 ||ds88pc0kw6cvc.cloudfront.net^
+||dummieseardrum.com^
 ||dxgo95ahe73e8.cloudfront.net^
 ||dxprljqoay4rt.cloudfront.net^
 ||dybxezbel1g44.cloudfront.net^
@@ -863,6 +869,7 @@ ad_300_250
 ||klick.vn^
 ||kogutcho.net^$popup
 ||kolkwi4tzicraamabilis.com^
+||kukupafrisky.com^
 ||kul.vn^$popup,third-party
 ||lijit.com^$third-party
 ||lingamretene.com^
@@ -1201,7 +1208,8 @@ ad_300_250
 123nhadat.vn###scroll-banners
 123nhadat.vn##.banner_C
 123nhadatviet.com,123nhadatviet.net,dabong6.com,tuoitre.vn,tuoitrenews.vn,bongda365.life,phechill.net##.banner-top
-1377x.to##.l3426749b3b895e9356348e295596e5f2634c98d8.la1038a02a9e0ee51f6e4be8730ec3edea40279a2.l638deeaa560f3c4c9ffc7608cb0ebfec2a050796
+1337x.to##.lde696f19e041ef6821b375cb842c6b226e640d2d
+1337x.to##.no-top-radius li:nth-of-type(7)
 247phim.com###catfish-desktop
 247phim.com###overlay-box
 247phim.com##.carousel-inner>.carousel-item:first-child
@@ -1300,7 +1308,6 @@ blogtruyen.vn##.BT-Ads
 blogtruyen.vn##.closed_ads_span
 blogtruyen.vn##.qc-inner
 blogtruyen.vn##.window
-blogtruyen.vn##a[href^="//"][rel="nofollow norefferer noopener"]
 blogtruyen.vn##after
 blogtruyen.vn##topbanner
 blogtruyen.vn,truyensieuhay.com###topbanner
@@ -1429,7 +1436,7 @@ gyazo.com##.lower-ad
 gyazo.com##.upper-ad-box
 haiquanonline.com.vn##.banner-top-main
 haiquanonline.com.vn##.baohaiquan_bottom_970x250
-hhhkungfu.tv##div[style="width:100%; min-height:250px; position:relative; overflow: hidden;"]
+hhhkungfu.tv##.wrap-content>div[style="min-height: 250px"]
 hhtq.tv##.lixitt
 hoc247.net###boxmsgthongbaopopup
 hoidap247.com##.ads-home-feed
@@ -1490,6 +1497,8 @@ link1s.com,linkcc.pro##.banner-inner
 linkedin.com##.ad-banner-container.ember-view
 linkneverdie.net##.info-footer:nth-child(4)
 linksht.com##.adCreator
+listnhacai.com##.dwpb-action
+listnhacai.com##.fixtop
 livebongda1.tv###dnn_float_left
 livebongda1.tv###dnn_float_right
 livebongda1.tv##.btn-odds-primary
@@ -1523,6 +1532,8 @@ mmo4me.com##div[class^="ads-"]
 motchill.net,motphimtv.tv###mp-adbk
 motchill.net,motphimtv.tv###mp-adx-b32
 motchill.net,motphimtv.tv,phechill.net##.mp-adz
+motphim123.com##.banner-footer-desktop
+motphim123.com##.item-banner
 muabanraovat.com##[class^="box_adv_ele"]
 muare.vn##.admicro_top
 muaxegiatot.vn###tdi_129
@@ -1855,9 +1866,13 @@ xemtvhd.info###myTopnav>a[target="_blank"]
 xemtvhd.info##.quangcaos
 xiuren.org###christmas
 xoilac.me##.list-dat-cuoc
+xoilac2.xyz###m-bet
+xoilac2.xyz##.btn-betnow.btn-sm.btn
+xoilac2.xyz##.ibs-bet
 xoilac7.net###match-child-1
 xoilac7.net###wap_bottombanner_content
 xoilac7.net##.container.mt-1
+xoilac7.net##.container>ul
 xoilac7.net##.row.d-none
 xoilac7.net##.widget-offers__list
 xoilac7.net##div[id^="dnn_"]
