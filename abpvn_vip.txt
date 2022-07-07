@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: cFk3jJ22XC1ta6tBptes9g
-! Version: 202207032021
+! Checksum: ZV+aFLP4sf+L8w0ZM3OONg
+! Version: 202207070758
 ! Title: ABPVN List (VIP)
-! Last modified: 03 Jul 2022 20:21 UTC+7
+! Last modified: 07 Jul 2022 07:58 UTC+7
 ! Expires: 1 hour (update frequency)
 !
 ! ABPVN List filter
@@ -80,7 +80,7 @@ $webrtc,domain=forum.xda-developers.com|dailyuploads.net|uploadocean.com|appvn.c
 /banner/*.gif,domain=~tvphapluat.vn
 /bidvertiser/tags/*$script
 /blueserving.
-/core/*$script,domain=gamek.vn|genk.vn|kenh14.vn
+/core/*$script,domain=gamek.vn|genk.vn|kenh14.vn|cafef.vn
 /delivery/channels/*
 /display/items.php
 /flowplayer.ads.
@@ -183,6 +183,7 @@ ad_300_250
 ||batdongsan24h.com.vn/images/banners/
 ||benhvientinhoc.com/img/bichquangmon.jpg
 ||bilutv.co/wow/img/*.gif
+||bimbimz.tv^*.gif$image
 ||bit.ly$popup,domain=topphimhdz.net|razorphimzz.com
 ||blog.abit.vn/wp-content/uploads/2020/05/abit_$image
 ||blogspot.com^*.gif$domain=~blogtruyen.vn
@@ -604,7 +605,6 @@ ad_300_250
 ||ad-delivery.net^
 ||ad.doubleclick.net^$popup
 ||ad360.vn$third-party
-||ad4game-a.akamaihd.net^
 ||ad4game.com^$third-party
 ||adbit.biz^
 ||adbro.me^
@@ -714,7 +714,6 @@ ad_300_250
 ||cdn.impactserving.com^
 ||cdn.nativestatic.com
 ||cdn.netcatx.com^
-||cdn.tpmedia.online^
 ||cdn4ads.com^
 ||cdnondemand.org^
 ||celeritascdn.com^
@@ -733,7 +732,6 @@ ad_300_250
 ||codeonclick.com^$third-party
 ||coinhive-manager.com^$third-party
 ||collagenbeauty.vn^$third-party
-||compass.adop.cc^
 ||connextra.com^$third-party
 ||contextual.media.net
 ||contineljs.com^
@@ -752,7 +750,6 @@ ad_300_250
 ||d2d8qsxiai9qwj.cloudfront.net^
 ||d2ers4gi7coxau.cloudfront.net^
 ||d2glav2919q4cw.cloudfront.net^
-||d2ho1n52p59mwv.cloudfront.net^
 ||d2kk0o3fr7ed01.cloudfront.net^
 ||d2va1d0hpla18n.cloudfront.net^
 ||d301cxwfymy227.cloudfront.net^
@@ -876,6 +873,7 @@ ad_300_250
 ||live.sekindo.com^
 ||liveadexchanger.com^$third-party
 ||liverail.com
+||loathepimpery.com^
 ||log.user-api.com^
 ||lowtyroguer.com^$popup
 ||luvaihoo.com^
@@ -1292,6 +1290,7 @@ batdongsan.com.vn##.adPosition
 bds123.vn##.js-ad-fixed-position
 bilutv.co##.ab1
 bilutv.co##.abp-header
+bimbimz.tv##.widget_custom_html.widget.widget_text
 biphim.co##.banner-sticky-footer-wrapper
 blockchain.com##.bci-ad
 blog.abit.vn##.ab-adv_banner
