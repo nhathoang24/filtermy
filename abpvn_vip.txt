@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ZV+aFLP4sf+L8w0ZM3OONg
-! Version: 202207070758
+! Checksum: 5DuWOLaE9+IcbjXO9P749g
+! Version: 202207090926
 ! Title: ABPVN List (VIP)
-! Last modified: 07 Jul 2022 07:58 UTC+7
+! Last modified: 09 Jul 2022 09:26 UTC+7
 ! Expires: 1 hour (update frequency)
 !
 ! ABPVN List filter
@@ -124,7 +124,7 @@ $webrtc,domain=forum.xda-developers.com|dailyuploads.net|uploadocean.com|appvn.c
 /storage.adpia.vn/$image
 /tinhocdongthap.com\/wp-content\/plugins\/wp-[\w-]+\/[\w-]+\.js/$script
 /uts.js
-/vast.$domain=~nhaccuatui.com|~supjav.com|~xemvtvnet.net|~hplus.com.vn|~radiomitre.cienradios.com
+/vast.$domain=~nhaccuatui.com|~supjav.com|~xemvtvnet.net|~hplus.com.vn|~radiomitre.cienradios.com|~japopav.tv|~vast.gov.vn
 /videojs.ads.$domain=~danet.vn
 /videojs.ima.js
 /wmedia/tags/*
@@ -194,6 +194,7 @@ ad_300_250
 ||bp.blogspot.com/*banner
 ||bp.blogspot.com^$image,domain=timdaily.vn|tivi4k.com|phimhayplus.xyz
 ||bt.tructiepbongda.me^*.gif
+||cakhia.org^*.gif$image
 ||cdn.adf.ly/images/banners/
 ||cdn.adf.ly/js/display.js
 ||cdn.engine.4dsply.com/Scripts/
@@ -237,7 +238,7 @@ ad_300_250
 ||dinhnghia.vn^*.gif
 ||doctruyen3q.info/images/default/*.gif$image
 ||dongphymtv.com/ads/$script
-||dyncdn.me/static/20/js/$domain=rarbgway.org
+||dyncdn.me/static/20/js/expla
 ||facebook.com/audiencenetwork/$third-party
 ||facebook.com/video/instream_video/$xmlhttprequest,domain=facebook.com
 ||fbcdn.net/safe_image.php?d=*&url=http%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3F$domain=facebook.com
@@ -359,7 +360,7 @@ ad_300_250
 ||luotphim.cc/wp-content/uploads/$media
 ||maclife.vn/*Banner
 ||maclife.vn^*.gif
-||manbetvn.com^$image,domain=cakhia-tv.com
+||manbetvn.com^$image,domain=cakhia-tv.onl
 ||matomo.hellohi.me/matomo.js
 ||maytinh360.vn/images/$third-party
 ||media.baodansinh.vn/files/qc/$image
@@ -1257,7 +1258,7 @@ animevietsub.tv###pc-catfixx
 animevietsub.tv##.mobile-catfixx
 animevietsub.tv##div.Dvr-300
 animevietsub.tv##div[style^="position: fixed; top: 60px"]
-animevietsub.tv,play.plhqtvhay.xyz,coiphim.cc,streamsb.net,mphimmoi1.net,banthang.xyz,bilutv.co,vnphimmoi.net,rakhoi.live,play.vnupload.net,ssplay.net##.jw-logo
+animevietsub.tv,play.plhqtvhay.xyz,coiphim.cc,streamsb.net,mphimmoi1.net,banthang.xyz,bilutv.co,vnphimmoi.net,rakhoi.live,play.vnupload.net,ssplay.net,skyphimz.net##.jw-logo
 aoe.vn##.adv-section
 apkmirror.com##.gooWidget
 appvuive.fun,thethao12h.me##a[rel="nofollow noopener noreferrer sponsored"]
@@ -1329,8 +1330,12 @@ bongdatructuyen7.com##.menu-mobile.hot-menu
 btcvn.org##.PanelScroller.Notices
 cafebiz.vn##.bgadmtoptotal
 cafef.vn,ttvn.toquoc.vn##.bannertop
-cakhia-tv.com##.castfish
-cakhia-tv.com##.floating
+cakhia-tv.onl##.castfish
+cakhia-tv.onl##.floating
+cakhia-tv.onl,xemlivenhanh.com##.datcuoc.button
+cakhia.org###xbd_overlay
+cakhia.org##.active.xbd_modal
+cakhia.org##.xbd_topButton
 canhrau.com##.widget_text
 careerlink.vn##.top-right-col-ads
 centralland.com.vn##img.error
@@ -1386,8 +1391,8 @@ dtruyen.com###login-ads
 dubaotiente.com##.ad-pin-right-bottom
 dubaotiente.com,nongnghiep.vn,bongda.com.vn##.adv
 ebookbkmt.com##.top-right
-ephoto360.com##.ad-container
 ephoto360.com##.line-ads
+ephoto360.com,skyphimz.net##.ad-container
 eva.vn##.banr-Rt
 eva.vn##.banrpstn
 facebook.com#?#[data-pagelet="RightRail"] span:-abp-has(span:-abp-contains(Được tài trợ))
@@ -1870,6 +1875,8 @@ xem-phim.tv##[href^="http://xemphimon.com/ads"]
 xembd.live##.bannerFF
 xembd.live##.xbd_topBanner
 xembd.live##.xbd_topButton
+xemlivenhanh.com##.banner_pc
+xemlivenhanh.com##.box-banner
 xemtivingon.tv,tvhayhay.com##div[id^="Balloon_"]
 xemtvhd.info###myTopnav>a[target="_blank"]
 xemtvhd.info##.quangcaos
