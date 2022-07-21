@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: XVLKn2wnsDhmWMlKRk8Klw
-! Version: 202207191449
+! Checksum: BdFb+KB8hpauTKnuxKdS+w
+! Version: 202207210901
 ! Title: ABPVN List (VIP)
-! Last modified: 19 Jul 2022 14:49 UTC+7
+! Last modified: 21 Jul 2022 09:01 UTC+7
 ! Expires: 1 hour (update frequency)
 !
 ! ABPVN List filter
@@ -90,6 +90,7 @@ $webrtc,domain=forum.xda-developers.com|dailyuploads.net|uploadocean.com|appvn.c
 /googleads.
 /gpt.$script,domain=~linksht.com
 /hads-$domain=~phephimz.net
+/i.imgur.com/*.gif$image,domain=zingtvhd.net
 /images/ad/*
 /images/banner-
 /links/popad$popup
@@ -123,13 +124,13 @@ $webrtc,domain=forum.xda-developers.com|dailyuploads.net|uploadocean.com|appvn.c
 /static/ads/*
 /storage.adpia.vn/$image
 /tinhocdongthap.com\/wp-content\/plugins\/wp-[\w-]+\/[\w-]+\.js/$script
-/uts.js
-/vast.$domain=~nhaccuatui.com|~supjav.com|~xemvtvnet.net|~hplus.com.vn|~radiomitre.cienradios.com|~japopav.tv|~vast.gov.vn
+/uts.jsr
+/vast.$domain=~nhaccuatui.com|~supjav.com|~xemvtvnet.net|~hplus.com.vn|~radiomitre.cienradios.com|~japopav.tv|~vast.gov.vn|~javuncen.xyz
 /videojs.ads.$domain=~danet.vn
 /videojs.ima.js
 /wmedia/tags/*
 /wp-content/plugins/simple-adblock-notice-pro/*
-/wp-content/themes/zingtv/js/qc1.js$script,domain=zingtvhd.com
+/wp-content/themes/zingtv/js/qc1.js$script,domain=zingtvhd.net
 /www/delivery/*
 /www/images/*
 /xbanner.js
@@ -261,6 +262,9 @@ ad_300_250
 ||gamedoithuong.org^*.gif$image
 ||gamehub.vn/img/files/*.gif
 ||gameiwin.net/wp-content/uploads/$image,domain=daominhha.com
+||gamenoob.net/wp-content/plugins/convertplug/modules/modal/assets/js/modal.min.js
+||gamenoob.net/wp-content/plugins/simple-banner/simple-banner.js
+||gamenoob.net^*.gif
 ||giaxaydung.vn/images/
 ||giaxaydung.vn/styles/gxd/banner/
 ||gmodules.com/gadgets/proxy?container=ig&url=*.gif
@@ -288,7 +292,7 @@ ad_300_250
 ||i.imgur.com/FbUH5AQ.png
 ||i.imgur.com/Q0a2mv2.png
 ||i.imgur.com/lgfyvo2.jpg
-||i.imgur.com^$image,domain=nhacdj.vn|phimdinhcao.net|trochoiviet.com|animet.net|diendanit.net|banbuondalat.com|khoedep.vn|phimviethan.com|vebotv.xyz|zingtvhd.com|animeweb.xyz|tramphim.online|90phut2.live
+||i.imgur.com^$image,domain=nhacdj.vn|phimdinhcao.net|trochoiviet.com|animet.net|diendanit.net|banbuondalat.com|khoedep.vn|phimviethan.com|vebotv.xyz|animeweb.xyz|tramphim.online|90phut2.live
 ||i.imgur.com^*.gif$image,domain=tructiepbongda.com|xemphimon.com|mythethao.com|phimgif.net|megalink.vip|tivi4k.com|bilutv.co|topgamehot.net|phimraphot.net|animevietsub.tv|yeuphimmoik.com|fullphimzz.com|vtipster.net|xemtivingon.tv|subnhanh.net|mphimmoi1.net|ahphimtop.com|rakhoi2.tv|rakhoi1.tv|cakhia18.tv|cakhia17.tv|bongdahomnay.org|bongdahomnay.tech|xembongda360.com|ophimhd.net|biphim.co|bichill.tv|biphims.net|skyphim.me|hdvip.net|hhtq.vip|ophimz.net|dongphymtv.com|huphimtv.com|xemtvhd.info|phim18zz.com|vnphimmoi.net|forum.gocmod.com|rakhoi3.tv|rakhoi5.tv|vietphim.vn|cakhiatv.xyz|phimmoiii123.com|kenhphim.info|phimmoiaz.cc|rakhoi.live|tvhai.co|phimbotv.com|listnhacai.com
 ||i.k8info.com/images/promo/$third-party
 ||i.mmcdn.cn/simba/img/
@@ -1424,6 +1428,8 @@ game4v.com###fixedban
 game4v.com##div[class^="banner-mobile"]
 gameio.vn###tubia
 gamek.vn###admzone57
+gamenoob.net##.cp-modal-popup-container
+gamenoob.net##.simple-banner
 gametv.vn##.ads-right1
 gametv.vn##.adv-row
 gametv.vn,aoe.vn##.left-right-banner
@@ -1923,9 +1929,10 @@ zingnews.vn##.the-article-thumbnail
 zingnews.vn##[id^="advR"]
 zingnews.vn,toquoc.vn,baoxaydung.com.vn,tienphong.vn,antt.nguoiduatin.vn,kinhtenongthon.vn,taichinhdoanhnghiep.net.vn,123nhadat.vn,qthang.net,lsvn.vn,bimbimz.tv##.banner
 zingnews.vn,vnexpress.net,ngoisao.net,ione.net###banner_top
-zingtvhd.com###preload-mobile
-zingtvhd.com##.sda-catfish
-zingtvhd.com##.uniad-head
+zingtvhd.net###preload-mobile
+zingtvhd.net###uniad-head
+zingtvhd.net##.sda-catfish
+zingtvhd.net##.uniad-head
 zippyshare.com##.center_ad
 ~facebook.com##.AdBox
 ~gameguardian.net,~hvdic.thivien.net,~startuanit.net,~download.mokeedev.com,~platinmods.com,~vinaurl.net,~vinaurl.in,~traderviet.com,~camera.aeonax.com,~2rdroid.com,~123link.f4vnn.com​,~phanmemgoc.com,~khuchotot.com,~win10.vn,~truyenaudiocv.net,~qthang.net,~ichi.pro,~lehait.net##.adsbygoogle
