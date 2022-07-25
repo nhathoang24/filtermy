@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: BdFb+KB8hpauTKnuxKdS+w
-! Version: 202207210901
+! Checksum: uEl4ziQAniBqMXMb8O6Ijw
+! Version: 202207250806
 ! Title: ABPVN List (VIP)
-! Last modified: 21 Jul 2022 09:01 UTC+7
+! Last modified: 25 Jul 2022 08:06 UTC+7
 ! Expires: 1 hour (update frequency)
 !
 ! ABPVN List filter
@@ -125,7 +125,7 @@ $webrtc,domain=forum.xda-developers.com|dailyuploads.net|uploadocean.com|appvn.c
 /storage.adpia.vn/$image
 /tinhocdongthap.com\/wp-content\/plugins\/wp-[\w-]+\/[\w-]+\.js/$script
 /uts.jsr
-/vast.$domain=~nhaccuatui.com|~supjav.com|~xemvtvnet.net|~hplus.com.vn|~radiomitre.cienradios.com|~japopav.tv|~vast.gov.vn|~javuncen.xyz
+/vast.$domain=~nhaccuatui.com|~supjav.com|~xemvtvnet.net|~hplus.com.vn|~radiomitre.cienradios.com|~japopav.tv|~vast.gov.vn|~javuncen.xyz|~javleaked.com
 /videojs.ads.$domain=~danet.vn
 /videojs.ima.js
 /wmedia/tags/*
@@ -265,6 +265,7 @@ ad_300_250
 ||gamenoob.net/wp-content/plugins/convertplug/modules/modal/assets/js/modal.min.js
 ||gamenoob.net/wp-content/plugins/simple-banner/simple-banner.js
 ||gamenoob.net^*.gif
+||gameviet.mobi^*.gif
 ||giaxaydung.vn/images/
 ||giaxaydung.vn/styles/gxd/banner/
 ||gmodules.com/gadgets/proxy?container=ig&url=*.gif
@@ -298,7 +299,6 @@ ad_300_250
 ||i.mmcdn.cn/simba/img/
 ||i.servimg.com/u/f22/15/86/65/76/banner$domain=4rkinggame.com
 ||i0.wp.com/dc.motphim.net/*.gif$image
-||i0.wp.com/img.media24h.xyz/*.gif$image,domain=dongphimm.com
 ||i0.wp.com/img.media3s.xyz/branch/
 ||i0.wp.com/s1.uphinh.org/*.gif$domain=massagevua.net|mythethao.net
 ||i0.wp.com^*.gif$domain=vietrao.com
@@ -461,7 +461,7 @@ ad_300_250
 ||shink.me/js/p.$script
 ||shink.me/js/pd.js
 ||shink.me/s/$popup
-||skyphim.me/css^*.gif$domain=skyphim.me
+||skynettruyenme.comif$domain=skyphim.me
 ||slashrun.org^*.gif
 ||soikeo365.net^*.gif
 ||solebux.com/n2.gif
@@ -683,6 +683,7 @@ ad_300_250
 ||apinas.nct.vn^
 ||applovin.com^
 ||arrassley.info^$third-party
+||arzanphearse.com^
 ||asacdn.com^
 ||asecdn.w88media.com^
 ||asg.phukienthoitranggiare.com^
@@ -1385,8 +1386,6 @@ docbao.vn###div-ub-docbao
 docviewer.yandex.com##div[style="width: 100%;"]
 docviewer.yandex.com##ya-recommendation-widget
 doisongphapluat.com##div.box-aside
-dongphimm.com##.bb_hd
-dongphimm.com##.mb_cf_ft
 dongphymtv.com###footer_fixed_ads
 download.cnet.com##.download-fd-leaderboard-ad-top
 download.mokeedev.com##.ad-wrapper.info.card
@@ -1433,6 +1432,8 @@ gamenoob.net##.simple-banner
 gametv.vn##.ads-right1
 gametv.vn##.adv-row
 gametv.vn,aoe.vn##.left-right-banner
+gameviet.mobi##.sgpb-popup-dialog-main-div-wrapper
+gameviet.mobi##.sgpb-popup-overlay
 gamevui.vn##.adx-zone
 gamevui.vn##.underlay
 genk.vn##.khw-ads-wrapper.clearfix
@@ -1450,6 +1451,7 @@ gyazo.com##.upper-ad-box
 haiquanonline.com.vn##.banner-top-main
 haiquanonline.com.vn##.baohaiquan_bottom_970x250
 hhhkungfu.tv##.wrap-content>div[style="min-height: 250px"]
+hhhkungfu.tv##div.text-center:nth-of-type(7)
 hhtq.tv##.lixitt
 hoc247.net###boxmsgthongbaopopup
 hoidap247.com##.ads-home-feed
@@ -1576,8 +1578,8 @@ nhatrangclub.vn###show_qc
 nhatrangclub.vn##.bannerchuyenmuc
 nhatrangclub.vn##.show-qc-home
 nhatrangclub.vn##.show_qc
-nhattruyengo.com,nettruyenco.com##.container div:not(.top)>div.mrb5.mrt5.text-center>a
-nhattruyengo.com,nettruyenco.com##.mrb5.text-center.container
+nhattruyengo.com,nettruyenme.com##.container div:not(.top)>div.mrb5.mrt5.text-center>a
+nhattruyengo.com,nettruyenme.com##.mrb5.text-center.container
 nitroflare.com##[id^="superbox-"]
 nld.com.vn##.top-advertisment
 nongnghiep.vn##.exp_qc_share
@@ -1592,8 +1594,8 @@ ophim.pro##.adsContainer
 ophimz.net,tramphim.online##.ads-sticky
 outlook.live.com##._3_hHr3kfEhbNYRFM5YJxH9
 phapluatplus.vn##div[style="text-align:center;margin-top:0px;margin-bottom:0px;"]
-phechill.net,dongphimm.com##.pre-lb
-phechill.net,vuianime.tv,vnphimmoi.net,dongphimm.com,hhninja.xyz,phimmoiaz.cc,247phim.com###catfish
+phechill.net##.pre-lb
+phechill.net,vuianime.tv,vnphimmoi.net,hhninja.xyz,phimmoiaz.cc,247phim.com###catfish
 phim18zz.com,mphimmoiitv.com##.pcCatfish
 phim202.com###itro_opaco
 phimanimehd.net##.fixed_bottom
