@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: RiVnflIl9jFdV/Z70V0Ghg
-! Version: 202208012051
+! Checksum: nanh4rlbC6CGFrHQ7i/wJg
+! Version: 202208031456
 ! Title: ABPVN List (VIP)
-! Last modified: 01 Aug 2022 20:51 UTC+7
+! Last modified: 03 Aug 2022 14:56 UTC+7
 ! Expires: 1 hour (update frequency)
 !
 ! ABPVN List filter
@@ -294,7 +294,7 @@ ad_300_250
 ||i.imgur.com/Q0a2mv2.png
 ||i.imgur.com/lgfyvo2.jpg
 ||i.imgur.com^$image,domain=nhacdj.vn|phimdinhcao.net|trochoiviet.com|animet.net|diendanit.net|banbuondalat.com|khoedep.vn|phimviethan.com|vebotv.site|animeweb.xyz|90phut2.live
-||i.imgur.com^*.gif$image,domain=tructiepbongda.com|xemphimon.com|mythethao.com|xemphimgif.net|megalink.vip|tivi4k.com|bylutv.com|phimraphot.net|animevietsub.tv|yeuphimmoik.com|fullphimzz.net|vtipster.net|xemtivingon.tv|subnhanhz.net|mphimmoi1.com|xemphimtop.net|rakhoi2.tv|rakhoi1.tv|cakhia18.live|cakhia17.tv|bongdahomnay.org|xembongda360.com|ophimhd.net|biphim.cc|bichill.co|biphims.net|hdvips.net|hhtq.vip|ophimz.net|dongphymtv.net|huphimtv.com|phim18zz.com|2phimmoi.net|forum.gocmod.com|rakhoi3.tv|rakhoi5.tv|vietphim.tv|cakhiatv.xyz|phimmoiiii123.com|kenhphim.us|phimmoiaz.cc|rakhoi1.live|tvhai.co|phimbotv.com|listnhacai.com
+||i.imgur.com^*.gif$image,domain=tructiepbongda.com|xemphimon.com|mythethao.com|xemphimgif.net|megalink.vip|tivi4k.com|bylutv.com|phimraphot.net|animevietsub.tv|yeuphimmoik.com|fullphimzz.net|vtipster.net|xemtivingon.tv|subnhanhz.net|mphimmoi1.com|xemphimtop.net|rakhoi2.tv|rakhoi1.tv|cakhia18.live|cakhia17.tv|bongdahomnay.org|xembongda360.com|ophimhd.net|biphim.cc|bichill.co|biphims.net|hdvips.net|hhtq.vip|ophimz.net|dongphymtv.net|huphimtv.com|phim18zz.com|2phimmoi.net|forum.gocmod.com|rakhoi3.tv|rakhoi5.tv|vietphim.tv|cakhiatv.xyz|phimmoiiii123.com|kenhphim.us|phimmoiaz.cc|rakhoi1.live|tvhai.co|phimbotv.com|listnhacai.com|iphimchillzz.net
 ||i.k8info.com/images/promo/$third-party
 ||i.mmcdn.cn/simba/img/
 ||i.servimg.com/u/f22/15/86/65/76/banner$domain=4rkinggame.com
@@ -355,7 +355,6 @@ ad_300_250
 ||lh3.googleusercontent.com/*=s0$image,domain=hhninja.xyz
 ||licklink.net/img/banner
 ||link.cado.pro^*.gif$image
-||linkcc.pro/assets/methods/hereads.png$image
 ||listnhacai.com^*.gif$image
 ||littlestar.edu.vn/styles/default/xenforo/baner.png
 ||live.staticflickr.com$domain=timdaily.vn,image
@@ -365,7 +364,7 @@ ad_300_250
 ||luotphim.cc/wp-content/uploads/$media
 ||maclife.vn/*Banner
 ||maclife.vn^*.gif
-||manbetvn.com^$image,domain=cakhia-tv.onl
+||manbetvn.com^$image,domain=cakhia-tv.live
 ||matomo.hellohi.me/matomo.js
 ||maytinh360.vn/images/$third-party
 ||media.baodansinh.vn/files/qc/$image
@@ -1160,6 +1159,7 @@ ad_300_250
 ###bar_float
 ###bn_bottom_fixed_left
 ###bn_bottom_fixed_right
+###floating_ads_bottom_textcss_container
 ###mobileCatfish
 ###mobile_content_bottom
 ###player-ads
@@ -1200,6 +1200,7 @@ ad_300_250
 ##.leftAdsBanner
 ##.logged_out_ad
 ##.midroll-marker
+##.module_home_ads
 ##.player-midpoint-progress
 ##.preroll-blocker
 ##.quangcao
@@ -1341,9 +1342,9 @@ bylutv.com##.ab1
 bylutv.com##.abp-header
 cafebiz.vn##.bgadmtoptotal
 cafef.vn,ttvn.toquoc.vn##.bannertop
-cakhia-tv.onl##.castfish
-cakhia-tv.onl##.floating
-cakhia-tv.onl,xemlivenhanh.com##.datcuoc.button
+cakhia-tv.live##.castfish
+cakhia-tv.live##.floating
+cakhia-tv.live,xemlivenhanh.com##.datcuoc.button
 cakhia.org###xbd_overlay
 cakhia.org##.active.xbd_modal
 canhrau.com##.widget_text
@@ -1404,6 +1405,7 @@ eva.vn##.banr-Rt
 eva.vn##.banrpstn
 facebook.com#?#[data-pagelet="RightRail"] span:-abp-has(span:-abp-contains(Được tài trợ))
 facebook.com#?#[data-pagelet^="FeedUnit_"]:-abp-has(b:-abp-contains(Được tài trợ))
+facebook.com#?#div[role="feed"]>div:-abp-has(a[href^="/ads/about/"])
 feb.onedaysales.xyz,lemon.animeion.xyz##.logo-partner
 filecr.com##.filec-widget
 footyroom.com###tfasyncframe_0
@@ -1510,16 +1512,12 @@ lichvannien365.com##div[style="width: 100%;text-align: center;min-height: 280px;
 limetorrents.info##a[href^="/fast.php"]
 link1s.com###AADIV35
 link1s.com###baolink1s
-link1s.com,linkcc.pro##.banner-inner
+link1s.com##.banner-inner
 linkedin.com##.ad-banner-container.ember-view
 linkneverdie.net##.info-footer:nth-child(4)
 linksht.com##.adCreator
 listnhacai.com##.dwpb-action
 listnhacai.com##.fixtop
-livebongda1.tv###dnn_float_left
-livebongda1.tv###dnn_float_right
-livebongda1.tv##.btn-odds-primary
-livebongda1.tv##.d-lg-block
 lmssplus.com##.homePage_adsHomeLeft__3_ruz.adsHOC_wrapper__Se0cN
 lmssplus.com##.style_wrapperAll__oHfiq
 lmssplus.com##.style_wrapper__2LeQp
@@ -2017,6 +2015,7 @@ zippyshare.com##.center_ad
 @@||javadecompilers.com$generichide
 @@||link1s.com$generichide
 @@||onmsft.com$generichide
+@@||tienichmaytinh.net$generichide
 @@||xiuren.org$generichide
 !------ ABPVN Adult block -------
 $popup,third-party,domain=veporno.net|avgle.com|daxab.com|javmost.xyz
