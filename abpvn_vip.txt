@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: E86OinmJQpr3+a/n2AK12w
-! Version: 202209021805
+! Checksum: Iu1HS51wnj2jPVghobHijA
+! Version: 202209061150
 ! Title: ABPVN List (VIP)
-! Last modified: 02 Sep 2022 18:05 UTC+7
+! Last modified: 06 Sep 2022 11:50 UTC+7
 ! Expires: 1 hour (update frequency)
 !
 ! ABPVN List filter
@@ -126,7 +126,7 @@
 /tinhocdongthap.com\/wp-content\/plugins\/wp-[\w-]+\/[\w-]+\.js/$script
 /uts.jsr
 /v/*/vast.js$script
-/vast.js$script,domain=api.anime3s.com|tvzingvn.org
+/vast.js$script,domain=api.anime3s.com|tvzingvn.org|ophim.pro
 /videojs.ads.$domain=~danet.vn
 /videojs.ima.js
 /wmedia/tags/*
@@ -178,6 +178,7 @@ ad_300_250
 ||api.affmates.com/js/publisher_tool.js
 ||appvuive.fun/wp-content/themes/vuasanco/assets/scripts/scripts.js
 ||appvuive.fun^*.gif
+||assets.ophim.pro^*.gif$image
 ||az708531.vo.msecnd.net^$domain=userscloud.com
 ||b.bnrdom.com/p.js
 ||baohaugiang.com.vn/uploads/SlideHomeimg/
@@ -762,6 +763,7 @@ ad_300_250
 ||criteo.com^$third-party
 ||criteo.net^$third-party
 ||cuoctai11bet.vip^$popup
+||cuttoegironny.com^
 ||d1b0fk9ns6n0w9.cloudfront.net^
 ||d1dli2tyorled9.cloudfront.net^
 ||d1ks8roequxbwa.cloudfront.net^
@@ -1079,6 +1081,7 @@ ad_300_250
 ||terraclicks.com$third-party
 ||thanosofcos5.com^
 ||tharbadir.com^
+||thaudray.com^$popup
 ||thetarhaw.com^
 ||thethaovip.vip^$popup
 ||thingrealtape.com^
@@ -2019,7 +2022,7 @@ zippyshare.com##.center_ad
 @@||media.nghean24h.vn/thumb$image
 @@||media1.admicro.vn/cms/$script,domain=tuoitre.vn
 @@||newscon.net/static/js/prebid-ads.js
-@@||pagead2.googlesyndication.com$script,xmlhttprequest,image,domain=thuthuatmeovat.net|kites.vn|phuongtrinhhoahoc.com|thichvn.com|icongnghe.com|vutrung.gnomio.com|letrongdai.vn|romgoc.net|traderviet.com|sum.vn|truyenaudiocv.net|phanmemgoc.com|123link.f4vnn.com|khuchotot.com|laptrinhx.com|1shortlink.com|shortenlink.vip|sachiepvien.net|iot.chinhphucvn.com|thelanb.com|nguyentinhblog.com|cungthi.online|sharescript.net|lehait.net|nhacsong.pro|kientruc360.info|tienichmaytinh.net|giavang.net|qthang.net|vnjpclub.com|753x.blogspot.com|ngohoanganhtuan.com|ngohoanganhtuan.net|toeicexamstore.xyz|vungoctuan.vn|ichi.pro|tromcap.com|dichthuatphuongdong.com|dafontvn.com|tinhocdongthap.com|gvnvh18.com|link1s.com|sesenblog.com|filess.us|baominh.tech|xaydungplus.com|anhdep24.com|tusachxinhxinh.com|sub1s.com|nguontv.org|windowslite.net|tiengnhatdongian.com
+@@||pagead2.googlesyndication.com$script,xmlhttprequest,image,domain=thuthuatmeovat.net|kites.vn|phuongtrinhhoahoc.com|thichvn.com|icongnghe.com|vutrung.gnomio.com|letrongdai.vn|romgoc.net|traderviet.com|sum.vn|truyenaudiocv.net|phanmemgoc.com|123link.f4vnn.com|khuchotot.com|laptrinhx.com|1shortlink.com|shortenlink.vip|sachiepvien.net|iot.chinhphucvn.com|thelanb.com|nguyentinhblog.com|cungthi.online|sharescript.net|lehait.net|nhacsong.pro|kientruc360.info|tienichmaytinh.net|giavang.net|qthang.net|vnjpclub.com|753x.blogspot.com|ngohoanganhtuan.com|ngohoanganhtuan.net|toeicexamstore.xyz|vungoctuan.vn|ichi.pro|tromcap.com|dichthuatphuongdong.com|dafontvn.com|tinhocdongthap.com|gvnvh18.com|link1s.com|sesenblog.com|filess.us|baominh.tech|xaydungplus.com|anhdep24.com|tusachxinhxinh.com|sub1s.com|nguontv.org|windowslite.net|tiengnhatdongian.com|quangcaoyenbai.com
 @@||player.phimno1.com$subdocument
 @@||player.sohatv.vn/resource/$script,domain=gamek.vn|genk.vn|kenh14.vn
 @@||pubads.g.doubleclick.net$xmlhttprequest,domain=vtvgiaitri.vn
@@ -2273,6 +2276,7 @@ xnxx.com###content-ad-top-zone
 ||axoncoho.tk^$third-party
 ||aymcsx.ru^$third-party
 ||bablace.com^$third-party
+||bafybeidravcab5p3acvthxtwosm4rfpl4yypwwm52s7sazgxaezfzn5xn4.ipfs.infura-ipfs.io^
 ||baiduccdn1.com^$third-party
 ||bauersagtnein.myeffect.net^
 ||baywttgdhe.download^
@@ -2349,6 +2353,9 @@ xnxx.com###content-ad-top-zone
 ||cryptonoter.com^$third-party
 ||ctlrnwbv.ru^
 ||d8acddffe978b5dfcae6.date^
+||dark-utilities.me^$third-party
+||dark-utilities.pw^$third-party
+||dark-utilities.xyz^$third-party
 ||datasecu.download^$third-party
 ||de-mi-nis-ner.info^
 ||de-mi-nis-ner2.info^
@@ -2423,6 +2430,7 @@ xnxx.com###content-ad-top-zone
 ||iaheyftbsn.review^
 ||icemining.ca^$third-party
 ||igrid.org^
+||ijfcm7bu6ocerxsfq56ka3dtdanunyp4ytwk745b54agtravj2wr2qqd.onion.pet^
 ||ininmacerad.pro^$third-party
 ||intellecthosting.net^
 ||intelserviceupdate.com^
