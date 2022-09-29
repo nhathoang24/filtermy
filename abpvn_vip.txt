@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: mhy9pPFfFnprA27tSLp1ew
-! Version: 202209241719
+! Checksum: gugXhyjwWb3V4R09eF/wmQ
+! Version: 202209291234
 ! Title: ABPVN List (VIP)
-! Last modified: 24 Sep 2022 17:19 UTC+7
+! Last modified: 29 Sep 2022 12:34 UTC+7
 ! Expires: 1 hour (update frequency)
 !
 ! ABPVN List filter
@@ -30,7 +30,7 @@
 .com/qc/
 .com/vast/$xmlhttprequest
 .engine?id=
-.net/Ads/$domain=~mcleaks.net
+.net/Ads/$domain=~mcleaks.net|~linkneverdie.net
 .net/ads.
 .net/cpf/$script
 .online/ads/
@@ -766,6 +766,7 @@ ad_300_250
 ||cuttoegironny.com^
 ||d1b0fk9ns6n0w9.cloudfront.net^
 ||d1dli2tyorled9.cloudfront.net^
+||d1jwpd11ofhd5g.cloudfront.net^
 ||d1ks8roequxbwa.cloudfront.net^
 ||d1nnhbi4g0kj5.cloudfront.net^
 ||d1qggq1at2gusn.cloudfront.net^
@@ -1394,8 +1395,12 @@ daklak24h.com.vn##.features-r
 dangtinbatdongsan.vn,realty.vn##.warp-banner-vip
 dantri.com.vn###bannerMasthead
 dantri.com.vn###desktop-home-top-page
+dantri.com.vn###dta_inpage_wrapper
 dantri.com.vn###dtads_inpage_wrapper
+dantri.com.vn###mobile-home-middle-1
+dantri.com.vn###mobile-home-middle-2
 dantri.com.vn###mobile-home-top-page
+dantri.com.vn###mobile-top-page
 danviet.vn##.sidebar>div[style]
 design.tutsplus.com##.avert--sticky
 dexuat.com###custom_html-7
@@ -1541,6 +1546,7 @@ link1s.com###baolink1s
 link1s.com##.banner-inner
 linkedin.com##.ad-banner-container.ember-view
 linkneverdie.net###ads-1xbet-catfish
+linkneverdie.net###ads-1xbet-right
 linkneverdie.net##.info-footer:nth-child(4)
 linksht.com##.adCreator
 listnhacai.com##.dwpb-action
@@ -2017,7 +2023,7 @@ zippyshare.com##.center_ad
 @@||cdn.jsdelivr.net/gh/toidicode/favicons@1.0.1/js/prebid-ads.js
 @@||forum.gocmod.com/js/$~third-party
 @@||giavang.net/images/ads.jpg
-@@||go.trvdp.com/init/6009.js$domain=linkneverdie.net
+@@||go.trvdp.com/init/6008.js$domain=linkneverdie.net
 @@||googleads.g.doubleclick.net/pagead/$domain=cungthi.online
 @@||i.imgur.com/MsrDtuT.png$domain=autoitvn.com
 @@||imasdk.googleapis.com^$script,xmlhttprequest,domain=vieon.vn|fptplay.vn|24h.com.vn|vtvcab.vn|game24h.vn
