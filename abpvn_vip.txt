@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: qDTSXt6GmCFm8WOS7Mz9Qw
-! Version: 202210022107
+! Checksum: wswEiEKlQC+6ssMM1zEhlg
+! Version: 202210061452
 ! Title: ABPVN List (VIP)
-! Last modified: 02 Oct 2022 21:07 UTC+7
+! Last modified: 06 Oct 2022 14:52 UTC+7
 ! Expires: 1 hour (update frequency)
 !
 ! ABPVN List filter
@@ -293,7 +293,7 @@ ad_300_250
 ||i-imgur-com.cdn.ampproject.org/i/s/i.imgur.com/$image,domain=tvhayhay.com|xemtivingon.tv|xemtiviviet.com|listnhacai.com
 ||i-vn.joboko.com/images/jqc/
 ||i.blogtruyen.com/file/$image
-||i.ibb.co^*.gif$domain=mmo4me.com
+||i.ibb.co^*.gif$domain=mmo4me.com|khiphach.vn
 ||i.imgur.com/81uid6d.jpg
 ||i.imgur.com/FbUH5AQ.png
 ||i.imgur.com/Q0a2mv2.png
@@ -385,6 +385,7 @@ ad_300_250
 ||media.tctshop.com/banner/$image
 ||media.vodcdn.xyz^*.gif$image
 ||megacode.vn/media/banners/
+||metruyenchu.com/passback/$subdocument
 ||minhngoc.net^*.gif
 ||mocfun.net/uploads/banners/
 ||mpapis.xyz^*.gif$image
@@ -1523,6 +1524,7 @@ ketqua2.net##.kqbackground.vien ~ a[target="_blank"]
 ketqua2.net,nghean24h.vn,stream.tructiepnba.com,truyentranhmau.com##a[rel="nofollow"]
 ketqua247.com###adsModal
 ketqua247.com,phuongtrinhhoahoc.com,bimbimz.tv##.ads-container
+khiphach.vn###qc-kpgame
 khomuc2.tv##.button-ads-header
 khomuc2.tv##.tvc-link-ads-full
 khosinhvien.com##.bn-lg-sidebar
@@ -1586,11 +1588,15 @@ markets.businessinsider.com##.htl-ad-placeholder
 markets.businessinsider.com##.spacer-50.mobile-spacer-25
 megalink.vip###__bgd_link
 megaup.net#?#.metaRedirectWrapperBottomAds
+meophimz.tv##.min-h-screen>.relative.inline-block.w-full
+meophimz.tv##div[id="__next"]>.fixed.-bottom-4
+meophimz.tv##div[id^="headlessui-dialog-overlay"]
 mephimmy.com###sponsor-catfish
 mephimmy.com###sponsor-preload
 mephimtrungz.com,mephimmy.com,mephimnhat.com##div[id^="sponsor-"]
 mephimtv.com##.ws-banner
 metruyenchu.com###js-read__content>div.text-center.pt-3
+metruyenchu.com###tpads-pc-top-page
 metruyenchu.com##.nh-read__alert
 metruyenchu.com##.px-3.nh-read__body>.text-center.pb-3
 metruyenchu.com##.text-center.pb-3.nh-read__pagination
@@ -2036,7 +2042,7 @@ zippyshare.com##.center_ad
 @@||media.nghean24h.vn/thumb$image
 @@||media1.admicro.vn/cms/$script,domain=tuoitre.vn
 @@||newscon.net/static/js/prebid-ads.js
-@@||pagead2.googlesyndication.com$script,xmlhttprequest,image,domain=thuthuatmeovat.net|kites.vn|phuongtrinhhoahoc.com|thichvn.com|icongnghe.com|vutrung.gnomio.com|letrongdai.vn|romgoc.net|traderviet.com|sum.vn|truyenaudiocv.net|phanmemgoc.com|123link.f4vnn.com|khuchotot.com|laptrinhx.com|1shortlink.com|shortenlink.vip|sachiepvien.net|iot.chinhphucvn.com|thelanb.com|nguyentinhblog.com|cungthi.online|sharescript.net|lehait.net|nhacsong.pro|kientruc360.info|tienichmaytinh.net|giavang.net|qthang.net|vnjpclub.com|753x.blogspot.com|ngohoanganhtuan.com|ngohoanganhtuan.net|toeicexamstore.xyz|vungoctuan.vn|ichi.pro|tromcap.com|dichthuatphuongdong.com|dafontvn.com|tinhocdongthap.com|gvnvh18.com|link1s.com|sesenblog.com|filess.us|baominh.tech|xaydungplus.com|anhdep24.com|tusachxinhxinh.com|sub1s.com|nguontv.org|windowslite.net|tiengnhatdongian.com|quangcaoyenbai.com|nguontvmoi.com
+@@||pagead2.googlesyndication.com$script,xmlhttprequest,image,domain=thuthuatmeovat.net|kites.vn|phuongtrinhhoahoc.com|thichvn.com|icongnghe.com|vutrung.gnomio.com|letrongdai.vn|romgoc.net|traderviet.com|sum.vn|truyenaudiocv.net|phanmemgoc.com|123link.f4vnn.com|khuchotot.com|laptrinhx.com|1shortlink.com|shortenlink.vip|sachiepvien.net|iot.chinhphucvn.com|thelanb.com|nguyentinhblog.com|cungthi.online|sharescript.net|lehait.net|nhacsong.pro|kientruc360.info|tienichmaytinh.net|giavang.net|qthang.net|vnjpclub.com|753x.blogspot.com|ngohoanganhtuan.com|ngohoanganhtuan.net|toeicexamstore.xyz|vungoctuan.vn|ichi.pro|tromcap.com|dichthuatphuongdong.com|dafontvn.com|tinhocdongthap.com|gvnvh18.com|link1s.com|sesenblog.com|filess.us|baominh.tech|xaydungplus.com|anhdep24.com|tusachxinhxinh.com|sub1s.com|nguontv.org|windowslite.net|tiengnhatdongian.com|quangcaoyenbai.com|nguontvmoi.com|khohieu.com
 @@||player.phimno1.com$subdocument
 @@||player.sohatv.vn/resource/$script,domain=gamek.vn|genk.vn|kenh14.vn
 @@||pubads.g.doubleclick.net$xmlhttprequest,domain=vtvgiaitri.vn
@@ -2126,7 +2132,6 @@ $third-party,script,domain=sexdiaryz.xyz
 ||rphang.online/images/*catfish$image
 ||rphang.online/images/mediasun_top_mobile_tikidurex3.jpg$image
 ||rphang.online/images/mediasun_top_pc_kqxs_june.png
-||rphang.online^*.gif
 ||sexanime.net^*.gif
 ||sexhayvc.com/popjs/$script
 ||sextop.info/asset/default/player/plugins/vast-8.4.13.js
