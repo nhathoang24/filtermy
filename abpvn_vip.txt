@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: wswEiEKlQC+6ssMM1zEhlg
-! Version: 202210061452
+! Checksum: UUndlgdNqAj1jgRFU5KuTA
+! Version: 202210081545
 ! Title: ABPVN List (VIP)
-! Last modified: 06 Oct 2022 14:52 UTC+7
+! Last modified: 08 Oct 2022 15:45 UTC+7
 ! Expires: 1 hour (update frequency)
 !
 ! ABPVN List filter
@@ -738,6 +738,7 @@ ad_300_250
 ||cdn.netcatx.com^
 ||cdn4ads.com^
 ||cdnondemand.org^
+||cdnv.tpmedia.online^
 ||celeritascdn.com^
 ||chokedsmelt.com^
 ||clevernt.com^
@@ -1601,6 +1602,7 @@ metruyenchu.com##.nh-read__alert
 metruyenchu.com##.px-3.nh-read__body>.text-center.pb-3
 metruyenchu.com##.text-center.pb-3.nh-read__pagination
 metruyenchu.com##div.text-center.pt-3:nth-of-type(1)
+metruyenchu.com##div.text-center.pt-3:nth-of-type(2)
 minhngoc.net.vn###adv1
 mitub.net##.single-box
 mitub.net##[href^="//dooloust.net/"]
