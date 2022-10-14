@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: T/WMutGcW7ENLwI8PcluFw
-! Version: 202210112056
+! Checksum: PTVP5meyXSQF88Tw5tWGFQ
+! Version: 202210142136
 ! Title: ABPVN List (VIP)
-! Last modified: 11 Oct 2022 20:56 UTC+7
+! Last modified: 14 Oct 2022 21:36 UTC+7
 ! Expires: 1 hour (update frequency)
 !
 ! ABPVN List filter
@@ -427,6 +427,7 @@ ad_300_250
 ||photo-cms-anninhthudo.zadn.vn/Uploaded/2021/xtsmr/
 ||phunutoday.vn/images/banners/
 ||pic.hui598.cn$domain=xiuren.org,image
+||pic.picnewss.com^*.gif$image,domain=hh3dhay.com
 ||pic.picnewss.com^*.gif$image,domain=tvhai.co|phimvang.net|doctruyen3q.info
 ||pic1025.com^*.gif$domain=phimmoiaz.cc|tivi4k.com|kingphim.co|biphims.com|biphims.net|7chill.tv
 ||pl.ventunotech.com/plugins/cntplayer/ventunoSmartPlayer.js$domain=truyenfull.net
@@ -1525,6 +1526,7 @@ ketqua2.net,nghean24h.vn,stream.tructiepnba.com,truyentranhmau.com##a[rel="nofol
 ketqua247.com###adsModal
 ketqua247.com,phuongtrinhhoahoc.com,bimbimz.tv##.ads-container
 khiphach.vn###qc-kpgame
+khohieu.com##.S1RFMGFFTUlHZHU3TEVpRkIxbzNhL1l5dHJmZWhYSFBRbmxGTGtqRjkrTT0gigpx
 khomuc2.tv##.button-ads-header
 khomuc2.tv##.tvc-link-ads-full
 khosinhvien.com##.bn-lg-sidebar
@@ -1968,6 +1970,14 @@ xemtivingon.tv,tvhayhay.com##div[id^="Balloon_"]
 xiuren.org###christmas
 xoilac2.xyz##.btn-betnow.btn-sm.btn
 xoilac2.xyz,vebotv.info,banhkhuc.link##.ibs-bet
+xoilac5.live###wap_bottombanner_content
+xoilac5.live##.block-catfish.text-center.d-lg-none.d-block
+xoilac5.live##.logo-cnt>.d-lg-none.d-block
+xoilac5.live##.mt-5.d-lg-none.d-block.pb-2.text-center
+xoilac5.live##.pl-lg-0.col-xl-4
+xoilac5.live##a[href^="https://www.fb88cup.com"]
+xoilac5.live##a[href^="https://www.mu922.com"]
+xoilac5.live##div.d-lg-none.d-block:nth-of-type(3)
 xoilac7.net###match-child-1
 xoilac7.net##.container.mt-1
 xoilac7.net##.container>ul
