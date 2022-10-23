@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: tazUl5ZAK075Iv6zehpTjQ
-! Version: 202210211039
+! Checksum: 7CWqWRy7hujsoNZFvjJrFQ
+! Version: 202210230850
 ! Title: ABPVN List (VIP)
-! Last modified: 21 Oct 2022 10:39 UTC+7
+! Last modified: 23 Oct 2022 08:50 UTC+7
 ! Expires: 1 hour (update frequency)
 !
 ! ABPVN List filter
@@ -299,7 +299,7 @@ ad_300_250
 ||i.imgur.com/Q0a2mv2.png
 ||i.imgur.com/lgfyvo2.jpg
 ||i.imgur.com^$image,domain=nhacdj.vn|phimdinhcao.net|trochoiviet.com|animet.net|diendanit.net|banbuondalat.com|khoedep.vn|phimviethan.com|vebotv.cc|animeweb.xyz|90phut6.live|xemphimvuitv.com|hhtq.net
-||i.imgur.com^*.gif$image,domain=tructiepbongda.com|xemphimon.com|mythethao.com|phimgif.tv|megalink.vip|tivi4k.com|bylutv.com|phimraphot.net|animevietsub.cc|yeuphimmoik.com|fullphimzz.net|vtipster.net|xemtivingon.tv|subnhanhz.net|mphimmoix.com|xemphimtop.net|rakhoi2.tv|rakhoi1.tv|cakhia18.live|cakhia17.tv|bongdahomnay.org|xembongda360.com|ophimhd.net|biphim.cc|biphims.com|bichill.co|biphims.net|hdvips.net|hhtq.vip|dongphymtv.net|huphimtv.com|phim18zz.com|2phimmoi.net|forum.gocmod.com|rakhoi3.tv|rakhoi5.tv|vietphim.tv|cakhiatv.xyz|phimmoiiii123.com|kenhphim.us|phimmoiaz.cc|rakhoi2.com|tivihai.com|phimbotv.com|listnhacai.com|iphimchillzz.net|mannhantv.live|xamvn.sh|ketqua2.net|phimtn.com|hayghe.club|motchill.org|cphimmoi.net|ghienphimhd.net|fimfast.co|film365.org
+||i.imgur.com^*.gif$image,domain=tructiepbongda.com|xemphimon.com|mythethao.com|phimgif.tv|megalink.vip|tivi4k.com|bylutv.com|phimraphot.net|animevietsub.cc|yeuphimmoik.com|fullphimzz.net|vtipster.net|xemtivingon.tv|subnhanhz.net|mphimmoix.com|xemphimtop.net|rakhoi2.tv|rakhoi1.tv|cakhia18.live|cakhia17.tv|bongdahomnay.org|xembongda360.com|ophimhd.net|biphim.cc|biphims.com|bichill.co|biphims.net|hdvips.net|hhtq.vip|dongphymtv.net|huphimtv.com|phim18zz.com|2phimmoi.net|forum.gocmod.com|rakhoi3.tv|rakhoi5.tv|vietphim.tv|cakhiatv.xyz|phimmoiiii123.com|kenhphim.us|phimmoiaz.cc|rakhoi2.com|tivihai.com|phimbotv.com|listnhacai.com|iphimchillzz.net|mannhantv.live|xamvn.sh|ketqua2.net|phimtn.com|hayghe.club|motchill.org|cphimmoi.net|ghienphimhd.net|fimfast.co|film365.org|cakhia30.tv
 ||i.k8info.com/images/promo/$third-party
 ||i.mmcdn.cn/simba/img/
 ||i.servimg.com/u/f22/15/86/65/76/banner$domain=4rkinggame.com
@@ -417,8 +417,9 @@ ad_300_250
 ||phimgif.tv/player/dk.jpg
 ||phimhay3s.com/video/$media
 ||phimhay3s.com^*.gif
-||phimmoichills.net^*.gif
-||phimmoikf.com/files/banner/$image
+||phimmoik.com.net^*.gif
+||phimmoik.com/files/banner/$image
+||phimmoik.com/video/$domain=phimmoik.com,rewrite=abp-resource:blank-mp3
 ||phimmoikf.com^*.gif
 ||phimnhua.com^*.gif
 ||phimplay.com^*.gif
@@ -1372,6 +1373,17 @@ cakhia-tv.live##.floating
 cakhia-tv.live,xemlivenhanh.com##.datcuoc.button
 cakhia.org###xbd_overlay
 cakhia.org##.active.xbd_modal
+cakhia30.tv##.banner-bottom-append-custom
+cakhia30.tv##.btn-betting
+cakhia30.tv##.button-bottom-center-append-custom
+cakhia30.tv##.datCuocBTN
+cakhia30.tv##.footer-banner
+cakhia30.tv##.jw-logo
+cakhia30.tv##.logo-top-right-append-custom
+cakhia30.tv##.modelAds
+cakhia30.tv##.nhacaiuytin
+cakhia30.tv##.sticky
+cakhia30.tv##.text-running
 canhrau.com##.widget_text
 careerlink.vn##.top-right-col-ads
 cbox.ws##.notMsg.Sticky
@@ -1410,6 +1422,7 @@ dantri.com.vn###mobile-home-top-page
 dantri.com.vn###mobile-top-page
 danviet.vn##.sidebar>div[style]
 design.tutsplus.com##.avert--sticky
+designervn.net##.ads_zone
 dexuat.com###custom_html-7
 diadiem.com##.div_box_adv
 docbao.vn###div-ub-docbao
@@ -1431,9 +1444,6 @@ ephoto360.com,skyphimz.net,cphimmoi.net,fimfast.co##.ad-container
 eva.vn##.banr-Rt
 eva.vn##.banrpstn
 facebook.com#?#[data-pagelet="RightRail"] span:-abp-has(span:-abp-contains(Được tài trợ))
-facebook.com#?#[data-pagelet^="FeedUnit_"]:-abp-has(b:-abp-contains(Được tài trợ))
-facebook.com#?#div[role="feed"]>div:-abp-has(a[href^="/ads/about/"])
-facebook.com#?#div[style^="border-radius: max(0px, min(8px"]:-abp-has(a[href^="/ads/about"])
 feb.onedaysales.xyz,lemon.animeion.xyz##.logo-partner
 filecr.com##.filec-widget
 film365.org###ads-preload
@@ -1525,7 +1535,7 @@ ketqua.vn###left_ads
 ketqua2.net##.baloon
 ketqua2.net##.col-sm-10.kqcenter
 ketqua2.net##.kqbackground.vien ~ a[target="_blank"]
-ketqua2.net,nghean24h.vn,stream.tructiepnba.com,truyentranhmau.com##a[rel="nofollow"]
+ketqua2.net,nghean24h.vn,stream.tructiepnba.com,truyentranhmau.com,phimmoik.com##a[rel="nofollow"]
 ketqua247.com###adsModal
 ketqua247.com,phuongtrinhhoahoc.com,bimbimz.tv##.ads-container
 khiphach.vn###qc-kpgame
@@ -1681,13 +1691,16 @@ phimgif.tv,ophimhd.net###sobet-ads-right
 phimgif.tv,ophimhd.net##.lightbox-player-pc
 phimgif.tv,ophimhd.net##div[id^="preload-"]
 phimgif.tv,ophimhd.net,laptrinhx.com,ghientv.net,huphimtv.com,animevietsub.cc,xoso.me,xsmn.me,coiphim.cc,saostar.vn,mphimmoix.com,xemphimvuitv.com##.ads
-phimhay3s.com,phimmoikf.com##.fix_bottom
+phimhay3s.com,phimmoik.com##.fix_bottom
 phimmoi18.com###closePC
 phimmoi18.com###fixed_bottom
 phimmoichills.net###chilladv
 phimmoichills.net###goadv
 phimmoichills.net###pmadv
 phimmoiiii123.com##.banner-preload
+phimmoik.com##.box_option
+phimmoik.com##.event_loader_e
+phimmoik.com##.popup_center
 phimnhanh1.com,xemphim1080.com,phimmoi1.com,mephimnhat1.com###sponsor-balloon
 phimnhanh1.com,xemphim1080.com,phimmoi1.com,mephimnhat1.com##.player-vast-blocker
 phimnhua.com###catfish-banner
