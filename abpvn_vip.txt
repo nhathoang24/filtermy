@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 7CWqWRy7hujsoNZFvjJrFQ
-! Version: 202210230850
+! Checksum: 0oKaAj7uLfR6FsN6rinSjA
+! Version: 202210251750
 ! Title: ABPVN List (VIP)
-! Last modified: 23 Oct 2022 08:50 UTC+7
+! Last modified: 25 Oct 2022 17:50 UTC+7
 ! Expires: 1 hour (update frequency)
 !
 ! ABPVN List filter
@@ -125,7 +125,7 @@
 /storage.adpia.vn/$image
 /tinhocdongthap.com\/wp-content\/plugins\/wp-[\w-]+\/[\w-]+\.js/$script
 /uts.jsr
-/v/*/vast.js$script,domain=~xemphim365.net
+/v/*/vast.js$script,domain=~xemphim365.net|~phimchat1.com
 /vast.js$script,domain=api.anime3s.com|tvzingvn.org|ophim.pro
 /videojs.ads.$domain=~danet.vn
 /videojs.ima.js
@@ -387,6 +387,7 @@ ad_300_250
 ||media.tctshop.com/banner/$image
 ||media.vodcdn.xyz^*.gif$image
 ||megacode.vn/media/banners/
+||mephimtv.cc/wp-banner$image
 ||metruyenchu.com/passback/$subdocument
 ||minhngoc.net^*.gif
 ||mocfun.net/uploads/banners/
@@ -413,6 +414,8 @@ ad_300_250
 ||ouo.io/images/^-ad
 ||p.novostimira.biz^$domain=samlab.ws
 ||phanmemdietvirus.com.vn$popup,third-party
+||phimchat1.com/public/*.mp4$domain=phimchat1.com,rewrite=abp-resource:blank-mp3
+||phimchat1.com^*.gif
 ||phimfullhd.herokuapp.com^*.gif$image,domain=ophim.pro
 ||phimgif.tv/player/dk.jpg
 ||phimhay3s.com/video/$media
@@ -1299,7 +1302,7 @@ animevietsub.cc###pc-catfixx
 animevietsub.cc##.mobile-catfixx
 animevietsub.cc##div.Dvr-300
 animevietsub.cc##div[style^="position: fixed; top: 60px"]
-animevietsub.cc,play.plhqtvhay.xyz,coiphim.cc,streamsb.net,mphimmoix.com,bylutv.com,2phimmoi.net,rakhoi2.com,play.vnupload.net,ssplay.net,skyphimz.net,vebotv.cc,banthang.in,mephimtv.com,api.anime3s.com,p.thoctv.com,motchill.org##.jw-logo
+animevietsub.cc,play.plhqtvhay.xyz,coiphim.cc,streamsb.net,mphimmoix.com,bylutv.com,2phimmoi.net,rakhoi2.com,play.vnupload.net,ssplay.net,skyphimz.net,vebotv.cc,banthang.in,mephimtv.cc,api.anime3s.com,p.thoctv.com,motchill.org##.jw-logo
 anonyviet.com##.demo-wrapper + div[id][class]
 aoe.vn##.adv-section
 apkmirror.com##.gooWidget
@@ -1609,7 +1612,9 @@ meophimz.tv##div[id^="headlessui-dialog-overlay"]
 mephimmy.com###sponsor-catfish
 mephimmy.com###sponsor-preload
 mephimtrungz.com,mephimmy.com,mephimnhat.com##div[id^="sponsor-"]
-mephimtv.com##.ws-banner
+mephimtv.cc##.fancybox-container
+mephimtv.cc##.mv-banner
+mephimtv.cc##.ws-banner
 metruyenchu.com###js-read__content>div.text-center.pt-3
 metruyenchu.com###tpads-pc-top-page
 metruyenchu.com##.nh-read__alert
