@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: KcE/jzXR+NkL3p/goopGlg
-! Version: 202211021653
+! Checksum: FUYeLSlE9P7Ru2g2Wzeecg
+! Version: 202211041329
 ! Title: ABPVN List (VIP)
-! Last modified: 02 Nov 2022 16:53 UTC+7
+! Last modified: 04 Nov 2022 13:29 UTC+7
 ! Expires: 1 hour (update frequency)
 !
 ! ABPVN List filter
@@ -37,6 +37,7 @@
 .uniad.
 .vn/Ad/
 .vn/qc/
+/(https?:\/\/)\w{30,}\.me\/\w{30,}\./$script,third-party
 //affiliate.$third-party
 /120x240.
 /120x60.
@@ -178,7 +179,6 @@ ad_300_250
 ||api.affmates.com/js/publisher_tool.js
 ||appvuive.fun/wp-content/themes/vuasanco/assets/scripts/scripts.js
 ||appvuive.fun^*.gif
-||assets-vaegaa.wedodemos.com/ads/$media,domain=vaoroi12.online
 ||assets.ophim.pro^*.gif$image
 ||az708531.vo.msecnd.net^$domain=userscloud.com
 ||b.bnrdom.com/p.js
@@ -359,7 +359,6 @@ ad_300_250
 ||kienviet.net/*banner
 ||kienviet.net^*.gif
 ||kimquy.com/image/mekong_home.png$image
-||koiphim.xyz^*.gif
 ||kplus.vn/landing$third-party
 ||lh3.googleusercontent.com/*=s0$image,domain=hhninja.xyz|animevietsub.cc
 ||licklink.net/img/banner
@@ -442,7 +441,6 @@ ad_300_250
 ||player.tubia.com^$subdocument
 ||plus.edu.vn/js/jquery/openwindow.js
 ||postimg.cc^*.gif$domain=tructiepbongda.com|xemtivisohd.com
-||proguardstream.net/client_assets/images/partner$domain=ghientv.net,image
 ||psg.mediacdn.vn/public/project/$script,domain=blogtruyen.vn
 ||qtcshop.com/images/$third-party
 ||quangcaosanpham.com/images/$third-party
@@ -485,7 +483,6 @@ ad_300_250
 ||st.nettruyenin.com^*.gif$image
 ||stablehost.com/images/banner
 ||startalk.vn/images/Ru-ban-them-vui-mb.jpg
-||static.247phim.com/banner/$image
 ||static.8cache.com/spon/$image
 ||static.bepolite.eu^
 ||static.bongda24h.vn/medias/*.gif
@@ -565,6 +562,7 @@ ad_300_250
 ||truyentranh8.net/js/loadAdv.js
 ||truyentranh8.net/qc/
 ||truyentranh8.net^*.gif
+||truyentranhaudio.online/app/manga/uploads/vn3.jpg
 ||truyentranhmau.com/img/img4bn/$image
 ||truyentranhtuan.com/wp-content/banners
 ||truyenvua.com/qc-new/
@@ -861,6 +859,7 @@ ad_300_250
 ||go.pushnative.com^
 ||go.stirshakead.com^$third-party
 ||go3xsex.com^$subdocument,third-party
+||go6shde9nj2itle.com^
 ||googleadservices.com^$third-party
 ||greedseed.world^
 ||gsspat.jp^$third-party
@@ -908,6 +907,7 @@ ad_300_250
 ||kolkwi4tzicraamabilis.com^
 ||kul.vn^$popup,third-party
 ||lijit.com^$third-party
+||limurol.com^
 ||live.demand.supply^
 ||live.sekindo.com^
 ||liveadexchanger.com^$third-party
@@ -1404,6 +1404,10 @@ clbgamesvn.com##.footerBanner
 clbgamesvn.com##center>[href*="tlink.vn"]
 clipconverter.cc##div[style^="z-index: 999999"]
 coccoc.com##.adsv
+coiphim.cc##.no-ads
+coiphim.cc##.preloader-wrapper
+coiphim.cc,ghienphimhd.net##.ad-floater
+coiphim.cc,ghienphimhd.net##.video-ad-layer
 congan.com.vn###subiz_wrapper
 congan.com.vn##.ad-embed
 congngheviet.com##.asbybgn
@@ -1486,10 +1490,6 @@ gamevui.vn##.adx-zone
 gamevui.vn##.underlay
 genk.vn##.khw-ads-wrapper.clearfix
 ghienphimhd.net##.promotion-popup
-ghientv.net,coiphim.cc##.no-ads
-ghientv.net,coiphim.cc##.preloader-wrapper
-ghientv.net,coiphim.cc,ghienphimhd.net##.ad-floater
-ghientv.net,coiphim.cc,ghienphimhd.net##.video-ad-layer
 giaoducthoidai.vn###qcRight
 giaoducthoidai.vn##.banner-advertisements
 google.com.vn##li.ads-ad
@@ -1696,7 +1696,7 @@ phimgif.tv,ophimhd.net###preload-11bet
 phimgif.tv,ophimhd.net###sobet-ads-right
 phimgif.tv,ophimhd.net##.lightbox-player-pc
 phimgif.tv,ophimhd.net##div[id^="preload-"]
-phimgif.tv,ophimhd.net,laptrinhx.com,ghientv.net,huphimtv.com,animevietsub.cc,xoso.me,xsmn.me,coiphim.cc,saostar.vn,mphimmoix.com,xemphimvuitv.com##.ads
+phimgif.tv,ophimhd.net,laptrinhx.com,huphimtv.com,animevietsub.cc,xoso.me,xsmn.me,coiphim.cc,saostar.vn,mphimmoix.com,xemphimvuitv.com##.ads
 phimhay3s.com,phimmoik.com##.fix_bottom
 phimmoi18.com###closePC
 phimmoi18.com###fixed_bottom
@@ -1840,7 +1840,7 @@ tivi4k.com###adstop2
 tivi4k.com##.col-lg-4.hidden-xs.d-flex.flex-column.address-wrap
 tivi4k.com##.main-nav.float-right
 tivihai.com##.sticky-footer
-tivihai.com,tvchill.org###popup_banner_beta
+tivihai.com,tvchill.org,truyentranhaudio.online,yeumanhua.com###popup_banner_beta
 tpbpirateproxy.org###vpnModal
 tpbpirateproxy.org##.sidebar-vpn
 traderviet.com##.homePageAds
