@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 0oSuwCDtJNuopuhc7HF3MQ
-! Version: 202211100824
+! Checksum: Y5KUOY57OcaGJKNuKg7psA
+! Version: 202211130823
 ! Title: ABPVN List (VIP)
-! Last modified: 10 Nov 2022 08:24 UTC+7
+! Last modified: 13 Nov 2022 08:23 UTC+7
 ! Expires: 1 hour (update frequency)
 !
 ! ABPVN List filter
@@ -198,7 +198,7 @@ ad_300_250
 ||bp.blogspot.com^$image,domain=timdaily.vn|tivi4k.com
 ||bt.tructiepbongda.me^*.gif
 ||bylutv.com/wow/img/*.gif
-||cakhia.org^*.gif$image
+||cakhia31.org^*.gif$image
 ||cdn.adf.ly/images/banners/
 ||cdn.adf.ly/js/display.js
 ||cdn.engine.4dsply.com/Scripts/
@@ -300,7 +300,7 @@ ad_300_250
 ||i.imgur.com/Q0a2mv2.png
 ||i.imgur.com/lgfyvo2.jpg
 ||i.imgur.com^$image,domain=nhacdj.vn|phimdinhcao.net|trochoiviet.com|animet.net|diendanit.net|banbuondalat.com|khoedep.vn|phimviethan.com|vebotv.biz|animeweb.xyz|xemphimvuitv.com|hhtq.net
-||i.imgur.com^*.gif$image,domain=tructiepbongda.com|xemphimon.com|mythethao.com|phimgif.tv|megalink.vip|tivi4k.com|bylutv.com|phimraphot.net|animevietsub.cc|yeuphimmoik.com|fullphim1.com|vtipster.net|xemtivingon.tv|subnhanhz.net|mphimmoix.com|xemphimtop.net|rakhoi3.live|rakhoi1.tv|cakhia17.tv|bongdahomnay.org|xembongda360.com|ophimhd.net|biphim.cc|biphims.com|bichill.co|biphims.net|hdvips.net|hhtq.vip|dongphymtv.net|huphimtv.com|phim18zz.com|2phimmoi.net|forum.gocmod.com|rakhoi3.tv|rakhoi5.tv|vietphim.tv|cakhiatv.xyz|phimmoiiii123.com|kenhphim.us|phimmoiaz.cc|rakhoi6.com|tivihai.com|phimbotv.com|listnhacai.com|iphimchillzz.net|mannhantv.live|xamvn.sh|ketqua2.net|phimtn.com|hayghe.club|motchill.org|cphimmoi.net|ophimmoi.net|ghienphimhd.net|xoilac8.org|fimfast.co|film365.org|cakhia30.tv
+||i.imgur.com^*.gif$image,domain=tructiepbongda.com|xemphimon.com|mythethao.com|phimgif.tv|megalink.vip|tivi4k.com|bylutv.com|phimraphot.net|animevietsub.cc|yeuphimmoik.com|fullphim1.com|vtipster.net|xemtivingon.tv|subnhanhz.net|mphimmoix.com|xemphimtop.net|rakhoi3.live|rakhoi1.tv|cakhia17.tv|bongdahomnay.org|xembongda360.com|ophimhd.net|biphim.cc|biphims.com|bichill.co|biphims.net|hdvips.net|hhtq.vip|dongphymtv.net|huphimtv.com|phim18zz.com|2phimmoi.net|forum.gocmod.com|rakhoi3.tv|rakhoi5.tv|vietphim.tv|phimmoiiii123.com|kenhphim.us|phimmoiaz.cc|rakhoi6.com|tivihai.com|phimbotv.com|listnhacai.com|iphimchillzz.net|mannhantv.live|xamvn.sh|ketqua2.net|phimtn.com|hayghe.club|motchill.org|cphimmoi.net|ophimmoi.net|ghienphimhd.net|xoilac8.org|fimfast.co|film365.org|cakhia30.tv|90phut6.live
 ||i.k8info.com/images/promo/$third-party
 ||i.mmcdn.cn/simba/img/
 ||i.servimg.com/u/f22/15/86/65/76/banner$domain=4rkinggame.com
@@ -323,6 +323,7 @@ ad_300_250
 ||images2-focus-opensocial.googleusercontent.com^*.gif$domain=thuckhuya.net|phimdinhcao.net
 ||images4-focus-opensocial.googleusercontent.com^*.gif$domain=phechill.net
 ||images4.imagebam.com^*.gif$image,domain=luotphim2.com|luotphim.to|luotphimtv.live
+||imasdk.googleapis.com^$third-party,domain=~vivo.vn|~24h.com.vn|~danet.vn|~anime47.com|~fptplay.vn|~startalk.vn|~vieon.vn|~vtvcab.vn|~game24h.vn|~sctvonline.vn
 ||img-portal-prod.s3.amazonaws.com/uploads/image/attachment/3380/HomeRandom2.gif
 ||img.anime47.com^*.gif
 ||img.blogtruyen.vn/sharex/$image
@@ -433,8 +434,7 @@ ad_300_250
 ||photo-cms-anninhthudo.zadn.vn/Uploaded/2021/xtsmr/
 ||phunutoday.vn/images/banners/
 ||pic.hui598.cn$domain=xiuren.org,image
-||pic.picnewss.com^*.gif$image,domain=hh3dhay.com
-||pic.picnewss.com^*.gif$image,domain=tivihai.com|phimvang.net
+||pic.picnewss.com^*.gif$image,domain=tivihai.com|phimvang.net|hh3dhay.com
 ||pic1025.com^*.gif$domain=phimmoiaz.cc|tivi4k.com|kingphim.co|biphims.com|biphims.net|7chill.tv
 ||pl.ventunotech.com/plugins/cntplayer/ventunoSmartPlayer.js$domain=truyenfull.net
 ||player.tubia.com^$subdocument
@@ -868,7 +868,6 @@ ad_300_250
 ||i8xkjci7nd.com^
 ||iads.staticscdn.net^
 ||imad24.com^
-||imasdk.googleapis.com^$third-party,domain=~vivo.vn|~24h.com.vn|~danet.vn|~anime47.com|~fptplay.vn|~startalk.vn|~vieon.vn|~vtvcab.vn|~game24h.vn
 ||imgcdnbet.com^
 ||imrworldwide.com^$third-party
 ||imstore.bet365affiliates.com$third-party
@@ -1275,6 +1274,7 @@ ad_300_250
 5giay.vn##.heart-banner
 7chill.tv##.banner-sticky-footer-ad
 7chill.tv##.container>center
+90phut6.live##.btn-bet-top
 a3mnga.com##.single-video
 anime47.com###qc_clgt
 anime47.com##.advertisement
@@ -1360,10 +1360,10 @@ cafef.vn,ttvn.toquoc.vn##.bannertop
 cakhia-tv.live##.castfish
 cakhia-tv.live##.floating
 cakhia-tv.live,xemlivenhanh.com##.datcuoc.button
-cakhia.org###xbd_overlay
-cakhia.org##.active.xbd_modal
 cakhia30.tv##.button-bottom-center-append-custom
 cakhia30.tv##.logo-top-right-append-custom
+cakhia31.org###xbd_overlay
+cakhia31.org##.active.xbd_modal
 canhrau.com##.widget_text
 careerlink.vn##.top-right-col-ads
 cbox.ws##.notMsg.Sticky
@@ -1493,8 +1493,8 @@ hotruyen.com##.text-center.adsense
 hrspring.vn##.notice-content
 huphimtv.com##.catfishLoader
 huphimtv.com##.preload
-huphimtv.com,fimfast.co###sideAdsLeft
-huphimtv.com,fimfast.co###sideAdsRight
+huphimtv.com,fimfast.co,ophimmoi.net###sideAdsLeft
+huphimtv.com,fimfast.co,ophimmoi.net###sideAdsRight
 icongnghe.com##div[id^="chp_ads_block_modal"]
 idoc.vn###modal-showbox
 idoc.vn##.modal-backdrop
@@ -1630,8 +1630,6 @@ nongnghiep.vn##.exp_qc_share
 olug.vn###popup_center
 ophim.pro###popup
 ophim.pro##.adsContainer
-ophimmoi.net###sideAdsLeft
-ophimmoi.net###sideAdsRight
 outlook.live.com##._3_hHr3kfEhbNYRFM5YJxH9
 phapluatplus.vn##div[style="text-align:center;margin-top:0px;margin-bottom:0px;"]
 phechill.net##.pre-lb
@@ -1695,17 +1693,17 @@ qthang.net#?#.HTML:-abp-has(.adsbygoogle)
 quantrimang.com###adrighttop
 quantrimang.com###adsposttop
 quantrimang.com,download.com.vn,khoahoc.tv,gamevui.vn##.adbox
-rakhoi3.tv,rakhoi5.tv,rakhoi3.live,rakhoi1.tv,cakhia17.tv,cakhiatv.xyz##.adHTML2
-rakhoi3.tv,rakhoi5.tv,rakhoi3.live,rakhoi1.tv,cakhia17.tv,cakhiatv.xyz##.button-in-player-box
-rakhoi3.tv,rakhoi5.tv,rakhoi3.live,rakhoi1.tv,cakhia17.tv,cakhiatv.xyz##.container-banner
-rakhoi3.tv,rakhoi5.tv,rakhoi3.live,rakhoi1.tv,cakhia17.tv,cakhiatv.xyz##.modal-ads
-rakhoi3.tv,rakhoi5.tv,rakhoi3.live,rakhoi1.tv,cakhia17.tv,cakhiatv.xyz##div[class^="slide-bar"]
-rakhoi3.tv,rakhoi5.tv,rakhoi3.live,rakhoi1.tv,cakhia17.tv,cakhiatv.xyz,cakhia30.tv##.btn-betting
-rakhoi3.tv,rakhoi5.tv,rakhoi3.live,rakhoi1.tv,cakhia17.tv,cakhiatv.xyz,cakhia30.tv##.footer-banner
-rakhoi3.tv,rakhoi5.tv,rakhoi3.live,rakhoi1.tv,cakhia17.tv,cakhiatv.xyz,cakhia30.tv##.nhacaiuytin
-rakhoi3.tv,rakhoi5.tv,rakhoi3.live,rakhoi1.tv,cakhia17.tv,cakhiatv.xyz,cakhia30.tv##.text-running
-rakhoi3.tv,rakhoi5.tv,rakhoi3.live,rakhoi1.tv,cakhia17.tv,cakhiatv.xyz,rakhoi6.com,cakhia30.tv##.banner-bottom-append-custom
-rakhoi3.tv,rakhoi5.tv,rakhoi3.live,rakhoi1.tv,cakhia17.tv,cakhiatv.xyz,rakhoi6.com,cakhia30.tv##.datCuocBTN
+rakhoi3.tv,rakhoi5.tv,rakhoi3.live,rakhoi1.tv,cakhia17.tv##.adHTML2
+rakhoi3.tv,rakhoi5.tv,rakhoi3.live,rakhoi1.tv,cakhia17.tv##.button-in-player-box
+rakhoi3.tv,rakhoi5.tv,rakhoi3.live,rakhoi1.tv,cakhia17.tv##.container-banner
+rakhoi3.tv,rakhoi5.tv,rakhoi3.live,rakhoi1.tv,cakhia17.tv##.modal-ads
+rakhoi3.tv,rakhoi5.tv,rakhoi3.live,rakhoi1.tv,cakhia17.tv##div[class^="slide-bar"]
+rakhoi3.tv,rakhoi5.tv,rakhoi3.live,rakhoi1.tv,cakhia17.tv,cakhia30.tv##.btn-betting
+rakhoi3.tv,rakhoi5.tv,rakhoi3.live,rakhoi1.tv,cakhia17.tv,cakhia30.tv##.footer-banner
+rakhoi3.tv,rakhoi5.tv,rakhoi3.live,rakhoi1.tv,cakhia17.tv,cakhia30.tv##.nhacaiuytin
+rakhoi3.tv,rakhoi5.tv,rakhoi3.live,rakhoi1.tv,cakhia17.tv,cakhia30.tv##.text-running
+rakhoi3.tv,rakhoi5.tv,rakhoi3.live,rakhoi1.tv,cakhia17.tv,rakhoi6.com,cakhia30.tv##.banner-bottom-append-custom
+rakhoi3.tv,rakhoi5.tv,rakhoi3.live,rakhoi1.tv,cakhia17.tv,rakhoi6.com,cakhia30.tv##.datCuocBTN
 rakhoi6.com##.button-in-player-box.button-bottom-center-append-custom
 rakhoi6.com##.footer-button-sign-in.hide-desk
 rakhoi6.com##.hide-desk.footer-banner
@@ -1887,9 +1885,9 @@ vebotv.biz##.mc_bottom>.mct_-bet
 vebotv.biz##.mmo
 vebotv.biz##.mmo-inner
 vebotv.biz##.vb-pr-box
-vebotv.biz,xoilac2.xyz,banhkhuc.link###m-bet
+vebotv.biz,xoilac2.xyz,banhkhuc.link,xoilac8.org,90phut6.live###m-bet
 vebotv.biz,xoilac8.org##.ft-box
-vebotv.biz,xoilac8.org##div[class*="size-"]
+vebotv.biz,xoilac8.org,90phut6.live##div[class*="size-"]
 vesotantai.com##.item-qc
 vieclam.tv###bnc1
 vietcetera.com##.Header_topBanner__1xD-2
@@ -1950,13 +1948,13 @@ xehay.vn###banner2ab
 xem-phim.tv##[href^="http://xemphimon.com/ads"]
 xembd.live##.bannerFF
 xembd.live##.xbd_topBanner
-xembd.live,cakhia.org##.xbd_topButton
+xembd.live,cakhia31.org##.xbd_topButton
 xemlivenhanh.com##.banner_pc
 xemlivenhanh.com##.box-banner
 xemtivingon.tv,tvhayhay.com##div[id^="Balloon_"]
 xiuren.org###christmas
 xoilac2.xyz##.btn-betnow.btn-sm.btn
-xoilac2.xyz,vebotv.biz,banhkhuc.link##.ibs-bet
+xoilac2.xyz,vebotv.biz,banhkhuc.link,xoilac8.org##.ibs-bet
 xoilac6.com##.block-catfish.text-center.d-lg-none.d-block
 xoilac6.com##.d-lg-flex.d-none.sub-menu
 xoilac6.com##.logo-cnt>.d-lg-none.d-block
@@ -1978,10 +1976,8 @@ xoilac7.tv##.container>ul>li.menu-item.nav-item:nth-of-type(2)
 xoilac7.tv##.offer
 xoilac7.tv##.sk_balloon_right.sk_balloon_down.sk_balloon
 xoilac7.tv,tructiepdabong1.com##.offer__btn
-xoilac8.org###m-bet
-xoilac8.org##.ibs-bet
-xoilac8.org##.item-betnow
 xoilac8.org##div.vebo-sp.container:nth-of-type(7)
+xoilac8.org,90phut6.live##.item-betnow
 xoivo.co##.bnt_what_live
 xoivo.co,tructiepdabong1.com,vaoroi12.online,tructiepdabong1.net##.ads-menu
 xoso.me,xsmn.me##a[href^="/redirect/out?token="]
@@ -2041,7 +2037,6 @@ zippyshare.com##.center_ad
 @@||go.trvdp.com/init/6009.js$domain=linkneverdie.net
 @@||googleads.g.doubleclick.net/pagead/$domain=cungthi.online
 @@||i.imgur.com/MsrDtuT.png$domain=autoitvn.com
-@@||imasdk.googleapis.com^$script,xmlhttprequest,domain=vieon.vn|fptplay.vn|24h.com.vn|vtvcab.vn|game24h.vn|sctvonline.vn
 @@||itudong.com/wp-content/uploads/2021/08/background1_itudong.jpg
 @@||js.aiservice.vn$script,domain=genk.vn
 @@||khosinhvien.com/uploads/logo/logo_5fe4389552c2a.png
@@ -2049,7 +2044,7 @@ zippyshare.com##.center_ad
 @@||media.nghean24h.vn/thumb$image
 @@||media1.admicro.vn/cms/$script,domain=tuoitre.vn
 @@||newscon.net/static/js/prebid-ads.js
-@@||pagead2.googlesyndication.com$script,xmlhttprequest,image,domain=thuthuatmeovat.net|kites.vn|phuongtrinhhoahoc.com|thichvn.com|icongnghe.com|vutrung.gnomio.com|letrongdai.vn|romgoc.net|traderviet.com|sum.vn|truyenaudiocv.net|123link.f4vnn.com|khuchotot.com|laptrinhx.com|1shortlink.com|shortenlink.vip|sachiepvien.net|iot.chinhphucvn.com|thelanb.com|nguyentinhblog.com|cungthi.online|sharescript.net|lehait.net|nhacsong.pro|kientruc360.info|tienichmaytinh.net|giavang.net|qthang.net|vnjpclub.com|753x.blogspot.com|ngohoanganhtuan.com|ngohoanganhtuan.net|toeicexamstore.xyz|vungoctuan.vn|ichi.pro|tromcap.com|dichthuatphuongdong.com|dafontvn.com|tinhocdongthap.com|gvnvh18.com|link1s.com|sesenblog.com|filess.us|baominh.tech|xaydungplus.com|anhdep24.com|tusachxinhxinh.com|sub1s.com|nguontv.org|windowslite.net|tiengnhatdongian.com|quangcaoyenbai.com|nguontvmoi.com|khohieu.com|designervn.net
+@@||pagead2.googlesyndication.com$script,xmlhttprequest,image,domain=thuthuatmeovat.net|kites.vn|phuongtrinhhoahoc.com|thichvn.com|icongnghe.com|vutrung.gnomio.com|letrongdai.vn|romgoc.net|traderviet.com|sum.vn|truyenaudiocv.net|123link.f4vnn.com|khuchotot.com|laptrinhx.com|1shortlink.com|shortenlink.vip|sachiepvien.net|iot.chinhphucvn.com|thelanb.com|nguyentinhblog.com|cungthi.online|sharescript.net|lehait.net|nhacsong.pro|kientruc360.info|giavang.net|qthang.net|vnjpclub.com|753x.blogspot.com|ngohoanganhtuan.com|ngohoanganhtuan.net|toeicexamstore.xyz|vungoctuan.vn|ichi.pro|tromcap.com|dichthuatphuongdong.com|dafontvn.com|tinhocdongthap.com|gvnvh18.com|link1s.com|sesenblog.com|filess.us|baominh.tech|xaydungplus.com|anhdep24.com|tusachxinhxinh.com|sub1s.com|nguontv.org|windowslite.net|tiengnhatdongian.com|quangcaoyenbai.com|nguontvmoi.com|khohieu.com|designervn.net
 @@||player.phimno1.com$subdocument
 @@||player.sohatv.vn/resource/$script,domain=cafef.vn|gamek.vn|genk.vn|kenh14.vn
 @@||pubads.g.doubleclick.net$xmlhttprequest,domain=vtvgiaitri.vn
@@ -2062,7 +2057,6 @@ zippyshare.com##.center_ad
 @@||stackjava.com/wp-content/uploads/*logo-250x250.png
 @@||static.amcdn.vn/tka/cdn.js$script,domain=genk.vn
 @@||tag.vlitag.com/v1/$script,domain=game24h.vn
-@@||tienichmaytinh.net/images/ads.jpg$image,~third-party
 @@||tpc.googlesyndication.com/sodar/sodar2.js$domain=cungthi.online
 @@||truyenaudiocv.net/ads-prebid.js
 @@||truyentranhaudio.com/app/manga/themes/light/assets/js/prebid-ads.js$script,~third-party
@@ -2078,7 +2072,6 @@ zippyshare.com##.center_ad
 @@||javadecompilers.com$generichide
 @@||link1s.com$generichide
 @@||onmsft.com$generichide
-@@||tienichmaytinh.net$generichide
 @@||xiuren.org$generichide
 !------ ABPVN Adult block -------
 $popup,third-party,domain=veporno.net|avgle.com|daxab.com|javmost.xyz
