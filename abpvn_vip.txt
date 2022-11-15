@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Y5KUOY57OcaGJKNuKg7psA
-! Version: 202211130823
+! Checksum: w5jqGuFgzWByrjX4DQTz/Q
+! Version: 202211150801
 ! Title: ABPVN List (VIP)
-! Last modified: 13 Nov 2022 08:23 UTC+7
+! Last modified: 15 Nov 2022 08:01 UTC+7
 ! Expires: 1 hour (update frequency)
 !
 ! ABPVN List filter
@@ -187,6 +187,7 @@ ad_300_250
 ||batdongsan24h.com.vn/images/banners/
 ||benhvientinhoc.com/img/bichquangmon.jpg
 ||bimbimz.tv^*.gif$image
+||biphim.cc/styles/vtlai/ads_z.js
 ||bit.ly$popup,domain=topphimhdz.net|razorphimzz.com
 ||blog.abit.vn/wp-content/uploads/2020/05/abit_$image
 ||blogspot.com^*.gif$domain=~blogtruyen.vn
@@ -942,6 +943,7 @@ ad_300_250
 ||neuvoo.com^$subdocument,third-party
 ||ngoinhachung.net^$popup
 ||no2veeamggaseber.com^
+||nocktatpooping.com^
 ||nomorepecans.com^
 ||nygvejyn.com^
 ||oagnatch.com^
@@ -1511,7 +1513,7 @@ ketqua.vn###left_ads
 ketqua2.net##.baloon
 ketqua2.net##.col-sm-10.kqcenter
 ketqua2.net##.kqbackground.vien ~ a[target="_blank"]
-ketqua2.net,nghean24h.vn,stream.tructiepnba.com,truyentranhmau.com,phimmoik.com##a[rel="nofollow"]
+ketqua2.net,nghean24h.vn,stream.tructiepnba.com,truyentranhmau.com,phimmoik.com,biphim.cc##a[rel="nofollow"]
 ketqua247.com###adsModal
 ketqua247.com,phuongtrinhhoahoc.com,bimbimz.tv##.ads-container
 khiphach.vn###qc-kpgame
