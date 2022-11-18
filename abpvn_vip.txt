@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Wjj7ztT+GEeRppxIxn/PiQ
-! Version: 202211161704
+! Checksum: WD6yxd2/ko0KCvwnxcaUQw
+! Version: 202211181915
 ! Title: ABPVN List (VIP)
-! Last modified: 16 Nov 2022 17:04 UTC+7
+! Last modified: 18 Nov 2022 19:15 UTC+7
 ! Expires: 1 hour (update frequency)
 !
 ! ABPVN List filter
@@ -389,11 +389,11 @@ ad_300_250
 ||media.vodcdn.xyz^*.gif$image
 ||megacode.vn/media/banners/
 ||mephimtv.cc/wp-banner$image
+||metruyencv.com/passback/$subdocument
 ||minhngoc.net^*.gif
 ||mocfun.net/uploads/banners/
 ||mpapis.xyz^*.gif$image
 ||mphimmoix.com/Theme/js/wonderfarm68.js
-||mtccv.com/passback/$subdocument
 ||muaban-batdongsan.com.vn/hn_uploads/banner
 ||music.youtube.com^$csp=worker-src 'none'
 ||networld.com.vn^*.gif
@@ -485,7 +485,7 @@ ad_300_250
 ||static.8cache.com/spon/$image
 ||static.bepolite.eu^
 ||static.bongda24h.vn/medias/*.gif
-||static.cdnno.com/storage/lazada/$image,domain=mtccv.com
+||static.cdnno.com/storage/lazada/$image,domain=metruyencv.com
 ||static.cdnstoremedia.com/cmsads/$image
 ||static.homedy.com/*banner-
 ||static.mepuzz.com/sdk/v2/MePuzzServiceWorker.min.js
@@ -869,6 +869,7 @@ ad_300_250
 ||iads.staticscdn.net^
 ||imad24.com^
 ||imgcdnbet.com^
+||imideflate.com^
 ||imrworldwide.com^$third-party
 ||imstore.bet365affiliates.com$third-party
 ||in-page-push.com^
@@ -1585,6 +1586,13 @@ mephimtrungz.com##div[id^="sponsor-"]
 mephimtv.cc##.fancybox-container
 mephimtv.cc##.mv-banner
 mephimtv.cc##.ws-banner
+metruyencv.com###js-read__content>div.text-center.pt-3
+metruyencv.com###tpads-pc-top-page
+metruyencv.com##.nh-read__alert
+metruyencv.com##.px-3.nh-read__body>.text-center.pb-3
+metruyencv.com##.text-center.pb-3.nh-read__pagination
+metruyencv.com##div.text-center.pt-3:nth-of-type(1)
+metruyencv.com##div.text-center.pt-3:nth-of-type(2)
 minhngoc.net.vn###adv1
 mitub.net##.single-box
 mitub.net##[href^="//dooloust.net/"]
@@ -1593,13 +1601,6 @@ motchill.com,motphimtv.info###mp-adbk
 motchill.com,motphimtv.info###mp-adx-b32
 motchill.com,motphimtv.info,phechill.net,2phimmoi.net##.mp-adz
 mphimmoix.com##.most-view:first-child
-mtccv.com###js-read__content>div.text-center.pt-3
-mtccv.com###tpads-pc-top-page
-mtccv.com##.nh-read__alert
-mtccv.com##.px-3.nh-read__body>.text-center.pb-3
-mtccv.com##.text-center.pb-3.nh-read__pagination
-mtccv.com##div.text-center.pt-3:nth-of-type(1)
-mtccv.com##div.text-center.pt-3:nth-of-type(2)
 muabanraovat.com##[class^="box_adv_ele"]
 muare.vn##.admicro_top
 muaxegiatot.vn###tdi_129
@@ -2087,9 +2088,11 @@ $third-party,script,domain=sexdiaryz.xyz
 ||bg4nxu2u5t.com^
 ||biqle.ru/swp.js
 ||ca4psell23a4bur.com^
-||cdn.discordapp.com^*.gif$image,domain=hentaiz.vip
+||cdn.discordapp.com^*.gif$image,domain=hentaiz.top
 ||cdn.javbabe.net^$subdocument
 ||cdn.torrango.com^$script
+||choidangcap.net^*.gif
+||choidangcap.us^*.gif
 ||ci.phncdn.com/www-static/js/promo-banner.js$script,domain=www.pornhub.com
 ||d3pvcolmug0tz6.cloudfront.net^
 ||d4ngwggzm3w7j.cloudfront.net^
@@ -2106,7 +2109,7 @@ $third-party,script,domain=sexdiaryz.xyz
 ||greenupload.com^*banner$image
 ||haribdathesea.com^
 ||hentaivn.tv/qx/$subdocument
-||hentaiz.vip/images/spon/$image
+||hentaiz.top/images/spon/$image
 ||hubt.pornhub.com/js/ht.js
 ||i.imgur.com^$image,domain=phym18.com|phim18hd.com
 ||javhiv.xyz^*.gif$image
@@ -2115,7 +2118,7 @@ $third-party,script,domain=sexdiaryz.xyz
 ||lauxanhthiendia.com/popup$script
 ||lucky88.com^$popup,third-party
 ||luscious.net/luscious.js
-||media.discordapp.net^*gif.$image,domain=hentaiz.vip
+||media.discordapp.net^*gif$image,domain=hentaiz.top
 ||mmliveapp.club/wp-content/uploads/2021/08/show-adsmmlive.png
 ||newdonate.com^
 ||newir3ltyug79aiman.com^
@@ -2179,7 +2182,7 @@ gvnvh18.com##a[href^="//"][rel="nofollow norefferer noopener"]
 hanime.tv##.banner_iframe
 hanime.tv##.golden-saucer
 hentaivn.tv##.a_d_s_115
-hentaiz.vip##.bottom-0.w-100.position-fixed
+hentaiz.top##.bottom-0.w-100.position-fixed
 hpjav.tv##.poplayer
 hpjav.tv##.video-boxad
 javbangers.com##.opt
