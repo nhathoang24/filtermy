@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: J5UVg9EU5aDnGhRBz/esvQ
-! Version: 202212021614
+! Checksum: Gm495zhzukMg/WYd3syIUQ
+! Version: 202212031745
 ! Title: ABPVN List (VIP)
-! Last modified: 02 Dec 2022 16:14 UTC+7
+! Last modified: 03 Dec 2022 17:45 UTC+7
 ! Expires: 1 hour (update frequency)
 !
 ! ABPVN List filter
@@ -1479,6 +1479,7 @@ gyazo.com##.lower-ad
 gyazo.com##.upper-ad-box
 haiquanonline.com.vn##.banner-top-main
 haiquanonline.com.vn##.baohaiquan_bottom_970x250
+hentaiz.page##.position-fixed
 hhhkungfu.tv##div.text-center:nth-of-type(7)
 hhhkungfu.tv##div[style="min-height: 250px"]
 hhkungfutv.net,phimnet.org,phimnet.me##.preload-banner
@@ -1603,9 +1604,9 @@ minhngoc.net.vn###adv1
 mitub.net##.single-box
 mitub.net##[href^="//dooloust.net/"]
 mmo4me.com##div[class^="ads-"]
-motchill.tv,motphimtv.info###mp-adbk
-motchill.tv,motphimtv.info###mp-adx-b32
-motchill.tv,motphimtv.info,phechill.net,2phimmoi.net##.mp-adz
+motchill.tv,motphimtv.me###mp-adbk
+motchill.tv,motphimtv.me###mp-adx-b32
+motchill.tv,motphimtv.me,phechill.net,2phimmoi.net##.mp-adz
 mphimmoix.com##.most-view:first-child
 muabanraovat.com##[class^="box_adv_ele"]
 muare.vn##.admicro_top
@@ -2052,7 +2053,7 @@ zippyshare.com##.center_ad
 @@||media.nghean24h.vn/thumb$image
 @@||media1.admicro.vn/cms/$script,domain=tuoitre.vn
 @@||newscon.net/static/js/prebid-ads.js
-@@||pagead2.googlesyndication.com$script,xmlhttprequest,image,domain=thuthuatmeovat.net|kites.vn|phuongtrinhhoahoc.com|thichvn.com|icongnghe.com|vutrung.gnomio.com|letrongdai.vn|romgoc.net|traderviet.com|sum.vn|truyenaudiocv.net|123link.f4vnn.com|khuchotot.com|laptrinhx.com|1shortlink.com|shortenlink.vip|sachiepvien.net|iot.chinhphucvn.com|thelanb.com|nguyentinhblog.com|cungthi.online|sharescript.net|lehait.net|nhacsong.pro|kientruc360.info|giavang.net|qthang.net|vnjpclub.com|753x.blogspot.com|ngohoanganhtuan.com|ngohoanganhtuan.net|toeicexamstore.xyz|vungoctuan.vn|ichi.pro|tromcap.com|dichthuatphuongdong.com|dafontvn.com|tinhocdongthap.com|gvnvh18.com|link1s.com|sesenblog.com|filess.us|baominh.tech|xaydungplus.com|anhdep24.com|tusachxinhxinh.com|sub1s.com|nguontv.org|windowslite.net|tiengnhatdongian.com|quangcaoyenbai.com|nguontvmoi.com|khohieu.com|designervn.net|ios.codevn.net|traffic1s.com
+@@||pagead2.googlesyndication.com$script,xmlhttprequest,image,domain=thuthuatmeovat.net|kites.vn|phuongtrinhhoahoc.com|thichvn.com|icongnghe.com|vutrung.gnomio.com|letrongdai.vn|romgoc.net|traderviet.com|sum.vn|truyenaudiocv.net|123link.f4vnn.com|khuchotot.com|laptrinhx.com|1shortlink.com|shortenlink.vip|sachiepvien.net|iot.chinhphucvn.com|thelanb.com|nguyentinhblog.com|cungthi.online|sharescript.net|lehait.net|nhacsong.pro|kientruc360.info|giavang.net|qthang.net|vnjpclub.com|753x.blogspot.com|ngohoanganhtuan.com|ngohoanganhtuan.net|toeicexamstore.xyz|vungoctuan.vn|ichi.pro|tromcap.com|dichthuatphuongdong.com|dafontvn.com|tinhocdongthap.com|gvnvh18.com|link1s.com|sesenblog.com|filess.us|baominh.tech|xaydungplus.com|anhdep24.com|tusachxinhxinh.com|sub1s.com|nguontv.org|windowslite.net|tiengnhatdongian.com|quangcaoyenbai.com|nguontvmoi.com|khohieu.com|designervn.net|ios.codevn.net|traffic1s.com|audiotruyenfull.com
 @@||player.phimno1.com$subdocument
 @@||player.sohatv.vn/resource/$script,domain=cafef.vn|gamek.vn|genk.vn|kenh14.vn
 @@||pubads.g.doubleclick.net$xmlhttprequest,domain=vtvgiaitri.vn
@@ -2100,7 +2101,6 @@ $third-party,script,domain=sexdiaryz.xyz
 ||bg4nxu2u5t.com^
 ||biqle.ru/swp.js
 ||ca4psell23a4bur.com^
-||cdn.discordapp.com^*.gif$image,domain=hentaiz.top
 ||cdn.javbabe.net^$subdocument
 ||cdn.torrango.com^$script
 ||choidangcap.net^*.gif
@@ -2109,7 +2109,7 @@ $third-party,script,domain=sexdiaryz.xyz
 ||d3pvcolmug0tz6.cloudfront.net^
 ||d4ngwggzm3w7j.cloudfront.net^
 ||di.phncdn.com/www-static/js/phub.js
-||discordapp.$image,domain=phym18.com
+||discordapp.$image,domain=phym18.com|biphim18.com|hentaiz.page
 ||doublepimp.com^
 ||doublepimpssl.com^
 ||dowtyler.com^
@@ -2121,7 +2121,7 @@ $third-party,script,domain=sexdiaryz.xyz
 ||greenupload.com^*banner$image
 ||haribdathesea.com^
 ||hentaivn.in/qx/$subdocument
-||hentaiz.top/images/spon/$image
+||hentaiz.page/images/spon/$image
 ||hubt.pornhub.com/js/ht.js
 ||i.imgur.com^$image,domain=phym18.com|phim18hd.com
 ||iifvcfwiqi.com^
@@ -2131,7 +2131,7 @@ $third-party,script,domain=sexdiaryz.xyz
 ||lauxanhthiendia.com/popup$script
 ||lucky88.com^$popup,third-party
 ||luscious.net/luscious.js
-||media.discordapp.net^*gif$image,domain=hentaiz.top
+||media.discordapp.net^*gif$image,domain=hentaiz.page
 ||mmliveapp.club/wp-content/uploads/2021/08/show-adsmmlive.png
 ||newdonate.com^
 ||newir3ltyug79aiman.com^
