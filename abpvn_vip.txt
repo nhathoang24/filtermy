@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: r/bEA5rz1ccmnZRzj+soVQ
-! Version: 202212281505
+! Checksum: t9xliryA0ky/dMl2UuCIQw
+! Version: 202212302050
 ! Title: ABPVN List (VIP)
-! Last modified: 28 Dec 2022 15:05 UTC+7
+! Last modified: 30 Dec 2022 20:50 UTC+7
 ! Expires: 1 hour (update frequency)
 !
 ! ABPVN List filter
@@ -90,6 +90,7 @@
 /googleads.
 /gpt.$script,domain=~linksht.com
 /hads-$domain=~phephimz.net
+/i.imgur.com/*.gif$domain=keonhacai5.net
 /i.imgur.com/*.gif$image,domain=tvzinghd.com
 /images/ad/*
 /images/banner-
@@ -235,7 +236,6 @@ ad_300_250
 ||db.tructiepbongda.me/images/images/banner/
 ||db.tructiepbongda.me^*.gif
 ||diemthi.24h.com.vn/upload/banner/
-||dimg04.c-ctrip.com^*.gif
 ||dinhnghia.vn^*.gif
 ||dongphims.tv/ads/$script
 ||dongphimtv.top^*.gif$image
@@ -594,6 +594,7 @@ ad_300_250
 ||xsmn247.me/images/*.gif
 ||xtgem.com/images/xtvid/
 ||yeah1.com^*/banners/
+||yhocdata.com/wp-content/plugins/dh-anti-adblocker/
 ||youtube.com$subdocument,domain=truyentranh86.com
 ||youtube.com/get_midroll_
 ! ---------- Ad domain ----------
@@ -867,7 +868,6 @@ ad_300_250
 ||mairbeets.com^
 ||maxonclick.com^
 ||may88win.com^$popup
-||media.jxf88.com^$third-party
 ||media2d.net^$third-party
 ||mediamath.com^
 ||mediapalmtree.com^
@@ -937,6 +937,7 @@ ad_300_250
 ||phokukse.com^
 ||pierisrapgae.com^
 ||pignuwoa.com^
+||player.gliacloud.com^
 ||polyad.galaxypub.vn
 ||polyad.net^$third-party
 ||popads.net^
@@ -1455,6 +1456,7 @@ infothethao.com##.widget_media_image
 infothethao.com##a[href^="https://tzaxmpmr.988905.com"]
 ireviewsach.com##[href^="https://rutgon.me/"]
 kenh14.vn##.khw-adk14-wrapper
+keonhacai5.net##.container>.row>center
 ketqua.vn###left_ads
 ketqua247.blog###adsModal
 ketqua247.blog,phuongtrinhhoahoc.com,bimbim.vip##.ads-container
