@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: t9xliryA0ky/dMl2UuCIQw
-! Version: 202212302050
+! Checksum: aiGWRxUuH4/RwZNTufDxJA
+! Version: 202301031231
 ! Title: ABPVN List (VIP)
-! Last modified: 30 Dec 2022 20:50 UTC+7
+! Last modified: 03 Jan 2023 12:31 UTC+7
 ! Expires: 1 hour (update frequency)
 !
 ! ABPVN List filter
@@ -651,6 +651,7 @@ ad_300_250
 ||aj1047.online^
 ||aj2393.online^
 ||ak.hetaruvg.com^$popup
+||alfkiel.com^
 ||allanalpass.com^$popup
 ||amazon-adsystem.com^$third-party
 ||ambient.cachefly.net^$script
@@ -1782,6 +1783,7 @@ truyentranhaudio.com,truyentranhaudio.online##div.mrb10
 truyentuan.com##.doc-truyen-ads-d1
 truyentuan.com##.doc-truyen-ads-d2
 tudomuaban.com###ad-center
+tuoitre.vn###LeaderBoardTop
 tuoitre.vn###admbackground
 tuoitre.vn##.Mobile_Masthead_TTO_Wrapper
 turbobit.net##.download-area-top
