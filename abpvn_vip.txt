@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: dpVIWKkmGufuoVzTKnEI1A
-! Version: 20230203155850
+! Checksum: RQJKwg7s7U+pEiw/dOsE/w
+! Version: 20230207092252
 ! Title: ABPVN List (VIP)
-! Last modified: 03 Feb 2023 15:58:50 UTC+7
+! Last modified: 07 Feb 2023 09:22:52 UTC+7
 ! Expires: 1 hour (update frequency)
 !
 ! ABPVN List filter
@@ -52,7 +52,7 @@
 /stores/ads_data/*
 /tinhocdongthap.com\/wp-content\/plugins\/wp-[\w-]+\/[\w-]+\.js/$script
 /v/*/vast.js$script
-/vast.js$script,domain=api.anime3s.com|tvzinghd.com|ophim.pro
+/vast.js$script,domain=api.anime3s.com|tvzinghd.com|ophimhay.com
 /videojs.ads.$domain=~danet.vn
 /videojs.ima.js$domain=~jut.su|~earthcam.com
 ||123nhadatviet.com/Media/CK/banners/
@@ -76,7 +76,7 @@
 ||appvuive.fun/wp-content/themes/vuasanco/assets/scripts/scripts.js
 ||appvuive.fun^*.gif
 ||assets-vaegaa.wedodemos.com/ads/$media,domain=vaoroi13.online
-||assets.ophim.pro^*.gif$image
+||assets.ophimhay.com^*.gif$image
 ||azrom.net/wp-content/plugins/best-ads-block-detector/
 ||baohaugiang.com.vn/uploads/SlideHomeimg/
 ||baonga.com/*quang_cao$image
@@ -403,7 +403,6 @@
 ||ttbd.tructiepbongda.me/images/images/banner/
 ||tudomuaban.com/public/upload/ad/
 ||tuhocanninhmang.com/images/banners/
-||tuhocmmo.com/wp-content/uploads/2020/10/ladipage_782x90-1.png
 ||tuviso.com/public/media//banner/
 ||tuyensinh247.com/$image,third-party
 ||tuyensinhso.vn/images/banners/*.gif$image,~third-party
@@ -1411,8 +1410,8 @@ nitroflare.com##[id^="superbox-"]
 nld.com.vn##.top-advertisment
 nongnghiep.vn##.exp_qc_share
 olug.vn###popup_center
-ophim.pro###popup
-ophim.pro##.adsContainer
+ophimhay.com###popup
+ophimhay.com##.adsContainer
 outlook.live.com##._3_hHr3kfEhbNYRFM5YJxH9
 phapluatplus.vn##div[style="text-align:center;margin-top:0px;margin-bottom:0px;"]
 phim18tv.net,vietphims.tv,kenhphim.site,hh3dhay.com,phimtn.com,tvhai.co##.float-ck-center-lt
@@ -1808,10 +1807,10 @@ zippyshare.com##.center_ad
 ~thanglongkydao.com###ad_global_below_navbar
 ~vnexpress.net,~autoitvn.com,~mifirm.net,~phimbbkk.cf,~drop.download,~linkvertise.com,~khosinhvien.com,~romgoc.net,~itudong.com###ads
 !---------------ABPVN White List--------------------
--@@||pagead2.googlesyndication.com^$domain=azrom.net|khohieu.com
 @@/favicon.ico
 @@/wp-content/plugins/advanced-ads/admin/assets/js/advertisement.js$script,~third-party
 @@||4.bp.blogspot.com/-Faf4F4bEgfs/X6bgItBh8RI/AAAAAAAADr4/TI07qDfVYWk4cPdNAj8Mn5Q_yVzuG2cJgCK4BGAYYCw/s1600/gvnvh18.png$image,domain=gvnvh18.com
+@@||ad.doubleclick.net^$domain=anonyviet.com
 @@||ads-api.twitter.com^$domain=azrom.net|khohieu.com|ycongnghe.com
 @@||animet.net/Theme/images/loadimg.gif$image
 @@||animevnn.com/*/img/load-img.gif$image,~third-party
@@ -1835,6 +1834,7 @@ zippyshare.com##.center_ad
 @@||media1.admicro.vn/cms/$script,domain=tuoitre.vn
 @@||newscon.net/static/js/prebid-ads.js
 @@||pagead2.googlesyndication.com$script,xmlhttprequest,image,domain=thuthuatmeovat.net|kites.vn|phuongtrinhhoahoc.com|filehk.com|ycongnghe.com|vutrung.gnomio.com|letrongdai.vn|romgoc.net|tradertop.net|sum.vn|truyenaudiocv.org|123link.f4vnn.com|khuchotot.com|laptrinhx.com|1shortlink.com|shortenlink.vip|sachiepvien.net|iot.chinhphucvn.com|thelanb.com|nguyentinhblog.com|cungthi.online|sharescript.net|lehait.net|nhacsong.pro|kientruc360.info|giavang.net|qthang.net|vnjpclub.com|753x.blogspot.com|ngohoanganhtuan.com|ngohoanganhtuan.net|toeicexamstore.xyz|vungoctuan.vn|ichi.pro|tromcap.com|dichthuatphuongdong.com|dafontvn.com|tinhocdongthap.com|gvnvh18.com|link1s.com|sesenblog.com|filess.us|baominh.tech|xaydungplus.com|anhdep24.com|tusachxinh.info|sub1s.com|nguontvhay.com|windowslite.net|tiengnhatdongian.com|quangcaoyenbai.com|designervn.net|ios.codevn.net|traffic1s.com|audiotruyenfull.com
+@@||pagead2.googlesyndication.com^$domain=azrom.net|khohieu.com|anonyviet.com
 @@||player.phimno1.cc$subdocument
 @@||player.sohatv.vn/resource/$script,domain=cafef.vn|gamek.vn|genk.vn|kenh14.vn
 @@||pubads.g.doubleclick.net$xmlhttprequest,domain=vtvgiaitri.vn
@@ -1861,6 +1861,7 @@ zippyshare.com##.center_ad
 @@||yhocdata.com/ext/d1/assets/js/ads-prebid.js
 @@||z-na.amazon-adsystem.com^$domain=azrom.net
 !--------Element Hiding Exception--------------
+@@||anonyviet.com$generichide
 @@||azrom.net$generichide
 @@||javadecompilers.com$generichide
 @@||link1s.com$generichide
@@ -1931,7 +1932,7 @@ $third-party,script,domain=sexdiaryz.xyz
 ||pushlommy.com^
 ||pushlum.com^
 ||pussl48.com^
-||qph.fs.quoracdn.net^$image,domain=vlxx.day
+||qph.fs.quoracdn.net^$image,domain=vlxx.info
 ||rasqitgikqz.com^
 ||resalag.com^
 ||rotondahogs.com^
@@ -2040,8 +2041,8 @@ tuoinung.co###hide_float_right
 video.xembed.club###istext
 video.xembed.club##body>div[id]
 viet69.lol##.footer-fixed-br-container
-vlxx.day##.ads
-vlxx.day##a[rel*="nofollow"]
+vlxx.info##.ads
+vlxx.info##a[rel*="nofollow"]
 vn.javbabe.net##.b-player
 vn.javbabe.net##.clipxx
 www.pornhub.com###pb_block
