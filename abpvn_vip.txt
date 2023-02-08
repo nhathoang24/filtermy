@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: RQJKwg7s7U+pEiw/dOsE/w
-! Version: 20230207092252
+! Checksum: hX8jOEAVi+bd62dzIlQSyg
+! Version: 20230207171623
 ! Title: ABPVN List (VIP)
-! Last modified: 07 Feb 2023 09:22:52 UTC+7
+! Last modified: 07 Feb 2023 17:16:23 UTC+7
 ! Expires: 1 hour (update frequency)
 !
 ! ABPVN List filter
@@ -213,6 +213,7 @@
 ||laptrinhvb.net/uploads/Banner.gif$image
 ||laptrinhvb.net/uploads/phan_mem_lay_tin_tu_dong_bat_dong_san.png
 ||lh3.googleusercontent.com/*=s0$image,domain=hhninja.xyz|animevietsub.pro
+||linkneverdie.net/jquery-editor
 ||listnhacai1.com^*.gif$image
 ||littlestar.edu.vn/styles/default/xenforo/baner.png
 ||live.staticflickr.com$domain=timdaily.vn,image
@@ -415,7 +416,7 @@
 ||upload.cc^*.gif$image,domain=ssphim.org|mephimgi.net|ephimchill.com|truyentranh86.com|phimhot365.net|hhkungfutv.net|mphim14.com
 ||vaophimhay.com/ads-$subdocument
 ||vebo-vast.pages.dev^*.gif
-||vebo17.tv^*.gif
+||vebo17.live^*.gif
 ||vegacdn.com^*.gif$image
 ||vesotantai.com/upload/photo/$image
 ||vietjack.com/git/images/2k2_new_2.jpg
@@ -690,6 +691,7 @@
 ||inpage-push.com^
 ||inpagepush.com^
 ||intellitxt.com^$third-party
+||iogjhbnoypg.com^
 ||iwanttodeliver.com^$third-party
 ||jads.co^
 ||jadserve.postrelease.com^
@@ -1063,22 +1065,16 @@
 a3mnga.com##.single-video
 anime3s.com###fbox-background
 anime47.com###qc_clgt
-anime47.com##.advertisement
-anime47.com,phimno1.cc###ads_location
 animet.net###inx-content
 animet.net###inx-overlay
 animet.net##.float-left
+animet.net##.gnarty-offads
 animet.net##.gnartyx-offads
 animet.net##.jeg_ad
-animet.net,phimmoi18.net##.gnarty-offads
-animetvn.info###fbox-background
-animetvn.info###mobile-ads
 animevietsub.pro###invideo_wrapper
-animevietsub.pro###pc-catfixx
 animevietsub.pro##.mobile-catfixx
 animevietsub.pro##div.Dvr-300
 animevietsub.pro##div[style^="position: fixed; top: 60px"]
-animevietsub.pro,play.plhqtvhay.xyz,streamsb.net,mphimmoi22.com,hiphimmoi.net,rakhoi15.tv,play.vnupload.net,ssplay.net,motphimhay.net,vebo3.org,mephimtv.cc,api.anime3s.com,p.thoctv.co,motchillz.org,xoilac12.org,cakhia18.com,cakhia26.tv,cakhia22.live,tvhayyy.org,phimmoi.vip##.jw-logo
 anivn.club###quang-cao
 anonyviet.com##.demo-wrapper + div[id][class]
 aoe.vn##.adv-section
@@ -1454,6 +1450,7 @@ phimnet.one###play
 phimnet.one,film365z.org##.ab1
 phimnhua.com###catfish-banner
 phimnhua.com##.topless
+phimno1.cc###ads_location
 phimno1.cc##.block.ad
 phimno1.cc,hhtq.net,film365z.org,dongphimtv.top,phimmoichilli.com,phimz.org###ads-preload
 phimraphot.net##.a--d-wrapper
@@ -1463,6 +1460,7 @@ photobucket.com##.slider-contents
 phunumoi.net.vn##div[id^="ads_"]
 phuongtrinhhoahoc.com##.sticky-bottom
 phuongtrinhhoahoc.com,tructiepbongda16.com##.top-banner
+play.plhqtvhay.xyz,streamsb.net,mphimmoi22.com,hiphimmoi.net,rakhoi15.tv,play.vnupload.net,ssplay.net,motphimhay.net,vebo3.org,mephimtv.cc,api.anime3s.com,p.thoctv.co,motchillz.org,xoilac12.org,cakhia18.com,cakhia26.tv,cakhia22.live,tvhayyy.org,phimmoi.vip##.jw-logo
 play.plhqtvhay.xyz,xemphimtop.net,tvhayyy.org,api.anime3s.com,tvhays.net##.t_logo
 player-cdn.com,freeplayervideo.com###player + div[id]
 player.phimbocn.com###video_player ~ div[id]
@@ -1646,19 +1644,19 @@ vaoroi9.co,vaoroi13.online##.divdatcuoc
 vcomic.net##.mrb10
 vcomic.net,truyen86.com##.click-ads
 vcomic.net,truyen86.com##.click-ads ~ p
-vebo17.tv##.align-items-center.justify-content-between.d-flex.col-12>.d-lg-none.d-block
-vebo17.tv##.btn-odds
-vebo17.tv##.btno-group.d-none.d-lg-flex
-vebo17.tv##.company
-vebo17.tv##.container.mt-1.d-none.d-lg-block
-vebo17.tv##.container>.mt-1
-vebo17.tv##.container>.mt-3
-vebo17.tv##.justify-content-between.d-lg-none.d-flex.btno-group
-vebo17.tv##.menu-item>a[rel="nofollow"]
-vebo17.tv##.topButton
-vebo17.tv##.widget_offer
-vebo17.tv##header>.container
-vebo17.tv,xoilac31.tv###wap_bottombanner_content
+vebo17.live##.align-items-center.justify-content-between.d-flex.col-12>.d-lg-none.d-block
+vebo17.live##.btn-odds
+vebo17.live##.btno-group.d-none.d-lg-flex
+vebo17.live##.company
+vebo17.live##.container.mt-1.d-none.d-lg-block
+vebo17.live##.container>.mt-1
+vebo17.live##.container>.mt-3
+vebo17.live##.justify-content-between.d-lg-none.d-flex.btno-group
+vebo17.live##.menu-item>a[rel="nofollow"]
+vebo17.live##.topButton
+vebo17.live##.widget_offer
+vebo17.live##header>.container
+vebo17.live,xoilac32.tv###wap_bottombanner_content
 vebo3.org##.box-host
 vebo3.org##.captain-sb
 vebo3.org##.mc_bottom>.mct_-bet
@@ -1742,26 +1740,26 @@ xoilac12.org##.btn-betnow.btn-sm.btn
 xoilac12.org##.item-betnow
 xoilac12.org##div.vebo-sp.container:nth-of-type(7)
 xoilac12.org,vebo3.org,banhkhuc6.com##.ibs-bet
-xoilac31.tv###match-child-1
-xoilac31.tv##.block-catfish.text-center.d-lg-none.d-block
-xoilac31.tv##.container.mt-1
-xoilac31.tv##.container>ul
-xoilac31.tv##.d-lg-flex.d-none.sub-menu
-xoilac31.tv##.logo-cnt>.d-lg-none.d-block
-xoilac31.tv##.menu-cuoc-one88
-xoilac31.tv##.menu-top-nha-cai
-xoilac31.tv##.mt-5.d-lg-none.d-block.pb-2.text-center
-xoilac31.tv##.offer
-xoilac31.tv##.pl-lg-0.col-xl-4
-xoilac31.tv##.row.d-none
-xoilac31.tv##.sk_balloon
-xoilac31.tv##.widget-offers__list
-xoilac31.tv##a.btn-odds[rel="nofollow"]
-xoilac31.tv##a[href^="https://www.fb88cup.com"]
-xoilac31.tv##a[href^="https://www.mu922.com"]
-xoilac31.tv##div.d-lg-none.d-block:nth-of-type(3)
-xoilac31.tv,tructiepdabong10.live##.offer__btn
-xoilac31.tv,vebo17.tv##div[id^="dnn_"]
+xoilac32.tv###match-child-1
+xoilac32.tv##.block-catfish.text-center.d-lg-none.d-block
+xoilac32.tv##.container.mt-1
+xoilac32.tv##.container>ul
+xoilac32.tv##.d-lg-flex.d-none.sub-menu
+xoilac32.tv##.logo-cnt>.d-lg-none.d-block
+xoilac32.tv##.menu-cuoc-one88
+xoilac32.tv##.menu-top-nha-cai
+xoilac32.tv##.mt-5.d-lg-none.d-block.pb-2.text-center
+xoilac32.tv##.offer
+xoilac32.tv##.pl-lg-0.col-xl-4
+xoilac32.tv##.row.d-none
+xoilac32.tv##.sk_balloon
+xoilac32.tv##.widget-offers__list
+xoilac32.tv##a.btn-odds[rel="nofollow"]
+xoilac32.tv##a[href^="https://www.fb88cup.com"]
+xoilac32.tv##a[href^="https://www.mu922.com"]
+xoilac32.tv##div.d-lg-none.d-block:nth-of-type(3)
+xoilac32.tv,tructiepdabong10.live##.offer__btn
+xoilac32.tv,vebo17.live##div[id^="dnn_"]
 xoivo11.co##.bnt_what_live
 xoivo11.co,tructiepdabong10.live,vaoroi13.online##.ads-menu
 xoso.mobi,xsmn247.me##a[href^="/redirect/out?token="]
@@ -1842,7 +1840,6 @@ zippyshare.com##.center_ad
 @@||quangcao.tuoitre.vn/customer/banner/2020/V/Vietlot/mb$subdocument
 @@||raovatbienhoa.vn/images/icon
 @@||romgoc.net/wp-content/uploads/2018/10/nav-logo.png
-@@||rtb.adxpremium.services^$domain=linkneverdie.net
 @@||services.vlitag.com/adv1/$script,domain=game24h.vn
 @@||sharescript.net/wp-content/uploads/2019/08/logo_white-copy-200.png
 @@||stackjava.com/wp-content/uploads/*logo-250x250.png
@@ -2040,7 +2037,7 @@ tuoi69vn.com,sieukhung.org##.adsTopHome
 tuoinung.co###hide_float_right
 video.xembed.club###istext
 video.xembed.club##body>div[id]
-viet69.lol##.footer-fixed-br-container
+viet69.page##.footer-fixed-br-container
 vlxx.info##.ads
 vlxx.info##a[rel*="nofollow"]
 vn.javbabe.net##.b-player
