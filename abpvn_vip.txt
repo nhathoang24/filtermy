@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: bLQa0YJ0IL8+k5108o2Y7g
-! Version: 20230214103255
+! Checksum: b/yBQUVShv3llo12uL6L1g
+! Version: 20230216162605
 ! Title: ABPVN List (VIP)
-! Last modified: 14 Feb 2023 10:32:55 UTC+7
+! Last modified: 16 Feb 2023 16:26:05 UTC+7
 ! Expires: 1 hour (update frequency)
 !
 ! ABPVN List filter
@@ -608,6 +608,7 @@
 ||dc5k8fg5ioc8s.cloudfront.net^
 ||delivery.adsterra.org^
 ||denetsuk.com^
+||depohtaxes.com^
 ||dibsemey.com^
 ||disqusads.com^$third-party
 ||djv99sxoqpv11.cloudfront.net^
@@ -837,6 +838,7 @@
 ||settlef.com^
 ||setupad-com.videoplayerhub.com^
 ||shoubsee.net^
+||skiddyteapots.com^
 ||smentcirrhoea.club^
 ||sociatingewer.info^
 ||societingna.info^
@@ -1554,6 +1556,7 @@ tivi12h.net###hide_float
 tivi4k.com###adstop2
 tivi4k.com##.col-lg-4.hidden-xs.d-flex.flex-column.address-wrap
 tivi4k.com##.main-nav.float-right
+toptruyen.me##.advertisement
 tpbpirateproxy.org###vpnModal
 tpbpirateproxy.org##.sidebar-vpn
 tradertop.net##.homePageAds
