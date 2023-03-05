@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: mH1EQLM+O/5WAMf9R4+rfg
-! Version: 20230302110304
+! Checksum: aaRlaalh/sNVSLi+ASDPlQ
+! Version: 20230304162118
 ! Title: ABPVN List (VIP)
-! Last modified: 02 Mar 2023 11:03:04 UTC+7
+! Last modified: 04 Mar 2023 16:21:18 UTC+7
 ! Expires: 1 hour (update frequency)
 !
 ! ABPVN List filter
@@ -106,6 +106,7 @@
 ||chothuesaigon.net^*.gif
 ||chotlo.com^*gif
 ||clbgamesvn.com/diendan/popup/popup.js$script,~third-party
+||cms.dmpcdn.com^*gif$image,domain=phimz.org
 ||code.gunnymienphi.net^*.gif
 ||coinvietnam.com/wp-content/uploads/2021/05/binance$image
 ||contuhoc.com/Content/Images/uploaded/Produtcs/
@@ -196,6 +197,7 @@
 ||ketqua247.blog/public/media/banner/
 ||ketquaxosotoancau.org/cdn-img/notvi/$domain=bongdahomnay.org
 ||ketquaxosotoancau.org^*.gif
+||khoaiphim.com/image/qc/$image
 ||khosinhvien.com/uploads/blocks/
 ||kienthuc.net.vn/*.ads
 ||kienthuc.net.vn/*banner.min.js
@@ -950,6 +952,7 @@
 ||wwwpromoter.com^$third-party
 ||xc.7msport.com^
 ||xcnqoertn.xyz^
+||xenosmussal.com^
 ||xml.vokut.com^$third-party
 ||xpanama.net^$third-party
 ||yamspunkdew.com^
@@ -1051,7 +1054,7 @@
 123link.pw,123link.co,vnurl.net,vinaurl.net,licklink.net,123link.pro,vinaurl.in###link-view>center
 123nhadat.vn###scroll-banners
 123nhadat.vn##.banner_C
-123nhadatviet.com,123nhadatviet.net,tuoitre.vn,tuoitrenews.vn,bongda365a.com##.banner-top
+123nhadatviet.com,123nhadatviet.net,tuoitre.vn,tuoitrenews.vn,bongda365a.net##.banner-top
 1337x.to##.lde696f19e041ef6821b375cb842c6b226e640d2d
 1337x.to##.no-top-radius li:nth-of-type(7)
 24h.com.vn###background_bg_link
@@ -1118,12 +1121,12 @@ bongda21h.com###backgroundPopupp
 bongda21h.com###popupContact
 bongda21h.com##.btn-single-cuoc
 bongda24h.vn##div[style="height:250px"]
-bongda365.bet,bongdatructuyen16.com##.banners
+bongda365.bet,bongdatructuyen17.com##.banners
 bongdahomnay.org,banthanghd.com###fixed-advert-center-panel
 bongdaso12.com,bongdaso12.net,bongdaso66.net###right_float
 bongdaso12.com,bongdaso12.net,bongdaso66.net##.art_header_text
 bongdaso12.com,bongdaso12.net,bongdaso66.net##[id$="float_banner"]
-bongdatructuyen16.com##.menu-mobile.hot-menu
+bongdatructuyen17.com##.menu-mobile.hot-menu
 btcvn.org##.PanelScroller.Notices
 cafebiz.vn##.bgadmtoptotal
 cafef.vn,ttvn.toquoc.vn##.bannertop
@@ -1275,6 +1278,11 @@ ketqua7.net##.col-sm-10.kqcenter
 ketqua7.net##.kqbackground.vien ~ a[target="_blank"]
 ketqua7.net,nghean24h.vn,stream.tructiepnba.com,truyenmauhot.net,phimmoi1s.com,biphim1.com##a[rel="nofollow"]
 khiphach.info###qc-kpgame
+khoaiphim.com###ads_preload
+khoaiphim.com##.float-ck-center-lt
+khoaiphim.com##.float-ck-center-lt1
+khoaiphim.com##.separator_mb
+khoaiphim.com##.separator_pc
 khomuc6.tv##.button-ads-header
 khomuc6.tv##.main-carousel-wrapper
 khomuc6.tv##.top-bookies
@@ -1443,10 +1451,12 @@ phimraphot.net##.a--d-wrapper
 phimraphot.net,phimgiff.net,ophimhd.net##.mobile-catfix
 phimtt.com##.breadcrumb.block-title
 phimvietsub.co##.code-block
+phimz.org###catfish
+phimz.org##div.separator
 photobucket.com##.slider-contents
 phunumoi.net.vn##div[id^="ads_"]
 phuongtrinhhoahoc.com##.sticky-bottom
-phuongtrinhhoahoc.com,tructiepbongda16.com##.top-banner
+phuongtrinhhoahoc.com,tructiepbongda17.com##.top-banner
 play.plhqtvhay.xyz,streamsb.net,mphimmoi22.com,hiphimmoi.net,rakhoi15.tv,rakhoi7.com,play.vnupload.net,ssplay.net,motphimhay.net,vebo3.org,mephimtv.cc,api.anime3s.com,p.thoctv.co,motchillz.org,xoilac12.org,cakhia18.com,cakhia28.tv,cakhia22.live,tvhayyy.org,phimmoi.vip,phimvietsub.co##.jw-logo
 play.plhqtvhay.xyz,xemphimtop.net,tvhayyy.org,api.anime3s.com,tvhays.net##.t_logo
 player-cdn.com,freeplayervideo.com,abysscdn.com###player + div[id]
