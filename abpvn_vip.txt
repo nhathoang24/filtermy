@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: cGr6lakprib2IMV39R2SCA
-! Version: 20230306163009
+! Checksum: JitdzQfFn9R//CD4ZKzFVQ
+! Version: 20230309082711
 ! Title: ABPVN List (VIP)
-! Last modified: 06 Mar 2023 16:30:09 UTC+7
+! Last modified: 09 Mar 2023 08:27:11 UTC+7
 ! Expires: 1 hour (update frequency)
 !
 ! ABPVN List filter
@@ -255,7 +255,6 @@
 ||nhipsonghomnay.vn^*.gif
 ||notepad.vn/media/images/like68.jpg
 ||onecms.vn/*banner$image
-||onedaysales.xyz^*.gif
 ||phanmemcntt.com/wp-content/uploads/2021/09/direct-link.jpg
 ||phimbocn.com/player-embed/assets/js/tvc.js
 ||phimchat1.net/public/*.mp4$domain=phimchat1.net,rewrite=abp-resource:blank-mp3
@@ -284,6 +283,7 @@
 ||phimz.org/tvc/load.html$subdocument,~third-party
 ||photo-cms-anninhthudo.zadn.vn/Uploaded/2021/xtsmr/
 ||photo2.tinhte.vn/data/attachment-files/*banner
+||photoshoponlinemienphi.com/wp-content/uploads/2022/05/banner-01.jpg$image
 ||phunuonline.biz^$domain=tinnhac.com
 ||phunutoday.vn/images/banners/
 ||phuongtrinhhoahoc.com/images/banner/
@@ -326,8 +326,8 @@
 ||sosanhnha.com/assets/banner/
 ||st.getsitecontrol.com^$script,domain=sachmoi.net
 ||st.nettruyenking.com^*.gif$image
-||st.nettruyenup.com.com^*.gif$image
-||st.nhattruyenup.com.com^*.gif$image
+||st.nettruyenup.com^*.gif$image
+||st.nhattruyenup.com^*.gif$image
 ||stablehost.com/images/banner
 ||startalk.vn/images/Ru-ban-them-vui-mb.jpg
 ||static-znews.zadn.vn/banner
@@ -1453,6 +1453,8 @@ phimtt.com##.breadcrumb.block-title
 phimvietsub.co##.code-block
 phimz.org##div.separator
 photobucket.com##.slider-contents
+photoshoponlinemienphi.com##.sgpb-popup-dialog-main-div-wrapper
+photoshoponlinemienphi.com##.sgpb-popup-overlay
 phunumoi.net.vn##div[id^="ads_"]
 phuongtrinhhoahoc.com##.sticky-bottom
 phuongtrinhhoahoc.com,tructiepbongda17.com,thanhnien.vn##.top-banner
@@ -1661,7 +1663,7 @@ vebo12.live##.menu-item>a[rel="nofollow"]
 vebo12.live##.topButton
 vebo12.live##.widget_offer
 vebo12.live##header>.container
-vebo12.live,xoilac52.tv###wap_bottombanner_content
+vebo12.live,xoilac14.tv###wap_bottombanner_content
 vebo3.org##.box-host
 vebo3.org##.captain-sb
 vebo3.org##.mc_bottom>.mct_-bet
@@ -1747,26 +1749,26 @@ xoilac12.org##.btn-betnow.btn-sm.btn
 xoilac12.org##.item-betnow
 xoilac12.org##div.vebo-sp.container:nth-of-type(7)
 xoilac12.org,vebo3.org,banhkhuc6.com##.ibs-bet
-xoilac52.tv###match-child-1
-xoilac52.tv##.block-catfish.text-center.d-lg-none.d-block
-xoilac52.tv##.container.mt-1
-xoilac52.tv##.container>ul
-xoilac52.tv##.d-lg-flex.d-none.sub-menu
-xoilac52.tv##.logo-cnt>.d-lg-none.d-block
-xoilac52.tv##.menu-cuoc-one88
-xoilac52.tv##.menu-top-nha-cai
-xoilac52.tv##.mt-5.d-lg-none.d-block.pb-2.text-center
-xoilac52.tv##.offer
-xoilac52.tv##.pl-lg-0.col-xl-4
-xoilac52.tv##.row.d-none
-xoilac52.tv##.sk_balloon
-xoilac52.tv##.widget-offers__list
-xoilac52.tv##a.btn-odds[rel="nofollow"]
-xoilac52.tv##a[href^="https://www.fb88cup.com"]
-xoilac52.tv##a[href^="https://www.mu922.com"]
-xoilac52.tv##div.d-lg-none.d-block:nth-of-type(3)
-xoilac52.tv,tructiepdabong10.live##.offer__btn
-xoilac52.tv,vebo12.live##div[id^="dnn_"]
+xoilac14.tv###match-child-1
+xoilac14.tv##.block-catfish.text-center.d-lg-none.d-block
+xoilac14.tv##.container.mt-1
+xoilac14.tv##.container>ul
+xoilac14.tv##.d-lg-flex.d-none.sub-menu
+xoilac14.tv##.logo-cnt>.d-lg-none.d-block
+xoilac14.tv##.menu-cuoc-one88
+xoilac14.tv##.menu-top-nha-cai
+xoilac14.tv##.mt-5.d-lg-none.d-block.pb-2.text-center
+xoilac14.tv##.offer
+xoilac14.tv##.pl-lg-0.col-xl-4
+xoilac14.tv##.row.d-none
+xoilac14.tv##.sk_balloon
+xoilac14.tv##.widget-offers__list
+xoilac14.tv##a.btn-odds[rel="nofollow"]
+xoilac14.tv##a[href^="https://www.fb88cup.com"]
+xoilac14.tv##a[href^="https://www.mu922.com"]
+xoilac14.tv##div.d-lg-none.d-block:nth-of-type(3)
+xoilac14.tv,tructiepdabong10.live##.offer__btn
+xoilac14.tv,vebo12.live##div[id^="dnn_"]
 xoivo11.co##.bnt_what_live
 xoivo11.co,tructiepdabong10.live,vaoroi13.online##.ads-menu
 xoso.mobi,xsmn247.me##a[href^="/redirect/out?token="]
