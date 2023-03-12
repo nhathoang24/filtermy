@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 93OTkXgukoXXWE5Qi9CoXA
-! Version: 20230310095137
+! Checksum: UFrQCdZps7cslgrWVHHsrQ
+! Version: 20230312140433
 ! Title: ABPVN List (VIP)
-! Last modified: 10 Mar 2023 09:51:37 UTC+7
+! Last modified: 12 Mar 2023 14:04:33 UTC+7
 ! Expires: 1 hour (update frequency)
 !
 ! ABPVN List filter
@@ -1677,6 +1677,7 @@ vebo3.org,xoilac12.org,banhkhuc6.com,90phut6.live,90phut4.live###m-bet
 vesotantai.com##.item-qc
 vieclam.tv###bnc1
 vietcetera.com##.Header_topBanner__1xD-2
+vietcetera.com##.styles_topBanner__NL_gW
 vietfones.vn##.vfs_banner
 vietgiaitri.com###BigBanner
 vietgiaitri.com##.ads_position
@@ -1931,6 +1932,7 @@ $third-party,script,domain=sexdiaryz.fun
 ||pushlum.com^
 ||pussl48.com^
 ||qph.fs.quoracdn.net^$image,domain=vlxx.info
+||quoracdn.net^$image,domain=vlxx.cc
 ||rasqitgikqz.com^
 ||resalag.com^
 ||rotondahogs.com^
@@ -2039,12 +2041,15 @@ tuoinung.co###hide_float_right
 video.xembed.club###istext
 video.xembed.club##body>div[id]
 viet69.page##.footer-fixed-br-container
+vlxx.cc###adx
+vlxx.cc##div.banner-catfish-bottom
 vlxx.info###adx
 vlxx.info##.ads
 vlxx.info##.catfish-bottom
 vlxx.info##a[rel*="nofollow"]
 vn.javbabe.net##.b-player
 vn.javbabe.net##.clipxx
+vn.phym18.com##div#bnads
 www.pornhub.com###pb_block
 www.pornhub.com##.adContainer
 www.pornhub.com##.clear.hd
