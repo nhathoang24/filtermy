@@ -3,7 +3,7 @@ youtube.com##.html5-endscreen-content
 youtube.com##.html5-endscreen
 youtube.com##.ytp-ce-element
 www.youtube.com#@#.ytp-gradient-bottom
-$3p,to=facebook.*,from=~facebook.com|~instagram.com
+!$3p,to=facebook.*,from=~facebook.com|~instagram.com
 xamvn.lol##.tooltip--selectToQuote
 voz.vn##.tooltip.tooltip--basic.tooltip--selectToQuote.tooltip--bottom
 ||truyensextv.me/anh/top1.gif$image
@@ -11,7 +11,6 @@ truyensextv.me##.sticky-footer-content
 truyencapnhat.com##div#promotionListElm.mt-base.vx-row:nth-of-type(1)
 truyencapnhat.com##.shortcut.shortcut-desktop
 facebook.com##h3[dir="auto"] ~ div:not([class]) > div[class] > div > div span[id] > span > span > a[href="#"] span > span[class]:has(svg > use[*|href]:not([href])):matches-css(width:/^(55|56|57|58)(.|p)/i):upward(h3[dir="auto"] ~ div:not([class]) > div[class] > div):style(width:0 !important; height:0 !important;)
-zingnews.vn###sLr-zone-646736814454292593 > .z2-zad-iframe
 gearvn.com###IMAGE488
 xamvn.biz##.tooltip--selectToQuote
 www.dacast.com##.clXYxT.styles__MainCookieConsentContainer-sc-1b7svpi-0
@@ -25,3 +24,6 @@ thiendiatruyen.com##div[id^="st"]
 www.apkmirror.com##.rda2m79r5m4j
 @@||pagead2.googlesyndication.com
 @@||imasdk.googleapis.com
+zingnews.vn##[id^=CrI-zone]
+zingnews.vn#?#.-zone:-abp-has(.featured_text_wrapper)
+
