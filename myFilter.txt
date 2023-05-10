@@ -3,10 +3,9 @@ youtube.com##.html5-endscreen-content
 youtube.com##.html5-endscreen
 youtube.com##.ytp-ce-element
 www.youtube.com#@#.ytp-gradient-bottom
-!$3p,to=facebook.*,from=~facebook.com|~instagram.com
+$3p,to=facebook.*,from=~facebook.com|~instagram.com
 xamvn.lol##.tooltip--selectToQuote
 voz.vn##.tooltip.tooltip--basic.tooltip--selectToQuote.tooltip--bottom
-||truyensextv.me/anh/top1.gif$image
 truyensextv.me##.sticky-footer-content
 truyencapnhat.com##div#promotionListElm.mt-base.vx-row:nth-of-type(1)
 truyencapnhat.com##.shortcut.shortcut-desktop
@@ -27,3 +26,6 @@ www.apkmirror.com##.rda2m79r5m4j
 zingnews.vn##[id^=CrI-zone]
 zingnews.vn#?#.-zone:-abp-has(.featured_text_wrapper)
 
+! 2023-05-08 https://nld.com.vn
+nld.com.vn##.box-right
+/anh/*.gif$image,domain=truyensextv.me
