@@ -25,7 +25,8 @@ www.apkmirror.com##.rda2m79r5m4j
 @@||imasdk.googleapis.com
 zingnews.vn##[id^=CrI-zone]
 zingnews.vn#?#.-zone:-abp-has(.featured_text_wrapper)
-
-! 2023-05-08 https://nld.com.vn
 nld.com.vn##.box-right
 /anh/*.gif$image,domain=truyensextv.me
+voz.vn##div[data-widget-key="share_this_page"]
+voz.vn##a[data-xf-init="share-tooltip"]
+twitch.tv##+js(twitch-videoad)
