@@ -4,14 +4,14 @@ youtube.com##.html5-endscreen
 youtube.com##.ytp-ce-element
 www.youtube.com#@#.ytp-gradient-bottom
 $3p,to=facebook.*,from=~facebook.com|~instagram.com
-xamvn.lol##.tooltip--selectToQuote
+xamvn.vc##.tooltip--selectToQuote
 voz.vn##.tooltip.tooltip--basic.tooltip--selectToQuote.tooltip--bottom
 truyensextv.me##.sticky-footer-content
 truyencapnhat.com##div#promotionListElm.mt-base.vx-row:nth-of-type(1)
 truyencapnhat.com##.shortcut.shortcut-desktop
 facebook.com##h3[dir="auto"] ~ div:not([class]) > div[class] > div > div span[id] > span > span > a[href="#"] span > span[class]:has(svg > use[*|href]:not([href])):matches-css(width:/^(55|56|57|58)(.|p)/i):upward(h3[dir="auto"] ~ div:not([class]) > div[class] > div):style(width:0 !important; height:0 !important;)
 gearvn.com###IMAGE488
-xamvn.biz##.tooltip--selectToQuote
+xamvn.to##.tooltip--selectToQuote
 www.dacast.com##.clXYxT.styles__MainCookieConsentContainer-sc-1b7svpi-0
 ||www.dtv-ebook.com/images/banner/*.png$image
 ||www.dtv-ebook.com/images/banner/*g$image
@@ -27,6 +27,26 @@ zingnews.vn##[id^=CrI-zone]
 zingnews.vn#?#.-zone:-abp-has(.featured_text_wrapper)
 nld.com.vn##.box-right
 /anh/*.gif$image,domain=truyensextv.me
-voz.vn##div[data-widget-key="share_this_page"]
-voz.vn##a[data-xf-init="share-tooltip"]
+!voz.vn##div[data-widget-key="share_this_page"]
+!voz.vn##a[data-xf-init="share-tooltip"]
 twitch.tv##+js(twitch-videoad)
+www.quora.com##.q-sticky > div > .qu-pb--medium.q-box > .qu-bg--raised.qu-boxShadow--small.qu-borderColor--raised.qu-borderRadius--small.qu-borderAll.q-box > .q-box
+www.quora.com##.PageContentsLayout___StyledBox-d2uxks-0.q-box > .q-box > div:nth-of-type(3) > div.q-box:nth-of-type(1)
+www.quora.com##.q-sticky > .qu-pb--medium.q-box > .qu-bg--raised.qu-boxShadow--small.qu-borderColor--raised.qu-borderRadius--small.qu-borderAll.q-box > .q-box
+xamvn.to##.notices.notices--block.js-notices
+nld.com.vn##.ads
+voz.vn##div[class^="div-pw-"]:style(display:none!important)
+anh.moe##.ad-banner
+video.anh.moe###randomImage
+! Suggested for you
+www.facebook.com##[aria-posinset] div:not(:only-child)>div:only-child>div:only-child>div:first-child[class=""]>div:not([data-0]):has-text(/^Suggested/):upward([aria-posinset])
+! People You May Know
+www.facebook.com##[aria-posinset] [aria-label="See all"][href="/friends/"]:upward([aria-posinset])
+! Suggested groups
+www.facebook.com##[aria-posinset] [aria-label="See more groups"][href="/groups/discover/"]:upward([aria-posinset])
+! Reels and short videos
+www.facebook.com##[aria-posinset] [aria-label="See more"][href="/reel/?s=ifu_see_more"]:upward([aria-posinset])
+facebook.com##[aria-label*="Marketplace"] object > a[href^="/ads/"] > span:not(:empty):upward(11)
+facebook.com##[aria-label*="Marketplace"] object:has(> a[href^="/ads/"] > span:has-text(/^Sponsored$/)):upward(a):upward(3)
+||www.nimo.tv/fragments/act/mini-panels$subdocument
+javhd.shop##div#a15y8354x8g58s
