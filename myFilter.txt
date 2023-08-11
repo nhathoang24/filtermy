@@ -100,3 +100,10 @@ voz.vn##.message.message--post.js-post.js-inlineModContainer:has(.message-name:h
 otofun.net##.tooltip.tooltip--basic.tooltip--selectToQuote.tooltip--bottom
 www.otofun.net##.notice--primary.js-notice.notice
 www.otofun.net##.right-sticky-container
+www.reddit.com##._1G4yU68P50vRZ4USXfaceV._2wqyhtudP4weVGsZdVXJgt
+cliphot69.me###mp-preload-popup-overlay
+cliphot69.me###catfish_content
+cliphot69.me###hide_catfish
+m.cliphotvn.org###mp-mb-preload > div
+m.cliphotvn.org###ads-preload
+m.cliphotvn.org###hide_catfish
