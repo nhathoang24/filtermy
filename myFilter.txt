@@ -5,6 +5,10 @@ youtube.com##.ytp-ce-element
 www.youtube.com#@#.ytp-gradient-bottom
 youtube-nocookie.com,youtube.com##.ytp-pause-overlay, .show-video-thumbnail-button
 ~youtube-nocookie.com,~youtube.com##iframe ~ #topvbar > #rvid
+youtube.com##+js(set, yt.config_.openPopupConfig.supportedPopups.adBlockMessageViewModel, false)
+youtube.com##+js(set, Object.prototype.adBlocksFound, 0)
+youtube.com##+js(set, ytplayer.config.args.raw_player_response.adPlacements, [])
+youtube.com##+js(set, Object.prototype.hasAllowedInstreamAd, true)
 xamvn.vc##.tooltip--selectToQuote
 voz.vn##.tooltip.tooltip--basic.tooltip--selectToQuote.tooltip--bottom
 truyensextv.me##.sticky-footer-content
@@ -26,9 +30,6 @@ www.apkmirror.com##.rda2m79r5m4j
 @@||imasdk.googleapis.com
 nld.com.vn##.box-right
 /anh/*.gif$image,domain=truyensextv.me
-!voz.vn##div[data-widget-key="share_this_page"]
-!voz.vn##a[data-xf-init="share-tooltip"]
-twitch.tv##+js(twitch-videoad)
 www.quora.com##.q-sticky > div > .qu-pb--medium.q-box > .qu-bg--raised.qu-boxShadow--small.qu-borderColor--raised.qu-borderRadius--small.qu-borderAll.q-box > .q-box
 www.quora.com##.PageContentsLayout___StyledBox-d2uxks-0.q-box > .q-box > div:nth-of-type(3) > div.q-box:nth-of-type(1)
 www.quora.com##.q-sticky > .qu-pb--medium.q-box > .qu-bg--raised.qu-boxShadow--small.qu-borderColor--raised.qu-borderRadius--small.qu-borderAll.q-box > .q-box
@@ -107,3 +108,7 @@ cliphot69.me###hide_catfish
 m.cliphotvn.org###mp-mb-preload > div
 m.cliphotvn.org###ads-preload
 m.cliphotvn.org###hide_catfish
+vlxx.moe##.catfish-top
+!voz.vn##div[data-widget-key="share_this_page"]
+!voz.vn##a[data-xf-init="share-tooltip"]
+
