@@ -109,6 +109,6 @@ m.cliphotvn.org###mp-mb-preload > div
 m.cliphotvn.org###ads-preload
 m.cliphotvn.org###hide_catfish
 vlxx.moe##.catfish-top
-!voz.vn##div[data-widget-key="share_this_page"]
-!voz.vn##a[data-xf-init="share-tooltip"]
+voz.vn##div[data-widget-key="share_this_page"]
+voz.vn##a[data-xf-init="share-tooltip"]
 
