@@ -10,13 +10,14 @@ youtube.com##+js(set, Object.prototype.adBlocksFound, 0)
 youtube.com##+js(set, ytplayer.config.args.raw_player_response.adPlacements, [])
 youtube.com##+js(set, Object.prototype.hasAllowedInstreamAd, true)
 xamvn.vc##.tooltip--selectToQuote
+xamvn.love##.tooltip--selectToQuote
+xamvn.love##.notices.notices--block.js-notices
 voz.vn##.tooltip.tooltip--basic.tooltip--selectToQuote.tooltip--bottom
 truyensextv.me##.sticky-footer-content
 truyencapnhat.com##div#promotionListElm.mt-base.vx-row:nth-of-type(1)
 truyencapnhat.com##.shortcut.shortcut-desktop
 facebook.com##h3[dir="auto"] ~ div:not([class]) > div[class] > div > div span[id] > span > span > a[href="#"] span > span[class]:has(svg > use[*|href]:not([href])):matches-css(width:/^(55|56|57|58)(.|p)/i):upward(h3[dir="auto"] ~ div:not([class]) > div[class] > div):style(width:0 !important; height:0 !important;)
 gearvn.com###IMAGE488
-xamvn.to##.tooltip--selectToQuote
 www.dacast.com##.clXYxT.styles__MainCookieConsentContainer-sc-1b7svpi-0
 ||www.dtv-ebook.com/images/banner/*.png$image
 ||www.dtv-ebook.com/images/banner/*g$image
@@ -33,7 +34,6 @@ nld.com.vn##.box-right
 www.quora.com##.q-sticky > div > .qu-pb--medium.q-box > .qu-bg--raised.qu-boxShadow--small.qu-borderColor--raised.qu-borderRadius--small.qu-borderAll.q-box > .q-box
 www.quora.com##.PageContentsLayout___StyledBox-d2uxks-0.q-box > .q-box > div:nth-of-type(3) > div.q-box:nth-of-type(1)
 www.quora.com##.q-sticky > .qu-pb--medium.q-box > .qu-bg--raised.qu-boxShadow--small.qu-borderColor--raised.qu-borderRadius--small.qu-borderAll.q-box > .q-box
-xamvn.to##.notices.notices--block.js-notices
 nld.com.vn##.ads
 voz.vn##div[class^="div-pw-"]:style(display:none!important)
 anh.moe##.ad-banner
@@ -63,8 +63,6 @@ phimmoik.net##.popUpBannerContent
 phimmoik.net##.popUpBannerBox
 phimmoik.net###container-ads
 phimmoik.net##.container > .right-box
-! Google consent, "before you continue"
-||accounts.google.com/gsi/*$xhr,script,3p
 ! YT consent
 youtube.com##+js(set, ytInitialData.topbar.desktopTopbarRenderer.interstitial.consentBumpRenderer.forceConsent, false)
 youtube.com##+js(json-prune, [].response.topbar.desktopTopbarRenderer.interstitial.consentBumpRenderer)
@@ -97,7 +95,7 @@ www.youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-video-renderer [ov
 www.youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-rich-item-renderer [overlay-style="SHORTS"]:upward(ytd-rich-item-renderer)
 ! YT Sidebar - Hide Shorts
 www.youtube.com###related ytd-compact-video-renderer [overlay-style="SHORTS"]:upward(ytd-compact-video-renderer)
-voz.vn##.message.message--post.js-post.js-inlineModContainer:has(.message-name:has-text(idmresettrial))
+!voz.vn##.message.message--post.js-post.js-inlineModContainer:has(.message-name:has-text(idmresettrial))
 otofun.net##.tooltip.tooltip--basic.tooltip--selectToQuote.tooltip--bottom
 www.otofun.net##.notice--primary.js-notice.notice
 www.otofun.net##.right-sticky-container
@@ -111,4 +109,8 @@ m.cliphotvn.org###hide_catfish
 vlxx.moe##.catfish-top
 voz.vn##div[data-widget-key="share_this_page"]
 voz.vn##a[data-xf-init="share-tooltip"]
+viet69.tube##.dp-wrapper
+twitch.tv##+js(twitch-videoad)
+xamvn.love##center
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##.promotedlink
 
