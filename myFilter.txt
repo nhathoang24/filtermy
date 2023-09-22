@@ -95,7 +95,8 @@ www.youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-video-renderer [ov
 www.youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-rich-item-renderer [overlay-style="SHORTS"]:upward(ytd-rich-item-renderer)
 ! YT Sidebar - Hide Shorts
 www.youtube.com###related ytd-compact-video-renderer [overlay-style="SHORTS"]:upward(ytd-compact-video-renderer)
-!voz.vn##.message.message--post.js-post.js-inlineModContainer:has(.message-name:has-text(idmresettrial))
+voz.vn##.message.message--post.js-post.js-inlineModContainer:has(.message-name:has-text(idmresettrial))
+voz.vn##.message.message--post.js-post.js-inlineModContainer:has(.message-name:has-text(Vishnu))
 otofun.net##.tooltip.tooltip--basic.tooltip--selectToQuote.tooltip--bottom
 www.otofun.net##.notice--primary.js-notice.notice
 www.otofun.net##.right-sticky-container
@@ -110,7 +111,7 @@ vlxx.moe##.catfish-top
 voz.vn##div[data-widget-key="share_this_page"]
 voz.vn##a[data-xf-init="share-tooltip"]
 viet69.tube##.dp-wrapper
-twitch.tv##+js(twitch-videoad)
 xamvn.love##center
-reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##.promotedlink
+anhvl.com##center
+play.onlive.vn##.live-interactive-iframe
 
