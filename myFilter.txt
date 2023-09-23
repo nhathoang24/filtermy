@@ -3,12 +3,6 @@ youtube.com##.html5-endscreen-content
 youtube.com##.html5-endscreen
 youtube.com##.ytp-ce-element
 www.youtube.com#@#.ytp-gradient-bottom
-youtube-nocookie.com,youtube.com##.ytp-pause-overlay, .show-video-thumbnail-button
-~youtube-nocookie.com,~youtube.com##iframe ~ #topvbar > #rvid
-youtube.com##+js(set, yt.config_.openPopupConfig.supportedPopups.adBlockMessageViewModel, false)
-youtube.com##+js(set, Object.prototype.adBlocksFound, 0)
-youtube.com##+js(set, ytplayer.config.args.raw_player_response.adPlacements, [])
-youtube.com##+js(set, Object.prototype.hasAllowedInstreamAd, true)
 xamvn.vc##.tooltip--selectToQuote
 xamvn.love##.tooltip--selectToQuote
 xamvn.love##.notices.notices--block.js-notices
