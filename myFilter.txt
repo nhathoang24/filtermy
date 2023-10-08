@@ -7,90 +7,40 @@ xamvn.vc##.tooltip--selectToQuote
 xamvn.love##.tooltip--selectToQuote
 xamvn.love##.notices.notices--block.js-notices
 voz.vn##.tooltip.tooltip--basic.tooltip--selectToQuote.tooltip--bottom
-truyensextv.me##.sticky-footer-content
+voz.vn##div[data-widget-key="share_this_page"]
+voz.vn##a[data-xf-init="share-tooltip"]
+voz.vn##.message.message--post.js-post.js-inlineModContainer:has(.message-name,.bbCodeBlock-title:has-text(idmresettrial))
+voz.vn##.js-inlineModContaine:has(.message-name,.bbCodeBlock-title,.message-attribution:has-text(idmresettrial))
+truyensextv.org##.sticky-footer-content
+/anh/*.gif$image,domain=truyensextv.org
 truyencapnhat.com##div#promotionListElm.mt-base.vx-row:nth-of-type(1)
 truyencapnhat.com##.shortcut.shortcut-desktop
-facebook.com##h3[dir="auto"] ~ div:not([class]) > div[class] > div > div span[id] > span > span > a[href="#"] span > span[class]:has(svg > use[*|href]:not([href])):matches-css(width:/^(55|56|57|58)(.|p)/i):upward(h3[dir="auto"] ~ div:not([class]) > div[class] > div):style(width:0 !important; height:0 !important;)
 gearvn.com###IMAGE488
 www.dacast.com##.clXYxT.styles__MainCookieConsentContainer-sc-1b7svpi-0
 ||www.dtv-ebook.com/images/banner/*.png$image
 ||www.dtv-ebook.com/images/banner/*g$image
 thiendiatruyen.com##div[id^="st"]
 ||xads.one/img/i9pc.gif$image
-/img/*.gif$image,domain=truyen-sex.com
-/ads/*.png$image,domain=truyen-sex.com
+!/img/*.gif$image,domain=truyen-sex.com
+!/ads/*.png$image,domain=truyen-sex.com
 /banner/*.gif$image,domain=sayhentai.me
 www.apkmirror.com##.rda2m79r5m4j
 @@||pagead2.googlesyndication.com
 @@||imasdk.googleapis.com
 nld.com.vn##.box-right
-/anh/*.gif$image,domain=truyensextv.me
 www.quora.com##.q-sticky > div > .qu-pb--medium.q-box > .qu-bg--raised.qu-boxShadow--small.qu-borderColor--raised.qu-borderRadius--small.qu-borderAll.q-box > .q-box
 www.quora.com##.PageContentsLayout___StyledBox-d2uxks-0.q-box > .q-box > div:nth-of-type(3) > div.q-box:nth-of-type(1)
 www.quora.com##.q-sticky > .qu-pb--medium.q-box > .qu-bg--raised.qu-boxShadow--small.qu-borderColor--raised.qu-borderRadius--small.qu-borderAll.q-box > .q-box
 nld.com.vn##.ads
-voz.vn##div[class^="div-pw-"]:style(display:none!important)
 anh.moe##.ad-banner
 video.anh.moe###randomImage
 ||www.nimo.tv/fragments/act/mini-panels$subdocument
 javhd.shop##div#a15y8354x8g58s
 vozforum.org##.notice--cookie.notice--primary.js-notice.notice > .notice-content
-! YT Homepage - Hide the Shorts section
-youtube.com##[is-shorts]
-! YT Menu - Hide the Shorts button
-www.youtube.com###guide [title="Shorts"], .ytd-mini-guide-entry-renderer[title="Shorts"]
-! YT Search - Hide Shorts
-www.youtube.com##ytd-search ytd-video-renderer [overlay-style="SHORTS"]:upward(ytd-video-renderer)
-! YT Search and Channels - Hide the Shorts sections
-www.youtube.com##ytd-reel-shelf-renderer
-! YT Channels - Hide the Shorts tab
-www.youtube.com##ytd-browse[page-subtype="channels"] [role="tab"]:nth-of-type(3):has-text(Shorts)
-! YT Subscriptions - Hide Shorts - Grid View
-www.youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-grid-video-renderer [overlay-style="SHORTS"]:upward(ytd-grid-video-renderer)
-! YT Subscriptions - Hide Shorts - List View
-www.youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-video-renderer [overlay-style="SHORTS"]:upward(ytd-item-section-renderer)
-! YT Subscriptions - New Layout - Hide Shorts
-www.youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-rich-item-renderer [overlay-style="SHORTS"]:upward(ytd-rich-item-renderer)
-! YT Sidebar - Hide Shorts
-www.youtube.com###related ytd-compact-video-renderer [overlay-style="SHORTS"]:upward(ytd-compact-video-renderer)
 phimmoik.net##.popUpBannerContent
 phimmoik.net##.popUpBannerBox
 phimmoik.net###container-ads
 phimmoik.net##.container > .right-box
-! YT consent
-youtube.com##+js(set, ytInitialData.topbar.desktopTopbarRenderer.interstitial.consentBumpRenderer.forceConsent, false)
-youtube.com##+js(json-prune, [].response.topbar.desktopTopbarRenderer.interstitial.consentBumpRenderer)
-youtube.com##+js(json-prune, topbar.desktopTopbarRenderer.interstitial.consentBumpRenderer)
-
-! 2021-12-01: When specific videos redirect persistently to consent page try this filter (discussion: https://redd.it/r3ec5x ):
-youtube.com##+js(set, ytInitialData.onResponseReceivedEndpoints, undefined)
-
-! 2021-12-14 YT consent v2 https://github.com/uBlockOrigin/uAssets/issues/7636#issuecomment-992858673
-youtube.com##+js(set, ytInitialData.topbar.desktopTopbarRenderer.interstitial.consentBumpV2Renderer, undefined)
-youtube.com##+js(json-prune, [].response.overlay.consentBumpV2Renderer topbar.desktopTopbarRenderer.interstitial.consentBumpV2Renderer overlay.consentBumpV2Renderer response.overlay.consentBumpV2Renderer)
-
-! 2022-10-16 when navigating directly to #shorts
-youtube.com##+js(set, ytInitialData.desktopTopbar.desktopTopbarRenderer.interstitial.consentBumpV2Renderer, undefined)
-! YT Homepage - Hide the Shorts section
-youtube.com##[is-shorts]
-! YT Menu - Hide the Shorts button
-www.youtube.com###guide [title="Shorts"], .ytd-mini-guide-entry-renderer[title="Shorts"]
-! YT Search - Hide Shorts
-www.youtube.com##ytd-search ytd-video-renderer [overlay-style="SHORTS"]:upward(ytd-video-renderer)
-! YT Search and Channels - Hide the Shorts sections
-www.youtube.com##ytd-reel-shelf-renderer
-! YT Channels - Hide the Shorts tab
-www.youtube.com##ytd-browse[page-subtype="channels"] [role="tab"]:nth-of-type(3):has-text(Shorts)
-! YT Subscriptions - Hide Shorts - Grid View
-www.youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-grid-video-renderer [overlay-style="SHORTS"]:upward(ytd-grid-video-renderer)
-! YT Subscriptions - Hide Shorts - List View
-www.youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-video-renderer [overlay-style="SHORTS"]:upward(ytd-item-section-renderer)
-! YT Subscriptions - New Layout - Hide Shorts
-www.youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-rich-item-renderer [overlay-style="SHORTS"]:upward(ytd-rich-item-renderer)
-! YT Sidebar - Hide Shorts
-www.youtube.com###related ytd-compact-video-renderer [overlay-style="SHORTS"]:upward(ytd-compact-video-renderer)
-voz.vn##.message.message--post.js-post.js-inlineModContainer:has(.message-name:has-text(idmresettrial))
-voz.vn##.message.message--post.js-post.js-inlineModContainer:has(.message-name:has-text(Vishnu))
 otofun.net##.tooltip.tooltip--basic.tooltip--selectToQuote.tooltip--bottom
 www.otofun.net##.notice--primary.js-notice.notice
 www.otofun.net##.right-sticky-container
@@ -102,10 +52,55 @@ m.cliphotvn.org###mp-mb-preload > div
 m.cliphotvn.org###ads-preload
 m.cliphotvn.org###hide_catfish
 vlxx.moe##.catfish-top
-voz.vn##div[data-widget-key="share_this_page"]
-voz.vn##a[data-xf-init="share-tooltip"]
 viet69.tube##.dp-wrapper
 xamvn.love##center
 anhvl.com##center
 play.onlive.vn##.live-interactive-iframe
+youtube.com,youtubekids.com,youtube-nocookie.com##+js(trusted-replace-fetch-response, /\"adPlacements.*?\"\}\}\}\]\,/, , player?key=)
+youtube.com,youtubekids.com,youtube-nocookie.com##+js(trusted-replace-fetch-response, /\"adSlots.*?\}\]\}\}\]\,/, , player?key=)
+youtube.com,youtubekids.com,youtube-nocookie.com##+js(trusted-replace-fetch-response, /\"playerAds.*?\}\}\]\,/, , player?key=)
+! YT consent
+youtube.com##+js(set, ytInitialData.topbar.desktopTopbarRenderer.interstitial.consentBumpRenderer.forceConsent, false)
+youtube.com##+js(json-prune, [].response.topbar.desktopTopbarRenderer.interstitial.consentBumpRenderer)
+youtube.com##+js(json-prune, topbar.desktopTopbarRenderer.interstitial.consentBumpRenderer)
+! YT Homepage - Hide the Shorts section
+youtube.com##[is-shorts]
+! YT Menu - Hide the Shorts button
+www.youtube.com###guide [title="Shorts"], .ytd-mini-guide-entry-renderer[title="Shorts"]
+! YT Search - Hide Shorts
+www.youtube.com##ytd-search ytd-video-renderer [overlay-style="SHORTS"]:upward(ytd-video-renderer)
+! YT Search and Channels - Hide the Shorts sections
+www.youtube.com##ytd-reel-shelf-renderer
+! YT Channels - Hide the Shorts tab
+www.youtube.com##ytd-browse[page-subtype="channels"] [role="tab"]:nth-of-type(3):has-text(Shorts)
+! YT Subscriptions - Hide Shorts - Grid View
+www.youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-grid-video-renderer [overlay-style="SHORTS"]:upward(ytd-grid-video-renderer)
+! YT Subscriptions - Hide Shorts - List View
+www.youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-video-renderer [overlay-style="SHORTS"]:upward(ytd-item-section-renderer)
+! YT Subscriptions - New Layout - Hide Shorts
+www.youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-rich-item-renderer [overlay-style="SHORTS"]:upward(ytd-rich-item-renderer)
+! YT Sidebar - Hide Shorts
+www.youtube.com###related ytd-compact-video-renderer [overlay-style="SHORTS"]:upward(ytd-compact-video-renderer)
+!#if env_firefox
+youtube.com##.ytp-quality-menu .ytp-premium-label:upward(.ytp-menuitem)
+!#endif
+!#if env_chromium
+youtube.com##.ytp-quality-menu .ytp-menuitem:has(.ytp-premium-label)
+!#endif
+
+! 2023-10-05 https://www.reddit.com
+www.reddit.com##._10wb7d3rGvj56Gcs4IQWL5._1FUNcfOeszr8eruqLxCMcR
+
+! Suggested for you
+www.facebook.com##[aria-posinset] div:not(:only-child)>div:only-child>div:only-child>div:first-child[class=""]>div:not([data-0]):has-text(/^Suggested/):upward([aria-posinset])
+! People You May Know
+www.facebook.com##[aria-posinset] [aria-label="See all"][href="/friends/"]:upward([aria-posinset])
+! Suggested groups
+www.facebook.com##[aria-posinset] [aria-label="See more groups"][href="/groups/discover/"]:upward([aria-posinset])
+! Reels and short videos
+www.facebook.com##[aria-posinset] [aria-label="See more"][href="/reel/?s=ifu_see_more"]:upward([aria-posinset])
+! Suggested pages
+www.facebook.com##[aria-posinset] [aria-label="Suggested pages"]:upward([aria-posinset])
+facebook.com##[aria-label*="Marketplace"] object > a[href^="/ads/"] > span:not(:empty):upward(11)
+facebook.com##[aria-label*="Marketplace"] object:has(> a[href^="/ads/"] > span:has-text(/^Sponsored$/)):upward(a):upward(3)
 
