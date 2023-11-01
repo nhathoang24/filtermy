@@ -11,6 +11,10 @@ voz.vn##div[data-widget-key="share_this_page"]
 voz.vn##a[data-xf-init="share-tooltip"]
 voz.vn##.message.message--post.js-post.js-inlineModContainer:has(.message-name,.bbCodeBlock-title:has-text(idmresettrial))
 voz.vn##.js-inlineModContaine:has(.message-name,.bbCodeBlock-title,.message-attribution:has-text(idmresettrial))
+voz.vn##.message.message--post.js-post.js-inlineModContainer:has(.message-name,.bbCodeBlock-title:has-text(Vishnu))
+voz.vn##.js-inlineModContaine:has(.message-name,.bbCodeBlock-title,.message-attribution:has-text(Vishnu))
+!ẩn cmt trên wall
+voz.vn##.message-responseRow:has(.comment-user:has-text(idmresettrial)) 
 truyensextv.org##.sticky-footer-content
 /anh/*.gif$image,domain=truyensextv.org
 truyencapnhat.com##div#promotionListElm.mt-base.vx-row:nth-of-type(1)
@@ -56,13 +60,6 @@ viet69.tube##.dp-wrapper
 xamvn.love##center
 anhvl.com##center
 play.onlive.vn##.live-interactive-iframe
-youtube.com,youtubekids.com,youtube-nocookie.com##+js(trusted-replace-fetch-response, /\"adPlacements.*?\"\}\}\}\]\,/, , player?key=)
-youtube.com,youtubekids.com,youtube-nocookie.com##+js(trusted-replace-fetch-response, /\"adSlots.*?\}\]\}\}\]\,/, , player?key=)
-youtube.com,youtubekids.com,youtube-nocookie.com##+js(trusted-replace-fetch-response, /\"playerAds.*?\}\}\]\,/, , player?key=)
-! YT consent
-youtube.com##+js(set, ytInitialData.topbar.desktopTopbarRenderer.interstitial.consentBumpRenderer.forceConsent, false)
-youtube.com##+js(json-prune, [].response.topbar.desktopTopbarRenderer.interstitial.consentBumpRenderer)
-youtube.com##+js(json-prune, topbar.desktopTopbarRenderer.interstitial.consentBumpRenderer)
 ! YT Homepage - Hide the Shorts section
 youtube.com##[is-shorts]
 ! YT Menu - Hide the Shorts button
@@ -81,26 +78,32 @@ www.youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-video-renderer [ov
 www.youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-rich-item-renderer [overlay-style="SHORTS"]:upward(ytd-rich-item-renderer)
 ! YT Sidebar - Hide Shorts
 www.youtube.com###related ytd-compact-video-renderer [overlay-style="SHORTS"]:upward(ytd-compact-video-renderer)
+! YT Mobile - Hide the Shorts Menu button
+m.youtube.com##.pivot-shorts:upward(ytm-pivot-bar-item-renderer)
+! YT Mobile - Hide Shorts sections
+m.youtube.com##ytm-reel-shelf-renderer
+! YT Mobile - Hide Shorts in search results
+m.youtube.com##ytm-search ytm-video-with-context-renderer [data-style="SHORTS"]
+
 !#if env_firefox
 youtube.com##.ytp-quality-menu .ytp-premium-label:upward(.ytp-menuitem)
 !#endif
 !#if env_chromium
 youtube.com##.ytp-quality-menu .ytp-menuitem:has(.ytp-premium-label)
 !#endif
-
 ! 2023-10-05 https://www.reddit.com
 www.reddit.com##._10wb7d3rGvj56Gcs4IQWL5._1FUNcfOeszr8eruqLxCMcR
+||voz.vn/cf-fonts/*$font,1p
 
-! Suggested for you
-www.facebook.com##[aria-posinset] div:not(:only-child)>div:only-child>div:only-child>div:first-child[class=""]>div:not([data-0]):has-text(/^Suggested/):upward([aria-posinset])
-! People You May Know
-www.facebook.com##[aria-posinset] [aria-label="See all"][href="/friends/"]:upward([aria-posinset])
-! Suggested groups
-www.facebook.com##[aria-posinset] [aria-label="See more groups"][href="/groups/discover/"]:upward([aria-posinset])
-! Reels and short videos
-www.facebook.com##[aria-posinset] [aria-label="See more"][href="/reel/?s=ifu_see_more"]:upward([aria-posinset])
-! Suggested pages
-www.facebook.com##[aria-posinset] [aria-label="Suggested pages"]:upward([aria-posinset])
-facebook.com##[aria-label*="Marketplace"] object > a[href^="/ads/"] > span:not(:empty):upward(11)
-facebook.com##[aria-label*="Marketplace"] object:has(> a[href^="/ads/"] > span:has-text(/^Sponsored$/)):upward(a):upward(3)
+! 2023-10-27 https://voz.vn
+voz.vn##.block-outer-opposite > .js-showIgnored.showIgnoredLink
+
+! 2023-10-28 https://henho.fun
+henho.fun##.float-ck-center-lt
+
+! 2023-10-30 https://xamvn.vc
+xamvn.vc##center:nth-of-type(2)
+
+! 2023-10-31 https://voz.vn
+voz.vn##.notice--dark.js-notice.notice > .notice-content
 
