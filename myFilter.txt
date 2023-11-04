@@ -107,3 +107,5 @@ xamvn.vc##center:nth-of-type(2)
 ! 2023-10-31 https://voz.vn
 voz.vn##.notice--dark.js-notice.notice > .notice-content
 
+tuoinung.cc##.float-ck1
+tuoinung.cc##.float-ck2
