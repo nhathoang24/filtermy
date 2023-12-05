@@ -13,8 +13,10 @@ voz.vn##.message.message--post.js-post.js-inlineModContainer:has(.message-name,.
 voz.vn##.js-inlineModContaine:has(.message-name,.bbCodeBlock-title,.message-attribution:has-text(idmresettrial))
 voz.vn##.message.message--post.js-post.js-inlineModContainer:has(.message-name,.bbCodeBlock-title:has-text(Vishnu))
 voz.vn##.js-inlineModContaine:has(.message-name,.bbCodeBlock-title,.message-attribution:has-text(Vishnu))
+voz.vn##.message.message--post.js-post.js-inlineModContainer:has(.message-name,.bbCodeBlock-title:has-text(Best stuff))
+voz.vn##.js-inlineModContaine:has(.message-name,.bbCodeBlock-title,.message-attribution:has-text(Best stuff))
 !ẩn cmt trên wall
-voz.vn##.message-responseRow:has(.comment-user:has-text(idmresettrial)) 
+!voz.vn##.message-responseRow:has(.comment-user:has-text(itisme)) 
 truyensextv.org##.sticky-footer-content
 /anh/*.gif$image,domain=truyensextv.org
 truyencapnhat.com##div#promotionListElm.mt-base.vx-row:nth-of-type(1)
@@ -60,6 +62,10 @@ viet69.tube##.dp-wrapper
 xamvn.love##center
 anhvl.com##center
 play.onlive.vn##.live-interactive-iframe
+! YT consent
+youtube.com##+js(set, ytInitialData.topbar.desktopTopbarRenderer.interstitial.consentBumpRenderer.forceConsent, false)
+youtube.com##+js(json-prune, [].response.topbar.desktopTopbarRenderer.interstitial.consentBumpRenderer)
+youtube.com##+js(json-prune, topbar.desktopTopbarRenderer.interstitial.consentBumpRenderer)
 ! YT Homepage - Hide the Shorts section
 youtube.com##[is-shorts]
 ! YT Menu - Hide the Shorts button
@@ -84,28 +90,56 @@ m.youtube.com##.pivot-shorts:upward(ytm-pivot-bar-item-renderer)
 m.youtube.com##ytm-reel-shelf-renderer
 ! YT Mobile - Hide Shorts in search results
 m.youtube.com##ytm-search ytm-video-with-context-renderer [data-style="SHORTS"]
-
+! Mobile YT - Hide videos based on channel URLs
+m.youtube.com##ytm-media-item .media-channel a:not([class]):is([href="/@ChannelURL"], [href="/@AnotherChannelURL"]):upward(ytm-media-item)
 !#if env_firefox
 youtube.com##.ytp-quality-menu .ytp-premium-label:upward(.ytp-menuitem)
 !#endif
 !#if env_chromium
 youtube.com##.ytp-quality-menu .ytp-menuitem:has(.ytp-premium-label)
 !#endif
+
+! Suggested for you
+www.facebook.com##[aria-posinset] div:not(:only-child)>div:only-child>div:only-child>div:first-child[class=""]>div:not([data-0]):has-text(/^Suggested/):upward([aria-posinset])
+! People You May Know
+www.facebook.com##[aria-posinset] [aria-label="See all"][href="/friends/"]:upward([aria-posinset])
+! Suggested groups
+www.facebook.com##[aria-posinset] [aria-label="See more groups"][href="/groups/discover/"]:upward([aria-posinset])
+! Reels and short videos
+www.facebook.com##[aria-posinset] [aria-label="See more"][href="/reel/?s=ifu_see_more"]:upward([aria-posinset])
+! Suggested pages
+www.facebook.com##[aria-posinset] [aria-label="Suggested pages"]:upward([aria-posinset])
 ! 2023-10-05 https://www.reddit.com
 www.reddit.com##._10wb7d3rGvj56Gcs4IQWL5._1FUNcfOeszr8eruqLxCMcR
 ||voz.vn/cf-fonts/*$font,1p
-
-! 2023-10-27 https://voz.vn
-voz.vn##.block-outer-opposite > .js-showIgnored.showIgnoredLink
-
-! 2023-10-28 https://henho.fun
+twitch.tv##+js(twitch-videoad)
 henho.fun##.float-ck-center-lt
-
-! 2023-10-30 https://xamvn.vc
-xamvn.vc##center:nth-of-type(2)
-
-! 2023-10-31 https://voz.vn
 voz.vn##.notice--dark.js-notice.notice > .notice-content
-
+xamvn.vc##center:nth-of-type(2)
+!www.reddit.com##div[data-click-id="media"] img[src*="blur=40"]:style(opacity: 0.1!important)
 tuoinung.cc##.float-ck1
 tuoinung.cc##.float-ck2
+truyendam.org##.visible-sm.visible-xs.sticky-footer
+voz.vn##.block-outer-opposite > .js-showIgnored.showIgnoredLink
+henho.fun##.float-ck-center-lt
+xamvn.vc##center:nth-of-type(2)
+voz.vn##.notice--dark.js-notice.notice > .notice-content
+||googlevideo.com/videoplayback$xhr,3p,method=get,domain=www.youtube.com
+! 2023-11-16 https://thiendia1.net
+thiendia1.net##.p-body-sidebar
+
+! 2023-11-25 https://one-site.top
+one-site.top##.popup93470124wrap
+
+! 2023-12-02 https://vn-z.vn
+vn-z.vn###__vliadb83-bg
+vn-z.vn###__vliadb83
+www.nimo.tv##.turntable
+www.nimo.tv##.daily-lottery-entry--live-room.visible.daily-lottery-entry > .content
+www.nimo.tv##.n-as-rel.nimo-room-ads
+www.nimo.tv##.nimo-follow-guide-banner
+www.nimo.tv##.nimo-room__rank n-as-rel bc-brighter
+
+! 2023-12-03 https://znews.vn
+znews.vn###Zingnews_SiteHeader
+
