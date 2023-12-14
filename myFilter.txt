@@ -15,6 +15,9 @@ voz.vn##.message.message--post.js-post.js-inlineModContainer:has(.message-name,.
 voz.vn##.js-inlineModContaine:has(.message-name,.bbCodeBlock-title,.message-attribution:has-text(Vishnu))
 voz.vn##.message.message--post.js-post.js-inlineModContainer:has(.message-name,.bbCodeBlock-title:has-text(Best stuff))
 voz.vn##.js-inlineModContaine:has(.message-name,.bbCodeBlock-title,.message-attribution:has-text(Best stuff))
+voz.vn##.message.message--post.js-post.js-inlineModContainer:has(.message-name,.bbCodeBlock-title:has-text(Người ngoài giang hồ said:))
+voz.vn##.js-inlineModContaine:has(.message-name,.bbCodeBlock-title,.message-attribution:has-text(Người ngoài giang hồ said:))
+voz.vn##.message.message--post.js-post.js-inlineModContainer:has(.message-name:has-text(/AI.Bot.001|Người ngoài giang hồ|idmresettrial/))
 !ẩn cmt trên wall
 !voz.vn##.message-responseRow:has(.comment-user:has-text(itisme)) 
 truyensextv.org##.sticky-footer-content
@@ -113,7 +116,6 @@ www.facebook.com##[aria-posinset] [aria-label="Suggested pages"]:upward([aria-po
 www.reddit.com##._10wb7d3rGvj56Gcs4IQWL5._1FUNcfOeszr8eruqLxCMcR
 ||voz.vn/cf-fonts/*$font,1p
 twitch.tv##+js(twitch-videoad)
-henho.fun##.float-ck-center-lt
 voz.vn##.notice--dark.js-notice.notice > .notice-content
 xamvn.vc##center:nth-of-type(2)
 !www.reddit.com##div[data-click-id="media"] img[src*="blur=40"]:style(opacity: 0.1!important)
@@ -125,15 +127,9 @@ henho.fun##.float-ck-center-lt
 xamvn.vc##center:nth-of-type(2)
 voz.vn##.notice--dark.js-notice.notice > .notice-content
 ||googlevideo.com/videoplayback$xhr,3p,method=get,domain=www.youtube.com
-! 2023-11-16 https://thiendia1.net
 thiendia1.net##.p-body-sidebar
-
-! 2023-11-25 https://one-site.top
-one-site.top##.popup93470124wrap
-
-! 2023-12-02 https://vn-z.vn
-vn-z.vn###__vliadb83-bg
-vn-z.vn###__vliadb83
+www.youtube.com##+js(nano-stb, resolve(1), *, 0.001)
+www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.service_worker_enabled, false)
 www.nimo.tv##.turntable
 www.nimo.tv##.daily-lottery-entry--live-room.visible.daily-lottery-entry > .content
 www.nimo.tv##.n-as-rel.nimo-room-ads
@@ -142,4 +138,85 @@ www.nimo.tv##.nimo-room__rank n-as-rel bc-brighter
 
 ! 2023-12-03 https://znews.vn
 znews.vn###Zingnews_SiteHeader
+
+!www.nimo.tv##.n-as-no-evt
+!www.nimo.tv##.n-as-of-hidden.n-as-magh-md.nimo-room__chatroom__box-gift
+!www.nimo.tv##.n-as-rel.n-as-bd0.RevenuePanel.nimo-iframe
+!www.nimo.tv##.turntable
+
+! Ẩn thanh tặng quà cho Streamer dưới livestream
+www.nimo.tv##.nimo-room__gift-shop
+
+! Ẩn Nimo-room Main
+! Ẩn thông tin trên nimo-header
+www.nimo.tv##.nimo-menu-item[data-id=recharge]
+www.nimo.tv##.nimo-menu-item[data-id=goLive]
+www.nimo.tv##.nimo-menu-item[data-id=app]
+! Ẩn thanh side-bar bên trái
+www.nimo.tv###side-bar
+! Ẩn thanh navigator bên phải
+www.nimo.tv##.float-navigator-container
+! Ẩn header thanh thể loại
+www.nimo.tv##.game-area-head
+! Ẩn nimo-card-cover và preview
+www.nimo.tv##.nimo-card-cover
+!www.nimo.tv##.nimo-player
+!www.nimo.tv##.nimo-rc_meta__nick-name
+!www.nimo.tv##.controlZindex
+! Ẩn hình nền và banner
+www.nimo.tv##.HeadImg.nimo-room__head-img
+||img.nimo.tv/o/banner/*/l0/img.webp$image
+! Ẩn info của streamer ở Nimo-room Main
+www.nimo.tv##.nimo-rm
+
+! Ẩn thông tin ở khung chat
+! Ẩn khung rank của streamer
+www.nimo.tv##.nimo-room__activity
+www.nimo.tv##.nimo-iframe__wrap
+! Ẩn khung rank của user donate
+www.nimo.tv##.nimo-room__rank
+! Ẩn User vào room và quà donate ở phía trên khung chat
+www.nimo.tv##.chat-room__enter_banner
+www.nimo.tv##.nimo-gift-banner
+www.nimo.tv##.swiper-container
+!www.nimo.tv##.n-as-abs.nimo-room__pay-chat-top-message-list.swiper-container-pointer-events.swiper-container-horizontal.swiper-container-initialized.swiper-container
+! Ẩn hiển thị trứng và thông tin user trúng thưởng ở khung chat
+!www.nimo.tv##.nimo-room__chatroom__box-gift
+www.nimo.tv##.nimo-popover
+!www.nimo.tv##[src="https://img.nimo.tv/o/banner/FA594DC3E0032D815464AD133760E769_daojishi.png/w152_l0/img.png"]
+!www.nimo.tv##.nimo-box-gift__box__cd
+!www.nimo.tv##[src="https://img.nimo.tv/o/banner/CA1F83CD61A6CBB290299AB8B9448A9_kelingqu.png/w152_l0/img.png"]
+!www.nimo.tv##.nimo-box-gift__box__btn
+www.nimo.tv##.nimo-box-gift__winner-msg
+www.nimo.tv##.tips
+! Ẩn tin nhắn donate, user vào room/share/follow/
+www.nimo.tv##.UserEnterRoomMessageItem
+www.nimo.tv##.chatroomShareComp-container
+www.nimo.tv##.n-fx-sc.n-as-mrgh.n-as-mrgv-xs
+www.nimo.tv##.n-as-mrgh.n-as-mrgv-xs
+www.nimo.tv##.n-as-mrgh.n-as-mrgb.nimo-room__chatroom__message-item
+www.nimo.tv##.n-as-mrg-xs
+!www.nimo.tv##.n-as-vtm
+!www.nimo.tv##.nimo-room__chatroom__message-item__info n-as-inline-block
+!www.nimo.tv##.c3.n-as-break-word.nimo-room__chatroom__message-item__content.content
+! Ẩn donate KC để hiện chat của user hoặc User lên cấp vé fan
+!www.nimo.tv##.n-as-fs12.n-as-rnd-lg.n-as-mrgh-xxs.n-as-mrgv-xs.nimo-room__pay-chat-message-item
+! Ẩn dòng System Message đầu tiên ở khung chat
+www.nimo.tv##div.nimo-room__chatroom__message-item:nth-of-type(1)
+! Ẩn trang trí tên user
+www.nimo.tv##.nimo-cr_decoration
+www.nimo.tv##.nimo-room__chatroom__message-item__info-colon
+! Ẩn khung chat Nimo
+!www.nimo.tv##.nimo-scrollbar.n-as-scroll
+www.nimo.tv##.n-fx-col.n-fx-bn.n-as-pad > .n-fx-bc
+www.nimo.tv##.ChatModeTip-container
+
+! 2023-12-11 https://voz.vn
+voz.vn##.js-notices.notices--block.notices
+
+! 2023-12-12 https://www.otofun.net
+www.otofun.net##.js-threadListItem-.js-inlineModContainer.structItem--thread.structItem
+
+! 2023-12-14 https://www.reddit.com
+www.reddit.com##._2akP1RcRQJAG3YjOsWoj73
 
