@@ -3,9 +3,8 @@ youtube.com##.html5-endscreen-content
 youtube.com##.html5-endscreen
 youtube.com##.ytp-ce-element
 www.youtube.com#@#.ytp-gradient-bottom
-xamvn.vc##.tooltip--selectToQuote
-xamvn.love##.tooltip--selectToQuote
-xamvn.love##.notices.notices--block.js-notices
+xamvn.red##^.tooltip--selectToQuote
+xamvn.red##^.notices.notices--block.js-notices
 voz.vn##.tooltip.tooltip--basic.tooltip--selectToQuote.tooltip--bottom
 voz.vn##div[data-widget-key="share_this_page"]
 voz.vn##a[data-xf-init="share-tooltip"]
@@ -17,7 +16,7 @@ voz.vn##.message.message--post.js-post.js-inlineModContainer:has(.message-name,.
 voz.vn##.js-inlineModContaine:has(.message-name,.bbCodeBlock-title,.message-attribution:has-text(Best stuff))
 voz.vn##.message.message--post.js-post.js-inlineModContainer:has(.message-name,.bbCodeBlock-title:has-text(Người ngoài giang hồ said:))
 voz.vn##.js-inlineModContaine:has(.message-name,.bbCodeBlock-title,.message-attribution:has-text(Người ngoài giang hồ said:))
-voz.vn##.message.message--post.js-post.js-inlineModContainer:has(.message-name:has-text(/AI.Bot.001|Người ngoài giang hồ|idmresettrial/))
+voz.vn##.message.message--post.js-post.js-inlineModContainer:has(.message-name:has-text(/AI.Bot.001|Người ngoài giang hồ|idmresettrial|Khôngg tênn 01|Pogteq|tehgby/))
 !ẩn cmt trên wall
 !voz.vn##.message-responseRow:has(.comment-user:has-text(itisme)) 
 truyensextv.org##.sticky-footer-content
@@ -103,28 +102,30 @@ youtube.com##.ytp-quality-menu .ytp-menuitem:has(.ytp-premium-label)
 !#endif
 
 ! Suggested for you
-www.facebook.com##[aria-posinset] div:not(:only-child)>div:only-child>div:only-child>div:first-child[class=""]>div:not([data-0]):has-text(/^Suggested/):upward([aria-posinset])
+www.facebook.com##:is([aria-posinset],[aria-describedby]:not([aria-posinset])) div:not(:only-child)>div:only-child>div:only-child>div:first-child[class=""]>div:not([data-0]):has-text(/^Suggested/):upward([aria-posinset],[aria-describedby]:not([aria-posinset]))
+! Unlabelled Suggested posts (with a Follow button)
+www.facebook.com##:is([aria-posinset],[aria-describedby]:not([aria-posinset])) :is(h3,h4) [role=button]:has-text(/Follow|Join/):upward([aria-posinset],[aria-describedby]:not([aria-posinset]))
+! Use only if you actually have these: Suggested posts with the label next to the post date
+www.facebook.com##:is([aria-posinset],[aria-describedby]:not([aria-posinset])):has-text(Suggested for you)
 ! People You May Know
-www.facebook.com##[aria-posinset] [aria-label="See all"][href="/friends/"]:upward([aria-posinset])
+www.facebook.com##:is([aria-posinset],[aria-describedby]:not([aria-posinset])) [aria-label="See all"][href="/friends/"]:upward([aria-posinset],[aria-describedby]:not([aria-posinset]))
 ! Suggested groups
-www.facebook.com##[aria-posinset] [aria-label="See more groups"][href="/groups/discover/"]:upward([aria-posinset])
+www.facebook.com##:is([aria-posinset],[aria-describedby]:not([aria-posinset])) [aria-label="See more groups"][href="/groups/discover/"]:upward([aria-posinset],[aria-describedby]:not([aria-posinset]))
 ! Reels and short videos
-www.facebook.com##[aria-posinset] [aria-label="See more"][href="/reel/?s=ifu_see_more"]:upward([aria-posinset])
+www.facebook.com##:is([aria-posinset],[aria-describedby]:not([aria-posinset])) [aria-label="See more"][href="/reel/?s=ifu_see_more"]:upward([aria-posinset],[aria-describedby]:not([aria-posinset]))
 ! Suggested pages
-www.facebook.com##[aria-posinset] [aria-label="Suggested pages"]:upward([aria-posinset])
+www.facebook.com##:is([aria-posinset],[aria-describedby]:not([aria-posinset])) [aria-label="Suggested pages"]:upward([aria-posinset],[aria-describedby]:not([aria-posinset]))
 ! 2023-10-05 https://www.reddit.com
 www.reddit.com##._10wb7d3rGvj56Gcs4IQWL5._1FUNcfOeszr8eruqLxCMcR
 ||voz.vn/cf-fonts/*$font,1p
 twitch.tv##+js(twitch-videoad)
 voz.vn##.notice--dark.js-notice.notice > .notice-content
-xamvn.vc##center:nth-of-type(2)
 !www.reddit.com##div[data-click-id="media"] img[src*="blur=40"]:style(opacity: 0.1!important)
 tuoinung.cc##.float-ck1
 tuoinung.cc##.float-ck2
 truyendam.org##.visible-sm.visible-xs.sticky-footer
 voz.vn##.block-outer-opposite > .js-showIgnored.showIgnoredLink
 henho.fun##.float-ck-center-lt
-xamvn.vc##center:nth-of-type(2)
 voz.vn##.notice--dark.js-notice.notice > .notice-content
 ||googlevideo.com/videoplayback$xhr,3p,method=get,domain=www.youtube.com
 thiendia1.net##.p-body-sidebar
@@ -135,8 +136,6 @@ www.nimo.tv##.daily-lottery-entry--live-room.visible.daily-lottery-entry > .cont
 www.nimo.tv##.n-as-rel.nimo-room-ads
 www.nimo.tv##.nimo-follow-guide-banner
 www.nimo.tv##.nimo-room__rank n-as-rel bc-brighter
-
-! 2023-12-03 https://znews.vn
 znews.vn###Zingnews_SiteHeader
 
 !www.nimo.tv##.n-as-no-evt
@@ -210,13 +209,29 @@ www.nimo.tv##.nimo-room__chatroom__message-item__info-colon
 !www.nimo.tv##.nimo-scrollbar.n-as-scroll
 www.nimo.tv##.n-fx-col.n-fx-bn.n-as-pad > .n-fx-bc
 www.nimo.tv##.ChatModeTip-container
-
-! 2023-12-11 https://voz.vn
 voz.vn##.js-notices.notices--block.notices
-
-! 2023-12-12 https://www.otofun.net
 www.otofun.net##.js-threadListItem-.js-inlineModContainer.structItem--thread.structItem
-
-! 2023-12-14 https://www.reddit.com
 www.reddit.com##._2akP1RcRQJAG3YjOsWoj73
-
+vn-z.vn##^.__vliadb83-content
+vn-z.vn##^#__vliadb83
+vn-z.vn##^#__vliadb83-bg
+lifestyle.zingnews.vn###error-report
+xamvn.red##^.float-ck-center-lt
+xamvn.red##^.tooltip--selectToQuote.tooltip--bottom.tooltip--basic.tooltip
+xamvn.red##.tooltip--selectToQuote.tooltip--bottom.tooltip--basic.tooltip
+xamvn.xyz##.tooltip--selectToQuote.tooltip--bottom.tooltip--basic.tooltip
+rphang.cc##.samVideoOverlay
+127.0.0.1##.hope-c-PJLV-ijhzIfm-css.hope-c-PJLV.hope-c-UdTFD-jEXiZO-placement-top-end.hope-c-UdTFD.hope-notification__list
+azdigi.com###penci-post-entry-inner > div
+www.youtube.com##.myButton
+51cg1.com##article:nth-of-type(2)
+51cg1.com##article:nth-of-type(3)
+51cg1.com##article:nth-of-type(4)
+51cg1.com##article:nth-of-type(5)
+51cg1.com##article:nth-of-type(6)
+51cg1.com##article:nth-of-type(7)
+51cg1.com##article:nth-of-type(8)
+51cg1.com##article:nth-of-type(9)
+51cg1.com##article:nth-of-type(10)
+51cg1.com##article:nth-of-type(11)
+51cg1.com##article:nth-of-type(12)
