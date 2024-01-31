@@ -115,7 +115,10 @@ www.facebook.com##:is([aria-posinset],[aria-describedby]:not([aria-posinset])) [
 www.facebook.com##:is([aria-posinset],[aria-describedby]:not([aria-posinset])) [aria-label="See more"][href="/reel/?s=ifu_see_more"]:upward([aria-posinset],[aria-describedby]:not([aria-posinset]))
 ! Suggested pages
 www.facebook.com##:is([aria-posinset],[aria-describedby]:not([aria-posinset])) [aria-label="Suggested pages"]:upward([aria-posinset],[aria-describedby]:not([aria-posinset]))
+! Suggested for you (mobile)
+m.facebook.com##[data-mcomponent="MScreen"]>div[class="m"]>div:has-text(Suggested for you)
 ! 2023-10-05 https://www.reddit.com
+facebook.com##[aria-label*="Marketplace"] object:has(> a[href^="/ads/"] > span:has-text(/^Sponsored$/)):upward(a):upward(3)
 www.reddit.com##._10wb7d3rGvj56Gcs4IQWL5._1FUNcfOeszr8eruqLxCMcR
 ||voz.vn/cf-fonts/*$font,1p
 twitch.tv##+js(twitch-videoad)
@@ -219,7 +222,7 @@ lifestyle.zingnews.vn###error-report
 xamvn.red##^.float-ck-center-lt
 xamvn.red##^.tooltip--selectToQuote.tooltip--bottom.tooltip--basic.tooltip
 xamvn.red##.tooltip--selectToQuote.tooltip--bottom.tooltip--basic.tooltip
-xamvn.xyz##.tooltip--selectToQuote.tooltip--bottom.tooltip--basic.tooltip
+xamvn.de##.tooltip--selectToQuote.tooltip--bottom.tooltip--basic.tooltip
 rphang.cc##.samVideoOverlay
 127.0.0.1##.hope-c-PJLV-ijhzIfm-css.hope-c-PJLV.hope-c-UdTFD-jEXiZO-placement-top-end.hope-c-UdTFD.hope-notification__list
 azdigi.com###penci-post-entry-inner > div
@@ -235,3 +238,21 @@ www.youtube.com##.myButton
 51cg1.com##article:nth-of-type(10)
 51cg1.com##article:nth-of-type(11)
 51cg1.com##article:nth-of-type(12)
+
+! 2024-01-12 https://91porny.com
+91porny.com##div.colVideoList:nth-of-type(1)
+
+! 2024-01-18 https://www.dropboxforum.com
+www.dropboxforum.com###darkness
+
+www.youtube.com###flexible-item-buttons > .ytd-menu-renderer.style-scope
+www.youtube.com##+js(nano-stb, resolve(1), *, 0.001)
+www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.web_enable_ab_rsp_cl, false)
+www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.ab_pl_man, false)
+||googlevideo.com/videoplayback$xhr,3p,method=get,domain=www.youtube.com
+! Warning: This will break push notifications
+www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.service_worker_enabled, false)
+
+! 2024-01-28 https://voz.vn
+voz.vn##.js-bottomFixTarget.u-bottomFixer
+
