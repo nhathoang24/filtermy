@@ -3,8 +3,6 @@ youtube.com##.html5-endscreen-content
 youtube.com##.html5-endscreen
 youtube.com##.ytp-ce-element
 www.youtube.com#@#.ytp-gradient-bottom
-xamvn.red##^.tooltip--selectToQuote
-xamvn.red##^.notices.notices--block.js-notices
 voz.vn##.tooltip.tooltip--basic.tooltip--selectToQuote.tooltip--bottom
 voz.vn##div[data-widget-key="share_this_page"]
 voz.vn##a[data-xf-init="share-tooltip"]
@@ -61,7 +59,6 @@ m.cliphotvn.org###ads-preload
 m.cliphotvn.org###hide_catfish
 vlxx.moe##.catfish-top
 viet69.tube##.dp-wrapper
-xamvn.love##center
 anhvl.com##center
 play.onlive.vn##.live-interactive-iframe
 ! YT consent
@@ -219,9 +216,6 @@ vn-z.vn##^.__vliadb83-content
 vn-z.vn##^#__vliadb83
 vn-z.vn##^#__vliadb83-bg
 lifestyle.zingnews.vn###error-report
-xamvn.red##^.float-ck-center-lt
-xamvn.red##^.tooltip--selectToQuote.tooltip--bottom.tooltip--basic.tooltip
-xamvn.red##.tooltip--selectToQuote.tooltip--bottom.tooltip--basic.tooltip
 xamvn.de##.tooltip--selectToQuote.tooltip--bottom.tooltip--basic.tooltip
 rphang.cc##.samVideoOverlay
 127.0.0.1##.hope-c-PJLV-ijhzIfm-css.hope-c-PJLV.hope-c-UdTFD-jEXiZO-placement-top-end.hope-c-UdTFD.hope-notification__list
@@ -255,4 +249,19 @@ www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.service_worker_enabled, fa
 
 ! 2024-01-28 https://voz.vn
 voz.vn##.js-bottomFixTarget.u-bottomFixer
+
+! 2024-01-31 https://xamvn.li
+xamvn.li##.js-notices.notices--block.notices
+
+! 2024-01-31 https://xamvn.la
+xamvn.cx##.tooltip--selectToQuote.tooltip--bottom.tooltip--basic.tooltip
+! 2024-01-28 https://voz.vn
+voz.vn##.js-bottomFixTarget.u-bottomFixer
+
+! 2024-01-31 https://xamvn.li
+xamvn.li##.js-notices.notices--block.notices
+
+! 2024-01-31 https://xamvn.la
+xamvn.cx##.tooltip--selectToQuote.tooltip--bottom.tooltip--basic.tooltip
+!*$csp=worker-src 'none'
 
