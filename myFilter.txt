@@ -4,7 +4,7 @@ youtube.com##.html5-endscreen
 youtube.com##.ytp-ce-element
 www.youtube.com#@#.ytp-gradient-bottom
 voz.vn##.tooltip.tooltip--basic.tooltip--selectToQuote.tooltip--bottom
-voz.vn##div[data-widget-key="share_this_page"]
+!voz.vn##div[data-widget-key="share_this_page"]
 voz.vn##a[data-xf-init="share-tooltip"]
 voz.vn##.message.message--post.js-post.js-inlineModContainer:has(.message-name,.bbCodeBlock-title:has-text(idmresettrial))
 voz.vn##.js-inlineModContaine:has(.message-name,.bbCodeBlock-title,.message-attribution:has-text(idmresettrial))
@@ -14,7 +14,7 @@ voz.vn##.message.message--post.js-post.js-inlineModContainer:has(.message-name,.
 voz.vn##.js-inlineModContaine:has(.message-name,.bbCodeBlock-title,.message-attribution:has-text(Best stuff))
 voz.vn##.message.message--post.js-post.js-inlineModContainer:has(.message-name,.bbCodeBlock-title:has-text(Người ngoài giang hồ said:))
 voz.vn##.js-inlineModContaine:has(.message-name,.bbCodeBlock-title,.message-attribution:has-text(Người ngoài giang hồ said:))
-voz.vn##.message.message--post.js-post.js-inlineModContainer:has(.message-name:has-text(/AI.Bot.001|Người ngoài giang hồ|idmresettrial|Khôngg tênn 01|Pogteq|tehgby/))
+voz.vn##.message.message--post.js-post.js-inlineModContainer:has(.message-name:has-text(/AI.Bot.001|Người ngoài giang hồ|idmresettrial|Khôngg tênn 01|Pogteq|tehgby|The Deeper Sea|Mê Gái/))
 !ẩn cmt trên wall
 !voz.vn##.message-responseRow:has(.comment-user:has-text(itisme)) 
 truyensextv.org##.sticky-footer-content
@@ -61,42 +61,7 @@ vlxx.moe##.catfish-top
 viet69.tube##.dp-wrapper
 anhvl.com##center
 play.onlive.vn##.live-interactive-iframe
-! YT consent
-youtube.com##+js(set, ytInitialData.topbar.desktopTopbarRenderer.interstitial.consentBumpRenderer.forceConsent, false)
-youtube.com##+js(json-prune, [].response.topbar.desktopTopbarRenderer.interstitial.consentBumpRenderer)
-youtube.com##+js(json-prune, topbar.desktopTopbarRenderer.interstitial.consentBumpRenderer)
-! YT Homepage - Hide the Shorts section
-youtube.com##[is-shorts]
-! YT Menu - Hide the Shorts button
-www.youtube.com###guide [title="Shorts"], .ytd-mini-guide-entry-renderer[title="Shorts"]
-! YT Search - Hide Shorts
-www.youtube.com##ytd-search ytd-video-renderer [overlay-style="SHORTS"]:upward(ytd-video-renderer)
-! YT Search and Channels - Hide the Shorts sections
-www.youtube.com##ytd-reel-shelf-renderer
-! YT Channels - Hide the Shorts tab
-www.youtube.com##ytd-browse[page-subtype="channels"] [role="tab"]:nth-of-type(3):has-text(Shorts)
-! YT Subscriptions - Hide Shorts - Grid View
-www.youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-grid-video-renderer [overlay-style="SHORTS"]:upward(ytd-grid-video-renderer)
-! YT Subscriptions - Hide Shorts - List View
-www.youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-video-renderer [overlay-style="SHORTS"]:upward(ytd-item-section-renderer)
-! YT Subscriptions - New Layout - Hide Shorts
-www.youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-rich-item-renderer [overlay-style="SHORTS"]:upward(ytd-rich-item-renderer)
-! YT Sidebar - Hide Shorts
-www.youtube.com###related ytd-compact-video-renderer [overlay-style="SHORTS"]:upward(ytd-compact-video-renderer)
-! YT Mobile - Hide the Shorts Menu button
-m.youtube.com##.pivot-shorts:upward(ytm-pivot-bar-item-renderer)
-! YT Mobile - Hide Shorts sections
-m.youtube.com##ytm-reel-shelf-renderer
-! YT Mobile - Hide Shorts in search results
-m.youtube.com##ytm-search ytm-video-with-context-renderer [data-style="SHORTS"]
-! Mobile YT - Hide videos based on channel URLs
-m.youtube.com##ytm-media-item .media-channel a:not([class]):is([href="/@ChannelURL"], [href="/@AnotherChannelURL"]):upward(ytm-media-item)
-!#if env_firefox
-youtube.com##.ytp-quality-menu .ytp-premium-label:upward(.ytp-menuitem)
-!#endif
-!#if env_chromium
 youtube.com##.ytp-quality-menu .ytp-menuitem:has(.ytp-premium-label)
-!#endif
 
 ! Suggested for you
 www.facebook.com##:is([aria-posinset],[aria-describedby]:not([aria-posinset])) div:not(:only-child)>div:only-child>div:only-child>div:first-child[class=""]>div:not([data-0]):has-text(/^Suggested/):upward([aria-posinset],[aria-describedby]:not([aria-posinset]))
@@ -119,18 +84,13 @@ facebook.com##[aria-label*="Marketplace"] object:has(> a[href^="/ads/"] > span:h
 www.reddit.com##._10wb7d3rGvj56Gcs4IQWL5._1FUNcfOeszr8eruqLxCMcR
 ||voz.vn/cf-fonts/*$font,1p
 twitch.tv##+js(twitch-videoad)
-voz.vn##.notice--dark.js-notice.notice > .notice-content
 !www.reddit.com##div[data-click-id="media"] img[src*="blur=40"]:style(opacity: 0.1!important)
 tuoinung.cc##.float-ck1
 tuoinung.cc##.float-ck2
 truyendam.org##.visible-sm.visible-xs.sticky-footer
 voz.vn##.block-outer-opposite > .js-showIgnored.showIgnoredLink
 henho.fun##.float-ck-center-lt
-voz.vn##.notice--dark.js-notice.notice > .notice-content
-||googlevideo.com/videoplayback$xhr,3p,method=get,domain=www.youtube.com
 thiendia1.net##.p-body-sidebar
-www.youtube.com##+js(nano-stb, resolve(1), *, 0.001)
-www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.service_worker_enabled, false)
 www.nimo.tv##.turntable
 www.nimo.tv##.daily-lottery-entry--live-room.visible.daily-lottery-entry > .content
 www.nimo.tv##.n-as-rel.nimo-room-ads
@@ -216,7 +176,6 @@ vn-z.vn##^.__vliadb83-content
 vn-z.vn##^#__vliadb83
 vn-z.vn##^#__vliadb83-bg
 lifestyle.zingnews.vn###error-report
-xamvn.de##.tooltip--selectToQuote.tooltip--bottom.tooltip--basic.tooltip
 rphang.cc##.samVideoOverlay
 127.0.0.1##.hope-c-PJLV-ijhzIfm-css.hope-c-PJLV.hope-c-UdTFD-jEXiZO-placement-top-end.hope-c-UdTFD.hope-notification__list
 azdigi.com###penci-post-entry-inner > div
@@ -238,30 +197,74 @@ www.youtube.com##.myButton
 
 ! 2024-01-18 https://www.dropboxforum.com
 www.dropboxforum.com###darkness
-
-www.youtube.com###flexible-item-buttons > .ytd-menu-renderer.style-scope
-www.youtube.com##+js(nano-stb, resolve(1), *, 0.001)
-www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.web_enable_ab_rsp_cl, false)
-www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.ab_pl_man, false)
-||googlevideo.com/videoplayback$xhr,3p,method=get,domain=www.youtube.com
-! Warning: This will break push notifications
-www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.service_worker_enabled, false)
-
-! 2024-01-28 https://voz.vn
 voz.vn##.js-bottomFixTarget.u-bottomFixer
 
-! 2024-01-31 https://xamvn.li
-xamvn.li##.js-notices.notices--block.notices
 
-! 2024-01-31 https://xamvn.la
-xamvn.cx##.tooltip--selectToQuote.tooltip--bottom.tooltip--basic.tooltip
-! 2024-01-28 https://voz.vn
-voz.vn##.js-bottomFixTarget.u-bottomFixer
+! 2024-04-09 https://www.reddit.com
+www.reddit.com##embed-snippet-share-button
 
-! 2024-01-31 https://xamvn.li
-xamvn.li##.js-notices.notices--block.notices
+! 2024-04-12 https://www.reddit.com
+www.reddit.com##.\@container
+www.reddit.com##div.text-neutral-content-weak.px-md:nth-of-type(1)
+www.reddit.com##.max-w-full.w-full.h-auto
 
-! 2024-01-31 https://xamvn.la
-xamvn.cx##.tooltip--selectToQuote.tooltip--bottom.tooltip--basic.tooltip
-!*$csp=worker-src 'none'
+! Apr 14, 2024 https://qthang.net
+qthang.net###thongbaob
+xamvn.run##.p-body-inner > center
+xamvn.run##.tooltip--selectToQuote.tooltip--bottom.tooltip--basic.tooltip
+xamvn.run##.js-notices.notices--block.notices
+! YT Homepage and Subscriptions - Hide the Shorts section
+youtube.com##[is-shorts]
+! YT Menu - Hide the Shorts button
+www.youtube.com###guide [title="Shorts"], .ytd-mini-guide-entry-renderer[title="Shorts"]
+! YT Search - Hide Shorts
+www.youtube.com##ytd-search ytd-video-renderer:has([overlay-style="SHORTS"])
+! YT Search, Channels and Sidebar or below the player - Hide the Shorts sections
+www.youtube.com##ytd-reel-shelf-renderer
+! YT Channels - Hide the Shorts tab
+www.youtube.com##[tab-title="Shorts"]
+! YT Subscriptions - Hide Shorts - Grid View
+www.youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-grid-video-renderer:has([overlay-style="SHORTS"])
+! YT Subscriptions - Hide Shorts - List View
+www.youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-video-renderer:has([overlay-style="SHORTS"])
+! YT Subscriptions - New Layout - Hide Shorts
+www.youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-rich-item-renderer:has([overlay-style="SHORTS"])
+! YT Sidebar - Hide Shorts
+www.youtube.com###related ytd-compact-video-renderer:has([overlay-style="SHORTS"])
+
+! YT Mobile - Hide the Shorts Menu button
+m.youtube.com##ytm-pivot-bar-item-renderer:has(>.pivot-shorts)
+! YT Mobile - Hide the Shorts sections
+m.youtube.com##ytm-reel-shelf-renderer
+! YT Mobile - Hide Shorts in search results
+m.youtube.com##ytm-search ytm-video-with-context-renderer:has([data-style="SHORTS"])
+! YT Mobile - Hide the Shorts button on Channels
+m.youtube.com##[tab-title="Shorts"]
+
+www.favntech.com###levelmaxblock
+
+live7.90phut24.live##.show
+live7.90phut24.live##.for-desktop
+live7.90phut24.live##div.vebo-sp.container:nth-of-type(6)
+live7.90phut24.live##div.vebo-sp.container:nth-of-type(7)
+live7.90phut24.live##.hidden-sm
+
+! Jun 22, 2024 https://live.xoilac28.org
+live.xoilac28.org##.for-desktop
+live.xoilac28.org##.vebo-sp
+
+! Jun 22, 2024 https://live.90phut25.live
+91porny.com##^#po-s1
+91porny.com##^#po-s2
+91porny.com##^#po-s0
+91porny.com##^.text-center
+91porny.com##^.p-0
+91porny.com##^div.colVideoList:nth-of-type(2)
+91porny.com##^#po-s5
+copilot.microsoft.com###b_header > .b_hide
+! block profile post
+!voz.vn^$replace=/<div class="block" data-widget-id="8" data-widget-key="forum_overview_new_profile_posts"[\s\S]*?<div class="contentRow-fader"><\/div>[\s\S]*?<div class="contentRow-fader"><\/div>[\s\S]*?<div class="contentRow-fader"><\/div>[\s\S]*?<div class="contentRow-fader"><\/div>[\s\S]*?<div class="contentRow-fader"><\/div>[\s\S]*?<div class="contentRow-minor">[\s\S]*?<\/div>[\s\S]*?<\/div>[\s\S]*?<\/div>[\s\S]*?<\/div>[\s\S]*?<\/div>[\s\S]*?<\/div>[\s\S]*?<\/div>/'<!-- CLEANED PROFILE POST-->'/i
+voz.vn^$replace=/<div class="block" data-widget-section="staffMembers" data-widget-id="6"[\s\S]*?<div class="block-container">[\s\S]*?<\/ul>[\s\S]*?<\/div>[\s\S]*?<\/div>/'<!-- CLEANED STAFF MEMBER -->'/i
+voz.vn^$replace=/<div class="block" data-widget-id="15" data-widget-key="share_this_page"[\s\S]*?<div class="block-container">[\s\S]*?<\/div>[\s\S]*?<\/div>[\s\S]*?<\/div>[\s\S]*?<\/div>[\s\S]*?<\/div>/'<!-- CLEANED share this page -->'/i
+voz.vn^$replace=/<div class="block" data-widget-id="8" data-widget-key="forum_overview_new_profile_posts"[\s\S]*?<div class="contentRow-fader"><\/div>[\s\S]*?<div class="contentRow-fader"><\/div>[\s\S]*?<div class="contentRow-fader"><\/div>[\s\S]*?<div class="contentRow-fader"><\/div>[\s\S]*?<div class="contentRow-fader">[\s\S]*?(?:\n<\/div>){7}/'<!-- CLEANED PROFILE POST-->'/i
 
