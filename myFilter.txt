@@ -6,7 +6,7 @@ www.youtube.com#@#.ytp-gradient-bottom
 voz.vn##.tooltip.tooltip--basic.tooltip--selectToQuote.tooltip--bottom
 voz.vn##div[data-widget-key="share_this_page"]
 voz.vn##a[data-xf-init="share-tooltip"]
-voz.vn##.message.message--post.js-post.js-inlineModContainer:has(.message-name, .bbCodeBlock-title:has-text(/idmresettrial|Vishnu|Best stuff|Người ngoài giang hồ|West Ham United|The Deeper Sea|The Deep Sea 2|The Deeper Sea|Canvas112|canvas104|Một Cuộc Tình Dối Trá|duykhanh471|resooser|Mê Gái|Great Teacher|SexyBamBoo|trieu9 |Khôngg tênn 01|Pogteq|tehgby|SoulEvilX|justbenice|Anicetus|longbedaumtt|Huỳnh Cẩm Vy.|HardwareEngineer|Gabriel Agbonlahor|chubenoi_doi21|Tournevis/))
+voz.vn##.message.message--post.js-post.js-inlineModContainer:has(.message-name, .bbCodeBlock-title:has-text(/idmresettrial|Vishnu|Best stuff|Người ngoài giang hồ|West Ham United|The Deeper Sea|The Deep Sea 2|The Deeper Sea|Canvas112|canvas104|Một Cuộc Tình Dối Trá|duykhanh471|resooser|Mê Gái|Great Teacher|SexyBamBoo|trieu9 |Khôngg tênn 01|Pogteq|tehgby|SoulEvilX|justbenice|Anicetus|longbedaumtt|Huỳnh Cẩm Vy.|HardwareEngineer|Gabriel Agbonlahor|chubenoi_doi21|Tournevis|daidam07./))
 !ẩn cmt trên wall
 !voz.vn##.message-responseRow:has(.comment-user:has-text(itisme)) 
 ||www.dtv-ebook.com/images/banner/*.png$image
@@ -153,4 +153,6 @@ m.youtube.com##.engagement-panel-drag-line,ytm-video-description-header-renderer
 m.youtube.com##.engagement-panel-section-list-header-wrapper:style(padding-top:0!important)
 m.youtube.com##.comment-text:style(user-select:text!important)
 m.youtube.com##.single-column-browse-results-tab-bar:style(box-shadow:inset 0 -1px rgba(50%,50%,50%,.5)!important;border-bottom-width:0!important)
-
+www.otofun.net##.block-user-activity.block
+voz.vn##blockquote:has(.messageNotice--ignored)
+voz.vn##html[data-content-key="thread-682181"] .bbCodeSpoiler-content:style(display:unset!important;opacity:unset!important;transition:unset!important;overflow-y:unset!important;height:unset!important)
