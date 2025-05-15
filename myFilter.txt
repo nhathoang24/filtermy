@@ -118,3 +118,4 @@ voz.vn##.p-body-sidebar > div.block:nth-of-type(4)
 91porny.com##div.colVideoList:nth-of-type(4) > .video-elem
 
 #@#.samCodeUnit
+#@#.c-ads
