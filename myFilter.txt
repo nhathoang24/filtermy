@@ -148,3 +148,4 @@ www.tiktok.com##.justify-center.items-center.flex.w-full
 
 rphang.app##.p-body-inner > .samCodeUnit
 rphang.app##.p-footer-inner > div.samCodeUnit > .samItem
+rphang.app##.p-footer-inner > .samBannerUnit
