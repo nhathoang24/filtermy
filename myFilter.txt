@@ -146,6 +146,6 @@ study4.com##.site-elevator
 ! Oct 14, 2025 https://www.tiktok.com
 www.tiktok.com##.justify-center.items-center.flex.w-full
 
-rphang.app##.p-body-inner > .samCodeUnit
-rphang.app##.p-footer-inner > div.samCodeUnit > .samItem
-rphang.app##.p-footer-inner > .samBannerUnit
+/^(www\.)?rphang\..*/##.p-body-inner > .samCodeUnit
+/^(www\.)?rphang\..*/##.p-footer-inner > div.samCodeUnit > .samItem
+/^(www\.)?rphang\..*/##.p-footer-inner > .samBannerUnit
