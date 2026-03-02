@@ -25,7 +25,6 @@ www.reddit.com##._1G4yU68P50vRZ4USXfaceV._2wqyhtudP4weVGsZdVXJgt
 play.onlive.vn##.live-interactive-iframe
 youtube.com##.ytp-quality-menu .ytp-menuitem:has(.ytp-premium-label)
 www.reddit.com##._10wb7d3rGvj56Gcs4IQWL5._1FUNcfOeszr8eruqLxCMcR
-||voz.vn/cf-fonts/*$font,1p
 twitch.tv##+js(twitch-videoad)
 voz.vn##.notice--dark.js-notice.notice > .notice-content
 voz.vn##.block-outer-opposite > .js-showIgnored.showIgnoredLink
@@ -80,9 +79,6 @@ mmo4me.com##.p-body-inner > .block-container
 mmo4me.com##.tooltip--selectToQuote.tooltip--bottom.tooltip--basic.tooltip
 mmo4me.com##.notice-content
 www.youtube.com##+js(trusted-replace-argument, MediaSource.isTypeSupported, 0, 0, condition, /vp0?9|av0?1/)
-
-! Nov 15, 2024 https://voz.vn
-voz.vn##.p-body-sidebar > div.block:nth-of-type(4)
 
 ! Dec 31, 2024 https://91porny.com
 ||jiuse.1488ccpic.cc/1280/jiuse/X240x140.gif$image
