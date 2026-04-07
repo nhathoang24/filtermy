@@ -1,12 +1,14 @@
+##.videowall-endscreen
+youtube.com##.html5-endscreen-content
+youtube.com##.html5-endscreen
+youtube.com##.ytp-ce-element
+www.youtube.com#@#.ytp-gradient-bottom
+
 voz.vn##.tooltip.tooltip--basic.tooltip--selectToQuote.tooltip--bottom
 voz.vn##div[data-widget-key="share_this_page"]
 voz.vn##a[data-xf-init="share-tooltip"]
 !voz.vn##.message.message--post.js-post.js-inlineModContainer:has(.message-name, .bbCodeBlock-title:has-text(/idmresettrial|Vishnu|Best stuff|Người ngoài giang hồ|West Ham United|The Deeper Sea|The Deep Sea 2|Canvas112|canvas104|Một Cuộc Tình Dối Trá|duykhanh471|resooser|Mê Gái|Great Teacher|SexyBamBoo|trieu9 |Khôngg tênn 01|Pogteq|tehgby|SoulEvilX|justbenice|Anicetus|longbedaumtt|Huỳnh Cẩm Vy.|HardwareEngineer|Gabriel Agbonlahor|chubenoi_doi21|Tournevis|daidam07.|Yolo22_3|AxleTheRed12|AIexander|HaJi Won|Doralaca.1|tengtengvn|!2025unemployee|\+\+domino\+\+|\.SBTN\.|1iqVozUser|6300|Aduy|ageofit9|Ai Đây|AltaIr21|Alyocha|Astra|Bắc Giang|betong_ximang|BinC|binglebingle|black_sun_day|Bò Đỏ Giác Ngộ|Bookeater|boydl|boyhandsome|buonnguqua11|C Hiếu|candylove|Catalina|chim\.xanh|Chuankhongdidon|coldworld|comnguoi|Con khỉ chân dài 82cm|conde|CrowP_reborn|Cttt19|cuong559|cuongtulenh|D\.B\.Wolf|dantocman|David Ferrer|decamo|dmbklannua|Dong Phuong Muoi Muoi|ducsu12p|duy1124|dxking890|EIessar|elead123321|Eren_Yeager|evolution\.ix|Gear 5|Gianluca Scamacca|Gonlonton11|gopro12345|Gummyy|helpmeyour|hồng mông lão tổ|huy\.dang|Huỳnh Cẩm Vy|Huỳnh Cẩm Vy\.|Huỳnh Cẩm Vy98|iam_fsofter|IronGokuMan|January_Rain|Jeerawan_Pohsub|justice|k26lol|KatyKaty2802|Không nói nhiều|Kitkat vị dâu|kunamlovevoz1|langxettu|LÊ SƠNVUASẦURIÊNG|le9221|Leopard_2A7|lêthịmẹomồng|levis03092|Long Hoa 2|Lunchroom4071|maixeoduoiduoi2|manhpro299|meanman11|Milo58|Moony|mouse123479|Mr\.SSM|mrtaix|muacokho____|namegreen1|Neverwhere|ngndo|Ngoc\.Trinh|Nhhuko|noisycat|Oracle88|Orochi Gaea|ParkYeon|pebuon69|PikaBo|plarzk1|Poor man|pround|ProUS@Texas|Quan58654|Quy Hoạch Động|Quy Lee|rodinia|shawngolang|shini1989|Shjthappend|sierraonline|staurus_ssiw_noh|superbot|Texas Engineer|Texas Engineer 2025|Texas Scientist|thang\.hoang|thang761|The Night.s Watch|The Script|thminh185|thunderga05|Toshiba_|trade123|Triển Chiêu Cấp 3|TrumpDonal|trunglk13|tư mã ý 113|Túp Lều Lý Tưởng|umi371987|V550C|v9i4p|VERYGOODA|vivialo|vntoday123456|WDBlack|whoknowme|zenlis|zodiachq|\[SpaceX\]|__Paradise__|\[ VTC Cabs \]|vandt|fpt.hieubeo|suthay|Waynechelsea|Chuchucocuchaba|planetgreen|Xách Dép Chạy|Phoenixtrick|Mr_teppy|quangvietdungs|anhhungxadieu45/))
-||www.dtv-ebook.com/images/banner/*.png$image
-||www.dtv-ebook.com/images/banner/*g$image
-||xads.one/img/i9pc.gif$image
 !/img/*.gif$image,domain=truyen-sex
-/banner/*.gif$image,domain=sayhentai.me
 www.apkmirror.com##.rda2m79r5m4j
 @@||pagead2.googlesyndication.com
 @@||imasdk.googleapis.com
@@ -54,11 +56,6 @@ www.favntech.com###levelmaxblock
 #@##playerJsvLayer.jsv-layer
 @@$script,3p,denyallow=authkong.com|rsc.cdn77.org|linkvertise.com|fastly.net|statically.io|sharecast.ws|b-cdn.net|bunnycdn.ru|bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|cdn.staticfile.org|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fastlylb.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|polyfill.io|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|vk.com|yastatic.net|ytimg.com|zencdn.net|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|raincaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com|fastcomments.com|plyr.io|cloudflare.net|rabbitstream.net|x.com,from=1yydstxt178.com|592mh.top|91porny.com|bixia33.com|bookbl.com|booktxts.com|ckplayer.vip|clm410.buzz|dubuxiaoshuo.com|feijisu20.com|h.fkxs.net|iqb5.org|m.91zww.com|m.wfxs.tw|qiyoudy2.com|rouman5.com|rouwenwu19.com|shuku99.com|spoilertop.com|uuread.tw|vodtw.la|wap.dmwenku.com|wap.ishuquge.la|wap.xkushu.com|yznnw.com
 www.twitch.tv##.extension-view__iframe
-!voz.vn^$replace=/<div class="p-body-sidebar">[\s\S]*?<\/footer>/'<!-- CLEANED -->'/gi
-!voz.vn^$replace=/<div class="block" data-widget-id="8" data-widget-key="forum_overview_new_profile_posts"[^>]*>(?:[\s\S]*?<div class="contentRow-fader"><\/div>){5}[\s\S]*?<div class="contentRow-minor">[\s\S]*?<\/div>(?:\s*<\/div>){6}/'<!-- CLEANED PROFILE POST -->'/i
-voz.vn^$replace=/<div class="block" data-widget-section="staffMembers" data-widget-id="6"[\s\S]*?<div class="block-container">[\s\S]*?<\/ul>[\s\S]*?<\/div>[\s\S]*?<\/div>/'<!-- CLEANED STAFF MEMBER -->'/i
-voz.vn^$replace=/<div class="block" data-widget-id="15" data-widget-key="share_this_page"[^>]*>.*?<div class="block-container">.*?<\/div>\s*<\/div>\s*<\/div>\s*<\/div>\s*<\/div>/'<!-- CLEANED share this page -->'/is
-voz.vn^$replace=/<div class="block" data-widget-id="9" data-widget-key="forum_overview_forum_statistics" data-widget-definition="forum_statistics"[^>]*>[\s\S]*?<\/dl>\s*<\/div>\s*<\/div>\s*<\/div>/'<!-- CLEANED forum_statistics -->'/i
 copilot.microsoft.com###b_header > .b_hide
 memoryzone.com.vn##.bottom
 old.reddit.com##.premium-banner-outer
@@ -78,7 +75,7 @@ mmo4me.com##.p-body-inner > .block-container
 ! Oct 11, 2024 https://mmo4me.com
 mmo4me.com##.tooltip--selectToQuote.tooltip--bottom.tooltip--basic.tooltip
 mmo4me.com##.notice-content
-www.youtube.com##+js(trusted-replace-argument, MediaSource.isTypeSupported, 0, 0, condition, /vp0?9|av0?1/)
+
 
 ! Dec 31, 2024 https://91porny.com
 ||jiuse.1488ccpic.cc/1280/jiuse/X240x140.gif$image
@@ -119,4 +116,5 @@ www.tiktok.com##.justify-center.items-center.flex.w-full
 
 ! Feb 10, 2026 https://plas-farm.co.uk
 plas-farm.co.uk###catfish
+voz.vn#@#div[style]:has(.adsbypubpower)
 
