@@ -131,5 +131,5 @@ thingsboard.cloud##.ng-star-inserted.tb-powered-by-footer
 phevkl.hair##.float-ck-center-lt
 
 ! Jun 11, 2026 https://xamvn.skin
-xamvn.skin##.float-contact
+/^(www\.)?xamvn\..*/##.float-contact
 
