@@ -118,9 +118,6 @@ www.tiktok.com##.justify-center.items-center.flex.w-full
 plas-farm.co.uk###catfish
 voz.vn#@#div[style]:has(.adsbypubpower)
 
-! May 9, 2026 https://xamvn.homes
-xamvn.homes##.float-ck-center-lt
-xamvn.homes##.p-body-pageContent > div:nth-of-type(1)
 
 ! May 24, 2026 https://thingsboard.cloud
 ||content.yourgpt.ai/chatbots/11822/1754573792.svg$image
@@ -132,4 +129,8 @@ phevkl.hair##.float-ck-center-lt
 
 ! Jun 11, 2026 https://xamvn.skin
 /^(www\.)?xamvn\..*/##.float-contact
+/^(www\.)?xamvn\..*/##.float-contact2
+
+! Jun 14, 2026 https://thingsboard.cloud
+thingsboard.cloud##.ygpts-widgetBtnOuter
 
