@@ -133,4 +133,7 @@ phevkl.hair##.float-ck-center-lt
 
 ! Jun 14, 2026 https://thingsboard.cloud
 thingsboard.cloud##.ygpts-widgetBtnOuter
-
+viet69.be##.banner-preload
+viet69.be##.catfish-top
+viet69.be###v69-header-adx
+viet69.be##.catfish-bottom
